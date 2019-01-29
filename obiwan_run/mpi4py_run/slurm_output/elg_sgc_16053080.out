@@ -1,0 +1,86 @@
+Traceback (most recent call last):
+  File "example1.py", line 2, in <module>
+Traceback (most recent call last):
+  File "example1.py", line 2, in <module>
+Traceback (most recent call last):
+  File "example1.py", line 2, in <module>
+Traceback (most recent call last):
+  File "example1.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+Traceback (most recent call last):
+  File "example1.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+Traceback (most recent call last):
+    from mpi_master_slave import Master, Slave
+    from mpi_master_slave.master_slave import *
+  File "example1.py", line 2, in <module>
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+    from mpi_master_slave.master_slave import *
+    from mpi_master_slave import Master, Slave
+    from enum import IntEnum
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+ImportError: No module named enum
+    from mpi_master_slave import Master, Slave
+    from mpi_master_slave.master_slave import *
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+    from enum import IntEnum
+    from mpi_master_slave.master_slave import *
+    from mpi_master_slave.master_slave import *
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+ImportError: No module named enum
+    from enum import IntEnum
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+ImportError: No module named enum
+    from enum import IntEnum
+    from enum import IntEnum
+ImportError: No module named enum
+ImportError: No module named enum
+Traceback (most recent call last):
+  File "example1.py", line 2, in <module>
+Traceback (most recent call last):
+  File "example1.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+    from mpi_master_slave import Master, Slave
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+    from mpi_master_slave.master_slave import *
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+    from mpi_master_slave.master_slave import *
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+    from enum import IntEnum
+ImportError: No module named enum
+    from enum import IntEnum
+ImportError: No module named enum
+    from mpi_master_slave import Master, Slave
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+Traceback (most recent call last):
+  File "example1.py", line 2, in <module>
+    from mpi_master_slave.master_slave import *
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+    from enum import IntEnum
+ImportError: No module named enum
+    from mpi_master_slave.master_slave import *
+Traceback (most recent call last):
+  File "example1.py", line 2, in <module>
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+    from enum import IntEnum
+ImportError: No module named enum
+    from mpi_master_slave import Master, Slave
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/__init__.py", line 1, in <module>
+    from mpi_master_slave.master_slave import *
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 2, in <module>
+    from enum import IntEnum
+ImportError: No module named enum
+srun: error: nid02156: tasks 2-3: Exited with exit code 1
+srun: Terminating job step 16053080.1
+srun: error: nid02142: tasks 0-1: Exited with exit code 1
+srun: error: nid02263: tasks 8-9: Exited with exit code 1
+srun: error: nid02166: tasks 4-5: Exited with exit code 1
+srun: error: nid02211: tasks 6-7: Exited with exit code 1
