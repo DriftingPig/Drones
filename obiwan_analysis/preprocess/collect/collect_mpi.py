@@ -67,7 +67,7 @@ class MyApp(object):
             # sleep some time
             time.sleep(0.3)
         print('writing all the output to one table...')
-        final_table.write(os.path.join(os.environ['obiwan_out'],'subset','obiwan_200per_0125.fits'), format='fits',overwrite=True)
+        final_table.write(os.path.join(os.environ['obiwan_out'],'subset','sim_match_200per_0125.fits'), format='fits',overwrite=True)
         print('done!')
 
 class MySlave(Slave):
@@ -83,7 +83,7 @@ class MySlave(Slave):
         rank = MPI.COMM_WORLD.Get_rank()
         name = MPI.Get_processor_name()
         task, task_arg = data
-        tab = ELG_match(task)
+        tab = sim_match(task)
         print('  Slave %s rank %d executing "%s" task_id "%d"' % (name, rank, task, task_arg) )
         return (task, tab)
 

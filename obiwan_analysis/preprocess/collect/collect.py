@@ -76,6 +76,19 @@ def select_ELG( path_2_tractor_file , region = 'sgc'):
           else:
               flag = False
               return flag, dat[selection_ngc] 
+
+def select_ELG_sim(sim_dat, region = 'sgc'):
+    g = sim_dat['g']
+    r_mag = sim_dat['r']
+    z_mag = sim_dat['z']
+    gr = g - r_mag
+    rz = r_mag - z_mag
+    color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+    color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+    if region == 'sgc':
+       return color_sgc
+    else:
+       return color_ngc
           
 def ELG_match(index, angle = 1.5/3600., tractor_dir = tractor_dir, sim_dir = sim_dir, bricklist=bricklist, startid = 0, nobj = 200, region = 'sgc'):
     brickname = bricklist[index]
@@ -106,4 +119,40 @@ def ELG_match(index, angle = 1.5/3600., tractor_dir = tractor_dir, sim_dir = sim
     angdis = d2d.value[idx1]
     tab = Table([mtc['ra'],mtc['dec'],mtc['flux_z'],mtc['mw_transmission_z'],msim['z'],mtc['flux_g'],mtc['mw_transmission_g'],msim['g'],mtc['flux_r'],mtc['mw_transmission_r'],msim['r'],msim['nn_redshift'],brickname_array,angdis],names=('ra','dec','flux_z','mw_transmission_z','z','flux_g','mw_transmission_g','g','flux_r','mw_transmission_r','r','nn_redshift','brickname','angdis'))
     return tab
+ 
+def sim_pre_match(sim_dat, obiwan_dat, angle = 1.5/3600.):
+    c1 = SkyCoord(ra = obiwan_dat['ra']*u.degree, dec = obiwan_dat['dec']*u.degree)
+    c2 = SkyCoord(ra = sim_dat['ra']*u.degree, dec = sim_dat['dec']*u.degree)
+    idx, d2d, d3d = c1.match_to_catalog_sky(c2)
+    w = d2d.value <= angle
+    idx[~w] = -1
+    idx2 = idx[idx>-1]
+    return sim_dat[idx2]
 
+def sim_match(index, angle = 1.5/3600., tractor_dir = tractor_dir, sim_dir = sim_dir, bricklist=bricklist, startid = 0, nobj = 200, region = 'sgc'):
+    brickname = bricklist[index]
+    tractor_fn = os.path.join(tractor_dir, brickname[:3], brickname, 'more_rs0', 'tractor-'+brickname+'.fits')
+    assert(os.path.isfile(tractor_fn))
+    sim_fn = os.path.join(sim_dir, 'brick_'+brickname+'.fits')
+    assert(os.path.isfile(sim_fn))
+    flag_tc, tractor_dat = select_ELG(tractor_fn, region = region)
+    sim_hdu = fits.open(sim_fn)
+    sim_dat = sim_hdu[1].data[startid:startid+nobj]
+    sim_hdu.close()
+    obiwan_dat = fits.getdata(tractor_fn)
+    sim_dat = sim_pre_match(sim_dat,obiwan_dat)
+    c1 = SkyCoord(ra=tractor_dat['ra']*u.degree, dec=tractor_dat['dec']*u.degree)
+    c2 = SkyCoord(ra=sim_dat['ra']*u.degree, dec=sim_dat['dec']*u.degree)
+    idx, d2d, d3d = c1.match_to_catalog_sky(c2)
+    w = d2d.value <= angle
+    idx[~w] = -1
+    idx1 = np.where(w)[0]
+    idx2 = idx[idx>-1]
+    sim_in = np.zeros(len(sim_dat),dtype = bool)
+    sim_in[idx2] = True
+    sim_elg_sel = select_ELG_sim(sim_dat)
+    sim_true = np.zeros(len(sim_dat),dtype = bool)
+    sim_true[sim_elg_sel] = True
+    tab = Table([sim_dat['ra'],sim_dat['dec'],sim_dat['nn_redshift'],sim_in,sim_true],names=('ra','dec','nn_redshift','sim_in','sim_true'))
+    return tab
+       
