@@ -157,4 +157,10 @@ class surveyname():
           self.obiwan_name = 'obiwan_200per_0125_really_masked_chunk21.fits'
           self.uniform_name = 'obiwan_200per_0125_really_masked_chunk21.fits'
           self.weight = False
-      
+      def ngc_kaylab(self):
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_cutted_kaylan_really_masked_chunk23.fits'
+          self.obiwan_name = 'ngc_tractor_sim_match_really_masked_chunk23.fits'
+          self.uniform_name = 'ngc_sim_really_masked_chunk23.fits'
+          self.uniform_elg = 'ngc_sim_chunk23_cut_to_elg.fits'
+          self.uniform_name = self.uniform_elg
+          self.weight = False

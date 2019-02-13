@@ -1,12 +1,13 @@
-fn_PB='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/more/obiwan_run/brickstat/elg_200per_run/FinishedBricks.txt'
+#fn_PB='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/more/obiwan_run/brickstat/elg_200per_run/FinishedBricks.txt'
+import os
+fn_PB = os.path.join(os.environ['NGC_tractor'],'bricklist_ngc.txt')
 topdir = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/'
 data_file = topdir + 'eBOSS_ELG_full_ALL_v4.dat.fits'
 print(data_file)
-import os
 import astropy.io.fits as fits
 import numpy as np
 bn = os.path.basename(data_file)
-output_fn = data_file[:-5]+'_cutted.fits'
+output_fn = data_file[:-5]+'_cutted_kaylan.fits'
 dat_PB = np.loadtxt(fn_PB,dtype=np.str)
 
 dat = fits.open(data_file)[1].data[::]

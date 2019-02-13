@@ -17,4 +17,10 @@ export obiwan_out=/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwa
 #obiwan production run output directory, it comes with a production run name
 export production_run_sgc=$obiwan_out/elg_200per_run/tractor/
 
+#tractor data for dr3
+export dr3_tractor_data=/global/project/projectdirs/cosmo/data/legacysurvey/dr3/tractor
+
+#NGC run by kaylan
+export NGC_tractor=/global/cscratch1/sd/huikong/obiwan_Aug/HPSS/tractor
+export NGC_sim=/global/cscratch1/sd/huikong/obiwan_Aug/HPSS/obiwan
 

@@ -1,0 +1,387 @@
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 2, in <module>
+    from mpi_master_slave import Master, Slave
+ModuleNotFoundError: No module named 'mpi_master_slave'
+srun: error: nid02431: tasks 48-95: Exited with exit code 1
+srun: Terminating job step 12201602.0
+srun: error: nid02430: tasks 0-47: Exited with exit code 1

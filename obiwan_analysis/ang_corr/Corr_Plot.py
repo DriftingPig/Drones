@@ -61,13 +61,13 @@ def JKnife_CorrFunc(Njob, Jacknife=-1,k0=1, order=0,name = filename):
     DD_total=np.zeros(Sep_interval)
     DR_total=np.zeros(Sep_interval)
     RR_total=np.zeros(Sep_interval)
-    for i in range(0,(Njob+1)*Njob/2):
+    for i in range(0,int((Njob+1)*Njob/2)):
         for j in range(0,len(aDD)):
             DD_total[j]+=FilelistDD[i][j][1]
     for i in range(0,Njob*Njob):
         for j in range(0,len(aDD)):
                 DR_total[j]+=FilelistDR[i][j][1]
-    for i in range(0,Njob*(Njob+1)/2):
+    for i in range(0,int(Njob*(Njob+1)/2)):
         for j in range(0,len(aDD)):
                 RR_total[j]+=FilelistRR[i][j][1]
    
@@ -117,8 +117,9 @@ def CorrFunc(Njob=Njob,k0=1, order=0,name_corr = filename):
     AngleInteval = (MaxAngle-MinAngle)/(Sep_interval-1.)
     for i in range(0,Sep_interval):
         x[i]=pow(10,i*AngleInteval+MinAngle)*180./pi
-    
-    np.savetxt(output_fn,zip(x,Final_total,CorrFunc_Err))
+    import pdb
+    pdb.set_trace()
+    np.savetxt(output_fn,np.vstack((x,Final_total,CorrFunc_Err)))
     #plt.errorbar(x, Final_total, yerr=CorrFunc_Err)
     plt.gca().set_xscale("log", nonposx='clip')
     plt.errorbar(x, x*Final_total,x*CorrFunc_Err,marker = 'o')

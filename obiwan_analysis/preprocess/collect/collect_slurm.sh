@@ -1,8 +1,8 @@
 #!/bin/bash -l
 
 #SBATCH -p debug
-#SBATCH -N 1
-#SBATCH -t 0:30:00
+#SBATCH -N 6
+#SBATCH -t 00:30:00
 #SBATCH --account=desi
 #SBATCH -J obiwan
 #SBATCH -L SCRATCH,project
@@ -19,5 +19,5 @@ export OMP_NUM_THREADS=1
 export XDG_CONFIG_HOME=/dev/shm
 
 module load python/3.6-anaconda-5.2
-
-srun -N 1 -n 64 -c 1 python collect_mpi.py
+source ../../../DRONES_ENV.sh 
+srun -N 6 -n 384 -c 1 python collect_mpi.py

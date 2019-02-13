@@ -13,7 +13,7 @@ def radec2thphi(ra,dec):
     
 def ranHelpsort(filename,res=256,rad=''):
     if filename == names.rawdata_random:
-        origin_dat = np.array(fits.open(filename)[1].data)
+        origin_dat = np.array(fits.open(filename)[1].data)[::2]
         origin_dat = fits.BinTableHDU.from_columns(fits.ColDefs(origin_dat)).data
     else:
         origin_dat = fits.open(filename)[1].data
@@ -52,7 +52,7 @@ def SprtFile_nest(filename, total_subs,res=256,rad='', use_weight = False):
         f = open(os.path.join(output_filename,sub_filename),'w')
         files.append(f)
     
-    sub_num = len(dat)/total_subs
+    sub_num = int(len(dat)/total_subs)
     count = 0
     j=0
     pixflag=[]

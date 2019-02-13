@@ -1,0 +1,20 @@
+I am  nid01821 rank 0 (total 384)
+No 1 is done
+No 2 is done
+Traceback (most recent call last):
+  File "collect_mpi.py", line 127, in <module>
+    main()
+  File "collect_mpi.py", line 117, in main
+    app.run()
+  File "collect_mpi.py", line 77, in run
+    final_table = vstack([final_table, tab])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/operations.py", line 185, in vstack
+    tables = _get_list_of_tables(tables)  # validates input
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/operations.py", line 52, in _get_list_of_tables
+    raise TypeError('`tables` arg must be a Table or sequence of Tables or Rows')
+TypeError: `tables` arg must be a Table or sequence of Tables or Rows
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 18848162.0 ON nid01821 CANCELLED AT 2019-02-12T17:48:50 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination
+srun: forcing job termination
