@@ -1,0 +1,16 @@
+/usr/bin/shifter: ./example1.sh: Permission denied
+/usr/bin/shifter: ./example1.sh: Permission denied
+/usr/bin/shifter: ./example1.sh: Permission denied
+/usr/bin/shifter: ./example1.sh: Permission denied
+/usr/bin/shifter: ./example1.sh: Permission denied
+/usr/bin/shifter: ./example1.sh: Permission denied
+/usr/bin/shifter: ./example1.sh: Permission denied
+/usr/bin/shifter: ./example1.sh: Permission denied
+/usr/bin/shifter: ./example1.sh: Permission denied
+/usr/bin/shifter: ./example1.sh: Permission denied
+srun: error: nid02101: tasks 0-1: Exited with exit code 127
+srun: Terminating job step 16053279.1
+srun: error: nid02250: tasks 8-9: Exited with exit code 127
+srun: error: nid02102: tasks 2-3: Exited with exit code 127
+srun: error: nid02120: tasks 6-7: Exited with exit code 127
+srun: error: nid02115: tasks 4-5: Exited with exit code 127
