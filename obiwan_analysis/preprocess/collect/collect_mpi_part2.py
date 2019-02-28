@@ -47,7 +47,7 @@ class MyApp(object):
         final_sim = None
         n=0
         paths.sort()
-        paths = paths[:5000]
+        paths = paths[5000:]
         for path in paths:
             brickname = os.path.basename(path)
             self.work_queue.add_work(data=(n, brickname))   
@@ -89,7 +89,7 @@ class MyApp(object):
             # sleep some time
             time.sleep(0.3)
         print('writing all the output to one table...')
-        final_table.write(os.path.join(os.environ['obiwan_out'],'subset','sgc_200per_sm_tc_match_part1.fits'), format='fits',overwrite=True)
+        final_table.write(os.path.join(os.environ['obiwan_out'],'subset','sgc_200per_sm_tc_match_part2.fits'), format='fits',overwrite=True)
         #final_sim.write(os.path.join(os.environ['obiwan_out'],'subset','sgc_200per_w_psfdg_sim.fits'), format='fits',overwrite=True)
         print('done!')
 

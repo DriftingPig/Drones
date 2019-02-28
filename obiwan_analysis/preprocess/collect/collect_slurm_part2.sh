@@ -21,4 +21,4 @@ export XDG_CONFIG_HOME=/dev/shm
 load_desiconda
 #module load python/3.6-anaconda-5.2
 source ../../../DRONES_ENV.sh 
-srun -N 10 -n 80 -c 8 python collect_mpi.py
+srun -N 10 -n 80 -c 8 python collect_mpi_part2.py

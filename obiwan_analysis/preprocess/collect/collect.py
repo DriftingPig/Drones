@@ -247,8 +247,8 @@ def NGC_match_perbrick(brickname, angle = 1.5/3600):
 
 def my_NGC_run_perbrick(brickname, angle = 1.5/3600):
     #running my code on ngc bricks, about ~550 finished bricks currently
-    fn_tractor = os.path.join(os.environ['NGC_tractor'],brickname[:3],brickname,'rs0','tractor-%s.fits' %brickname)
-    fn_sim = os.path.join(os.environ['NGC_sim'],brickname[:3],brickname,'rs0','simcat-elg-%s.fits' %brickname)
+    fn_tractor = os.path.join(os.environ['my_ngc_run'],'tractor',brickname[:3],brickname,'rs0','tractor-%s.fits' %brickname)
+    fn_sim = os.path.join(os.environ['my_ngc_run'],'sim',brickname[:3],brickname,'rs0','simcat-elg-%s.fits' %brickname)
     flag, tractor = select_ELG(fn_tractor, region = 'ngc')
     if flag == False:
         return None,None
@@ -285,14 +285,24 @@ def production_run_general_perbrick(brickname, env_dir, rs_type, region ,angle =
     distance = d2d.value[w]
     tc = tractor[idx1]
     sm = sim[idx2]
-    tab = Table([tc['ra'],tc['dec'],tc['flux_g'],tc['flux_r'],tc['flux_z'],tc['mw_transmission_g'],tc['mw_transmission_r'],tc['mw_transmission_z'],tc['fracdev'],tc['shapeexp_r'],tc['shapedev_r'],tc['shapeexp_e1'],tc['shapeexp_e2'],tc['shapedev_e1'],tc['shapedev_e2'],sm['id'],sm['gflux'],sm['rflux'],sm['zflux'],sm['mw_transmission_g'],sm['mw_transmission_r'],sm['mw_transmission_z'],sm['rhalf'],sm['n'],sm['e1'],sm['e2'],tc['brickname']],names=('ra','dec','flux_g','flux_r','flux_z','mw_transmission_g','mw_transmission_r','mw_transmission_z','fracdev','shapeexp_r','shapedev_r','shapeexp_e1','shapeexp_e2','shapedev_e1','shapedev_e2','sim_id','sim_gflux','sim_rflux','sim_zflux','sim_mw_transmission_g','sim_mw_transmission_r','sim_mw_transmission_z','sim_rhalf','sim_n','sim_e1','sim_e2','brickname'))
+    tab = Table([tc['ra'],tc['dec'],tc['flux_g'],tc['flux_r'],tc['flux_z'],tc['mw_transmission_g'],tc['mw_transmission_r'],tc['mw_transmission_z'],tc['fracdev'],tc['shapeexp_r'],tc['shapedev_r'],tc['shapeexp_e1'],tc['shapeexp_e2'],tc['shapedev_e1'],tc['shapedev_e2'],sm['id'],sm['gflux'],sm['rflux'],sm['zflux'],sm['mw_transmission_g'],sm['mw_transmission_r'],sm['mw_transmission_z'],sm['rhalf'],sm['n'],sm['e1'],sm['e2'],tc['brickname'],tc['psfdepth_g'],tc['psfdepth_r'],tc['psfdepth_z']],names=('ra','dec','flux_g','flux_r','flux_z','mw_transmission_g','mw_transmission_r','mw_transmission_z','fracdev','shapeexp_r','shapedev_r','shapeexp_e1','shapeexp_e2','shapedev_e1','shapedev_e2','sim_id','sim_gflux','sim_rflux','sim_zflux','sim_mw_transmission_g','sim_mw_transmission_r','sim_mw_transmission_z','sim_rhalf','sim_n','sim_e1','sim_e2','brickname','psfdepth_g','psfdepth_r','psfdepth_z'))
     return tab,Table(sim)
+
+def nn_redshift_match(dat):
+    #returns matched redshift of data
+    brickname = dat['brickname']
+    sim_id = dat['sim_id']
+    sim_fn = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/eboss_elg/ngc_brick_dat/brick_'+brickname+'.fits'
+    sim_dat = fits.getdata(sim_fn)[:93]
+    sim_match = sim_dat[sim_dat['id']==sim_id]
+    assert(len(sim_match)==1)
+    return sim_match[0]['nn_redshift']
 
 def my_ngc_run():
     #wrap of my_NGC_run_perbrick
     import glob
     from astropy.table import vstack
-    paths = glob.glob(os.path.join(os.environ['NGC_tractor'],'*','*'))
+    paths = glob.glob(os.path.join(os.environ['my_ngc_run'],'tractor','*','*'))
     final_tab = None
     final_sim = None
     for path in paths:
@@ -306,8 +316,8 @@ def my_ngc_run():
             else:
                final_tab = vstack((final_tab,tab))
                final_sim = vstack((final_sim,sim))
-    final_tab.write(os.path.join(os.environ['obiwan_out'],'subset','kaylan_ngc_run_obiwan.fits'), format='fits',overwrite=True)
-    final_sim.write(os.path.join(os.environ['obiwan_out'],'subset','kaylan_ngc_run_sim.fits'), format='fits',overwrite=True)
+    final_tab.write(os.path.join(os.environ['obiwan_out'],'subset','my_ngc_run_obiwan.fits'), format='fits',overwrite=True)
+    final_sim.write(os.path.join(os.environ['obiwan_out'],'subset','my_ngc_run_sim.fits'), format='fits',overwrite=True)
 
 
 def NGC_match():
@@ -421,10 +431,38 @@ def data_footprint_cutter():
     fits.BinTableHDU.from_columns(fits.ColDefs(dat_sel)).writeto(output_fn,overwrite=True)
     print(output_fn)
 
-if __name__=='__main__':
-    data_footprint_cutter()
+#if __name__=='__main__':
+def nn_redshit_match_all():
+    #data_footprint_cutter()
     #production_run_general_perbrick(brickname='3598p017', env_dir='dr3_tractor_data', rs_type='dr3', region='sgc', sel_func = 'ELG_selection_for_dr3',angle = 1.5/3600)
     #import pdb
     #pdb.set_trace()
     #ELG_selection_for_dr3(brickname='0173p020')
+    fn = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/my_ngc_run_obiwan_really_masked_chunk23.fits'
+    from astropy.table import Table,hstack
+    dat = Table.read(fn)
+    z_list = []
+    for i in range(len(dat)):
+         print(i)
+         z = nn_redshift_match(dat[i])
+         z_list.append(z)
+    z_array = np.array(z_list)
+    t = Table(fits.BinTableHDU.from_columns(fits.ColDefs([fits.Column(name='nn_redshift',format='D',array=z_array)])).data)
+    new_tab = hstack((dat,t))
+    new_tab.write('/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/my_ngc_run_obiwan_really_masked_chunk23_w_z.fits',overwrite = True)
 
+
+def production_run_general_perbrick_sim(brickname, env_dir, rs_type, region ,angle = 1.5/3600):
+    #collection of a production run, returns a table of ELGs, a table of sim
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+    fn_sim = os.path.join(os.environ[env_dir],'obiwan',brickname[:3],brickname,rs_type,'simcat-elg-%s.fits' %brickname)
+    tractor = fits.getdata(fn_tractor)
+    sim = fits.getdata(fn_sim)
+    c1 = SkyCoord(ra=tractor['ra']*u.degree, dec=tractor['dec']*u.degree)
+    c2 = SkyCoord(ra=sim['ra']*u.degree, dec=sim['dec']*u.degree)
+    idx, d2d, d3d = c2.match_to_catalog_sky(c1)
+    w = d2d.value <= angle
+    tc = tractor[idx]
+    sm = sim
+    tab = Table([tc['ra'],tc['dec'],tc['flux_g'],tc['flux_r'],tc['flux_z'],tc['mw_transmission_g'],tc['mw_transmission_r'],tc['mw_transmission_z'],tc['fracdev'],tc['shapeexp_r'],tc['shapedev_r'],tc['shapeexp_e1'],tc['shapeexp_e2'],tc['shapedev_e1'],tc['shapedev_e2'],sm['id'],sm['gflux'],sm['rflux'],sm['zflux'],sm['mw_transmission_g'],sm['mw_transmission_r'],sm['mw_transmission_z'],sm['rhalf'],sm['n'],sm['e1'],sm['e2'],tc['brickname'],tc['psfdepth_g'],tc['psfdepth_r'],tc['psfdepth_z'],w],names=('ra','dec','flux_g','flux_r','flux_z','mw_transmission_g','mw_transmission_r','mw_transmission_z','fracdev','shapeexp_r','shapedev_r','shapeexp_e1','shapeexp_e2','shapedev_e1','shapedev_e2','sim_id','sim_gflux','sim_rflux','sim_zflux','sim_mw_transmission_g','sim_mw_transmission_r','sim_mw_transmission_z','sim_rhalf','sim_n','sim_e1','sim_e2','brickname','psfdepth_g','psfdepth_r','psfdepth_z','matched'))
+    return tab, None

@@ -2,7 +2,7 @@
 
 #SBATCH -p regular
 #SBATCH -N 40
-#SBATCH -t 12:00:00
+#SBATCH -t 10:00:00
 #SBATCH --account=desi
 #SBATCH --image=driftingpig/obiwan_composit:v3
 #SBATCH -J obiwan

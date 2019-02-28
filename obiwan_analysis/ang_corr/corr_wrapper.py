@@ -1,7 +1,7 @@
 import subprocess
 from file_system import * 
-name ='dr3_elgs_dr3_matched_chunk21'
-Type = 'obiwan'
+name ='my_ngc_run'
+Type = 'uniform'
 function_name = name
 
 

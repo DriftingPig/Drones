@@ -1,0 +1,12 @@
+I am  nid00776 rank 0 (total 16)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 134, in <module>
+    main()
+  File "collect_mpi.py", line 124, in main
+    app.run()
+  File "collect_mpi.py", line 55, in run
+    for i in range(ntasks):
+NameError: name 'ntasks' is not defined
+slurmstepd: error: *** STEP 19217229.0 ON nid00776 CANCELLED AT 2019-02-22T11:22:05 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

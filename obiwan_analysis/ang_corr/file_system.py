@@ -175,7 +175,7 @@ class surveyname():
           self.uniform_name = self.obiwan_name
           self.weight = False
       def my_ngc_run(self):
-          self.data_name='eBOSS_ELG_full_ALL_v4.dat_cutted_me_really_masked_chunk23.fits'
+          self.data_name='eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_cutted.fits'
           self.obiwan_name='my_ngc_run_obiwan_really_masked_chunk23.fits'
           self.uniform_name='my_ngc_run_sim_really_masked_chunk23.fits'
           self.weight = False

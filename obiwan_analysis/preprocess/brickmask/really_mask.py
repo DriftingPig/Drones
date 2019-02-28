@@ -3,7 +3,7 @@ import numpy as np
 topdir = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/'
 fn1 = topdir + 'eBOSS_ELG_full_ALL_v4.dat_cutted_masked.fits'
 fn2 = topdir + 'obiwan_200per_0125_masked.fits'
-fn3 = topdir + 'sgc_run_sim_masked.fits'
+fn3 = topdir + 'sgc_200per_sm_tc_match_part1_masked.fits'
 fns = [fn3]
 for fn in fns:
     dat = fits.open(fn)[1].data
