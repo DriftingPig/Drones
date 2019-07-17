@@ -1,0 +1,575 @@
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=2)
+I am  nid00692 rank 3 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=2)
+I am  nid00692 rank 4 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=2)
+I am  nid00692 rank 5 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=2)
+I am  nid00692 rank 6 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=2)
+I am  nid00692 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=2)
+I am  nid00692 rank 1 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=2)
+I am  nid00692 rank 2 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=0)
+I am  nid00723 rank 1 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=0)
+I am  nid00723 rank 2 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=0)
+I am  nid00723 rank 3 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=0)
+I am  nid00723 rank 4 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=0)
+I am  nid00723 rank 5 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=0)
+I am  nid00723 rank 6 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=0)
+I am  nid00723 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=1)
+I am  nid00725 rank 1 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=1)
+I am  nid00725 rank 2 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=1)
+I am  nid00725 rank 3 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=1)
+I am  nid00725 rank 4 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=1)
+I am  nid00725 rank 5 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=1)
+I am  nid00725 rank 6 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=1)
+I am  nid00725 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=3)
+I am  nid00724 rank 1 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=3)
+I am  nid00724 rank 2 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=3)
+I am  nid00724 rank 3 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=3)
+I am  nid00724 rank 4 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=3)
+I am  nid00724 rank 5 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=3)
+I am  nid00724 rank 6 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=3)
+I am  nid00724 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=4)
+I am  nid01106 rank 1 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=4)
+I am  nid01106 rank 2 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=4)
+I am  nid01106 rank 3 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=4)
+I am  nid01106 rank 4 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=4)
+I am  nid01106 rank 5 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=4)
+I am  nid01106 rank 6 (total 8)
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=4)
+I am  nid01106 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 194, in <module>
+    main()
+  File "collect_mpi.py", line 188, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 121, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type='more_rs0',region='ngc')
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 321, in production_run_general_perbrick
+    fn_tractor = os.path.join(os.environ[env_dir],'tractor',brickname[:3],brickname,rs_type,'tractor-%s.fits' %brickname)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'elg_ngc_run'
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+slurmstepd: error: *** STEP 20578529.4 ON nid01106 CANCELLED AT 2019-04-17T08:33:37 ***
+slurmstepd: error: *** STEP 20578529.1 ON nid00723 CANCELLED AT 2019-04-17T08:33:37 ***
+slurmstepd: error: *** STEP 20578529.0 ON nid00692 CANCELLED AT 2019-04-17T08:33:37 ***
+slurmstepd: error: *** STEP 20578529.2 ON nid00724 CANCELLED AT 2019-04-17T08:33:37 ***
+slurmstepd: error: *** STEP 20578529.3 ON nid00725 CANCELLED AT 2019-04-17T08:33:37 ***

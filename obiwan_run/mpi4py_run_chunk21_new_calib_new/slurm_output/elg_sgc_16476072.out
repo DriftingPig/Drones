@@ -1,0 +1,9 @@
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_new_ccd_list/logs/000//more_rs0/log.0003m037
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_new_ccd_list/logs/000//more_rs0/log.0003m035
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_new_ccd_list/logs/000//more_rs0/log.0003m040
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_new_ccd_list/logs/000//more_rs0/log.0003m042
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_new_ccd_list/logs/000//more_rs0/log.0003m045
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 16476072.1 ON nid02296 CANCELLED AT 2018-11-20T08:33:20 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

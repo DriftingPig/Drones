@@ -2,11 +2,11 @@ import subprocess
 class survey():
       def __init__(self,surveyname):
           if surveyname.Type == 'obiwan':
-                self.weight = surveyname.weight
+                self.weight = False #never use weight for obiwan randoms
                 self.rawdata_random = surveyname.raw_topdir+surveyname.obiwan_name
                 self.splitdata_random = surveyname.splitfile_topdir+surveyname.obiwan_name[:-5]+'_subset'
           else:
-                self.weight = False
+                self.weight = surveyname.weight
                 self.rawdata_random = surveyname.raw_topdir+surveyname.uniform_name
                 self.splitdata_random = surveyname.splitfile_topdir+surveyname.uniform_name[:-5]+'_subset'
           self.splitfile_dir = surveyname.splitfile_topdir
@@ -23,11 +23,11 @@ class survey():
           self.anand_map = '/global/homes/h/huikong/eboss/LSSanalysis/maps/ELG_hpsyst.nside256.fits'
 class surveyname():
       def __init__(self,name,Type):#Type='obiwan' or 'uniform'
-          self.corr_topdir = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/obiwan_corr/'+name+'/'
+          self.corr_topdir = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/obiwan_corr/3d/'+name+'/'
           self.raw_topdir = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/'
           self.splitfile_topdir = self.corr_topdir+'splitdata/'+Type+'/'
           self.binhist_topdir = self.corr_topdir+'BinHist/'+Type+'/'   
-          self.output_topdir = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/obiwan_corr/corr_output/'
+          self.output_topdir = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/obiwan_corr/3d/corr_output/'
           self.tractor_dir = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/'+name+'/tractor/'
           self.Type = Type
           self.name = name      
@@ -175,9 +175,10 @@ class surveyname():
           self.uniform_name = self.obiwan_name
           self.weight = False
       def my_ngc_run(self):
-          self.data_name='eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_cutted.fits'
-          self.obiwan_name='my_ngc_run_obiwan_really_masked_chunk23.fits'
-          self.uniform_name='my_ngc_run_sim_really_masked_chunk23.fits'
+          self.data_name='eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_cutted_rs0.fits'
+          #self.obiwan_name='my_ngc_run_obiwan_really_masked_chunk23.fits'
+          self.obiwan_name = 'my_ngc_run_obiwan_really_masked_chunk23_w_z_rs0.fits' #added a redshift column
+          self.uniform_name='my_ngc_run_sim_really_masked_chunk23_rs0.fits'
           self.weight = False
       def kaylan_cutted_to_my_ngc_run(self):
           self.data_name='eBOSS_ELG_full_ALL_v4.dat_cutted_me_really_masked_chunk23.fits'
@@ -214,3 +215,121 @@ class surveyname():
           self.obiwan_name = 'sgc_run_obiwan_dr3_matched_really_masked_chunk22.fits'
           self.uniform_name=self.obiwan_name#WRONG!
           self.weight = False
+      def official_200_per_chunk21_kde_weight(self):
+          self.data_name='eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk21_200per_matched.fits'
+          self.obiwan_name = 'sgc_run_obiwan_really_masked_chunk21_simple_weight.fits'
+          self.uniform_name='sgc_run_sim_really_masked_chunk21.fits'
+          self.weight = False
+          self.kde_weight = True
+      def my_ngc_run_chunk23_extra(self):
+          self.data_name = 'extra_dat_really_masked_chunk23.fits'
+          self.obiwan_name = 'extra_obiwan_really_masked_chunk23.fits'
+          self.uniform_name = 'extra_sim_really_masked_chunk23.fits'
+          self.weight = False
+      def my_ngc_run_all(self):
+          self.data_name = 'ngc_all_dat.fits'
+          self.obiwan_name = 'ngc_all_obiwan.fits'
+          self.uniform_name = 'ngc_all_sim.fits'
+          self.weight = False
+      def elg_like_run(self):
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk21_elg_like_run.fits'
+          self.obiwan_name = 'elg_like_run_chunk21_really_masked.fits'
+          self.uniform_name = 'sim_elg_like_run_chunk21_really_masked.fits'
+          self.weight = False
+      def elg_ngc_run_super_part2(self):
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run_part2.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked_sticked.fits'
+          self.uniform_name = 'sim_elg_ngc_run_chunk23_really_masked_sticked.fits'
+          self.weight = False
+      def elg_ngc_run(self):
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked.fits'
+          self.uniform_name = 'sim_elg_ngc_run_chunk23_really_masked.fits'
+          self.weight = False
+      def elg_ngc_run_conbimed(self):#combine more_rs0, more_rs201
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run_part1.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked_combined.fits'
+          self.uniform_name = 'sim_elg_ngc_run_chunk23_really_masked_combined.fits'
+      #final
+      def elg_ngc_run_conbimed_obiwan_weight(self):
+          self.data_name = 'eBOSS_ELG_clustering_eboss23_v5.dat_obiwan_weight.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked_combined_obiwan_weight.fits'
+          self.uniform_name = 'eBOSS_ELG_clustering_eboss23_v5.ran_obiwan_weight.fits'
+          self.weight = False
+      def elg_ngc_run_conbimed_weight_systot(self):
+          self.elg_ngc_run_conbimed_obiwan_weight()
+      def elg_ngc_run_conbimed_uniform(self):
+          self.elg_ngc_run_conbimed_obiwan_weight()
+      def elg_ngc_run_w_z(self):
+          self.data_name = 'eBOSS_ELG_clustering_eboss23_v5.dat.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked.fits'
+          self.uniform_name = 'randoms_seed_122_startid_2.fits' #has z but not the same footprint
+          self.weight = False
+      def elg_ngc_run_part2(self):
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run_part2.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked_part2.fits'
+          self.uniform_name = 'sim_elg_ngc_run_chunk23_really_masked_part2.fits'
+          self.weight = True
+      def elg_ngc_run_part1(self):
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run_part1.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked_part1.fits'
+          self.uniform_name = 'sim_elg_ngc_run_chunk23_really_masked_part1.fits'
+          self.weight = False
+      def weight_systot_for_corr(self):
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_chunk23.fits'
+          self.obiwan_name = None
+          self.uniform_name = 'eBOSS_ELG_full_ALL_v4.ran_chunk23.fits'
+          self.weight = True
+      def elg_ngc_run_obiwan_weight(self):
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run_obiwan_weight_z.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked_obiwan_weight.fits'
+          #self.uniform_name = 'sim_elg_ngc_run_chunk23_really_masked_obiwan_weight.fits' #this also works, but has not WEIGHT_NOZ... columns
+          #self.uniform_name = 'eBOSS_ELG_clustering_eboss23_v4.ran_obiwan_weight.fits'
+          self.uniform_name = 'eBOSS_ELG_full_ALL_v4.ran_masked_obiwan_weight_z.fits' #with columns need to perform 3d corr
+          self.comment = 'eBOSS_ELG_full_ALL_v4.ran_masked.fits  this is really masked chunk 23 randoms'
+          self.weight = True
+      def elg_clustering_chunk23(self):
+          self.data_name = "eBOSS_ELG_clustering_eboss23_v4.dat.fits"
+          self.obiwan_name = None
+          self.uniform_name = "eBOSS_ELG_clustering_eboss23_v4.ran.fits"
+          self.weight = True
+      def elg_ngc_run_weight_systot(self):
+          self.data_name = 'eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run_z.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked.fits'
+          self.uniform_name = 'eBOSS_ELG_clustering_eboss23_v4.ran.fits'
+          self.weight = True
+      def elg_clustering_chunk23_w_edge(self):
+          self.data_name='eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run_obiwan_weight_z.fits'
+          self.obiwan_name = 'elg_ngc_run_chunk23_really_masked_obiwan_weight.fits'
+          self.uniform_name = 'eBOSS_ELG_clustering_eboss23_v4.ran_obiwan_weight.fits'
+          self.weight = True
+      def elg_clustering_chunk23_w_edge_weight_systot(self):
+          self.elg_clustering_chunk23_w_edge()
+      def elg_clustering_chunk23_w_edge_uniform(self):
+          self.elg_clustering_chunk23_w_edge()
+      def elg_clustering_chunk23_w_edge_debug(self):#weight_systot
+          self.elg_clustering_chunk23_w_edge()
+      def elg_clustering_chunk23_w_edge_obiwan_weight_all(self):
+          self.elg_clustering_chunk23_w_edge()
+      def elg_clustering_chunk23_w_edge_uniform_all(self):
+          self.elg_clustering_chunk23_w_edge()
+      def des_stuff(self):
+          self.data_name='lss_bao_y3_v0_nsys10_subsample_sample.fitz'
+          self.uniform_name='lss_bao_y3_v0_nsys10_subsample_randoms.fitz'
+          self.obiwan_name = None
+          self.weight = False
+      def elg_clustering_chunk23_v5(self):#weight_systot
+          self.data_name = 'eBOSS_ELG_clustering_eboss23_v5.dat_obiwan_weight.fits'
+          self.uniform_name = 'eBOSS_ELG_clustering_eboss23_v5.ran_obiwan_weight.fits'
+          self.weight = False
+          self.obiwan_name = None
+      def elg_clustering_chunk23_v5_obiwan_weight(self):
+          self.elg_clustering_chunk23_v5()
+      def elg_clustering_chunk23_v5_uniform(self):
+          self.elg_clustering_chunk23_v5()
+      def elg_clustering_ngc_v5(self):
+          self.data_name = 'eBOSS_ELG_clustering_NGC_v5.dat.fits'
+          self.uniform_name = 'eBOSS_ELG_clustering_NGC_v5.ran.fits'
+          self.weight = False
+          self.obiwan_name = None
+     

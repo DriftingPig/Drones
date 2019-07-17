@@ -1,0 +1,157 @@
+I am  nid02265 rank 1 (total 10)
+I am  nid02285 rank 9 (total 10)
+I am  nid02284 rank 6 (total 10)
+I am  nid02285 rank 8 (total 10)
+Traceback (most recent call last):
+  File "./example1.py", line 103, in <module>
+    main()
+  File "./example1.py", line 98, in main
+    MySlave().run()
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "./example1.py", line 77, in do_work
+    subprocess.call(["slurm_brick_scheduler.sh",task])
+  File "/usr/lib/python3.5/subprocess.py", line 557, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'slurm_brick_scheduler.sh'
+Traceback (most recent call last):
+  File "./example1.py", line 103, in <module>
+    main()
+  File "./example1.py", line 98, in main
+    MySlave().run()
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "./example1.py", line 77, in do_work
+    subprocess.call(["slurm_brick_scheduler.sh",task])
+  File "/usr/lib/python3.5/subprocess.py", line 557, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'slurm_brick_scheduler.sh'
+Traceback (most recent call last):
+  File "./example1.py", line 103, in <module>
+    main()
+  File "./example1.py", line 98, in main
+    MySlave().run()
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "./example1.py", line 77, in do_work
+    subprocess.call(["slurm_brick_scheduler.sh",task])
+  File "/usr/lib/python3.5/subprocess.py", line 557, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'slurm_brick_scheduler.sh'
+Traceback (most recent call last):
+  File "./example1.py", line 103, in <module>
+    main()
+  File "./example1.py", line 98, in main
+    MySlave().run()
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "./example1.py", line 77, in do_work
+    subprocess.call(["slurm_brick_scheduler.sh",task])
+  File "/usr/lib/python3.5/subprocess.py", line 557, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'slurm_brick_scheduler.sh'
+I am  nid02284 rank 7 (total 10)
+Traceback (most recent call last):
+  File "./example1.py", line 103, in <module>
+    main()
+  File "./example1.py", line 98, in main
+    MySlave().run()
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "./example1.py", line 77, in do_work
+    subprocess.call(["slurm_brick_scheduler.sh",task])
+  File "/usr/lib/python3.5/subprocess.py", line 557, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'slurm_brick_scheduler.sh'
+I am  nid02275 rank 4 (total 10)
+I am  nid02270 rank 2 (total 10)
+Traceback (most recent call last):
+  File "./example1.py", line 103, in <module>
+    main()
+  File "./example1.py", line 98, in main
+    MySlave().run()
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "./example1.py", line 77, in do_work
+    subprocess.call(["slurm_brick_scheduler.sh",task])
+  File "/usr/lib/python3.5/subprocess.py", line 557, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'slurm_brick_scheduler.sh'
+Traceback (most recent call last):
+  File "./example1.py", line 103, in <module>
+    main()
+  File "./example1.py", line 98, in main
+    MySlave().run()
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "./example1.py", line 77, in do_work
+    subprocess.call(["slurm_brick_scheduler.sh",task])
+  File "/usr/lib/python3.5/subprocess.py", line 557, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'slurm_brick_scheduler.sh'
+I am  nid02270 rank 3 (total 10)
+Traceback (most recent call last):
+  File "./example1.py", line 103, in <module>
+    main()
+  File "./example1.py", line 98, in main
+    MySlave().run()
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "./example1.py", line 77, in do_work
+    subprocess.call(["slurm_brick_scheduler.sh",task])
+  File "/usr/lib/python3.5/subprocess.py", line 557, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'slurm_brick_scheduler.sh'
+I am  nid02275 rank 5 (total 10)
+Traceback (most recent call last):
+  File "./example1.py", line 103, in <module>
+    main()
+  File "./example1.py", line 98, in main
+    MySlave().run()
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/more/obiwan_run/mpi4py_run/official_run/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "./example1.py", line 77, in do_work
+    subprocess.call(["slurm_brick_scheduler.sh",task])
+  File "/usr/lib/python3.5/subprocess.py", line 557, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'slurm_brick_scheduler.sh'
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 16053442.1 ON nid02265 CANCELLED AT 2018-10-29T15:11:59 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

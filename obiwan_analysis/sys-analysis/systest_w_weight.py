@@ -12,19 +12,19 @@ from matplotlib import pyplot as plt
 from matplotlib import rc
 from matplotlib.backends.backend_pdf import PdfPages
 
-def Obiwansys(surveyname,map_name='ext',sysmax=0.13,sysmin=0.01,res=256,nest = False,dataset = 'obiwan',xlab = ''):
+def Obiwansys(surveyname,map_name='ext',sysmax=0.13,sysmin=0.01,res=256,nest = False,dataset = 'obiwan',xlab = '',weight_col=[]):
     filename = surveyname.data
-    if dataset == 'weight':
+    if dataset != 'obiwam':
         ranfile = surveyname.uniform
-    elif dataset == 'uniform':
-        ranfile = surveyname.uniform
+    else:
+        ranfile = surveyname.obiwan
     if map_name == 'star':
         mapname = surveyname.star_map
     elif map_name == 'ext':
         mapname = surveyname.ext_map
     else:
         mapname = surveyname.anand_map
-    outputname = './data/'+map_name+'_sys_'+dataset+'_WEIGHT_SYSTOT_sub.dat'
+    outputname = './data/'+map_name+'_sys_'+dataset+'.dat'
     print("test1")
     #file readin
     data = fits.open(filename)[1].data
@@ -41,16 +41,19 @@ def Obiwansys(surveyname,map_name='ext',sysmax=0.13,sysmin=0.01,res=256,nest = F
     #galaxies
     pixlg = np.zeros(npo)  
     ng=0.
-    print("test2")
+    print("galaxy counting started")
     ra,dec = data['ra'],data['dec']
     pts = hp.pixelfunc.ang2pix(res,ra,dec,nest = nest,lonlat = True)
     pts.astype(int)
     assert(len(pts) == len(data))
     for i in range(0,len(data)):
         #p = int(hp.ang2pix(res,ra,dec,nest = nest,lonlat = True))
-        pixlg[pts[i]] += 1.
-        ng+=1.
-    print("test3")
+        w=1.
+        for weight in weight_col:
+            w=w*data[weight][i]
+        pixlg[pts[i]] += w
+        ng+=w
+    print("galaxy counting finished")
     #randoms
     pixlr = np.zeros(npo)
     nr=0.
@@ -60,12 +63,11 @@ def Obiwansys(surveyname,map_name='ext',sysmax=0.13,sysmin=0.01,res=256,nest = F
     for i in range(0,len(ran_data)):
         #ra,dec =  ran_data['ra'][i],ran_data['dec'][i]
         #p = hp.ang2pix(res,ra,dec,nest = nest,lonlat = True)
-        if dataset == 'uniform':
-            pixlr[pts[i]] += 1.#ran_data['obiwan_weight'][i]#modified
-            nr += 1.#ran_data['obiwan_weight'][i]#modified
-        if dataset == 'weight':
-            pixlr[pts[i]] += ran_data['WEIGHT_SYSTOT'][i]
-            nr += ran_data['WEIGHT_SYSTOT'][i]
+        w=1.
+        for weight in weight_col:
+            w=w*ran_data[weight][i]
+        pixlr[pts[i]] += w
+        nr += w
         
     print('total number of galaxies,randoms:')
     print('%f %f' % (ng,nr))
@@ -120,7 +122,7 @@ def Obiwansys(surveyname,map_name='ext',sysmax=0.13,sysmin=0.01,res=256,nest = F
         fs.write(str(sysv)+' '+str(ns)+' '+str(nse)+'\n')
     fs.close()
     print("test4")
-    plot_exct(outputname,"./plots/"+map_name+"_"+dataset+"_WEIGHT_SYSTOT_sub.png",'eBoss sgc '+dataset,xlab = xlab)
+    plot_exct(outputname,"./plots/"+map_name+"_"+dataset+".png",'eBoss sgc '+dataset,xlab = xlab)
     return True
 
 def plot_exct(inputname,output_plot,titlename,xlab = 'ext'):
@@ -157,7 +159,7 @@ def plot_exct(inputname,output_plot,titlename,xlab = 'ext'):
     return True   
 
 eboss=surveynames()
-eboss.eboss_WEIGHT_SYSTOT_sub()
+eboss.elg_ngc_run_conbimed_obiwan_weight()
 #Obiwansys(eboss,'ext',sysmax=0.07,sysmin=0.01)
 #Obiwansys(eboss,'star',sysmax=180,sysmin=50)
 '''
@@ -171,9 +173,19 @@ Obiwansys(eboss,'hppsfsize_r',sysmax=2,sysmin=0.9,dataset = 'uniform',xlab='psf 
 Obiwansys(eboss,'hppsfsize_r',sysmax=2,sysmin=0.9,dataset = 'obiwan',xlab = 'psf size r')
 '''
 
-
-Obiwansys(eboss,'hpstardens',sysmax=1300,sysmin=900,dataset = 'uniform',xlab='star')
-Obiwansys(eboss,'hpstardens',sysmax=1300,sysmin=900,dataset = 'weight',xlab='star')
+'''
+Obiwansys(eboss,'hpstardens',sysmax=1400,sysmin=1000,dataset = 'weight_systot',xlab='star',weight_col=['WEIGHT_SYSTOT','WEIGHT_CP','WEIGHT_NOZ','WEIGHT_FKP'])
+Obiwansys(eboss,'hpstardens',sysmax=1400,sysmin=1000,dataset = 'obiwan_weight',xlab='star',weight_col=['obiwan_weight','WEIGHT_CP','WEIGHT_NOZ','WEIGHT_FKP'])
+Obiwansys(eboss,'hpstardens',sysmax=1400,sysmin=1000,dataset = 'uniform',xlab='star',weight_col=['WEIGHT_CP','WEIGHT_NOZ','WEIGHT_FKP'])
+'''
+'''
+Obiwansys(eboss,'hpebv',sysmax=0.085,sysmin=0.01,dataset = 'weight_systot',xlab='star',weight_col=['WEIGHT_SYSTOT','WEIGHT_CP','WEIGHT_NOZ','WEIGHT_FKP'])
+Obiwansys(eboss,'hpebv',sysmax=0.085,sysmin=0.01,dataset = 'obiwan_weight',xlab='star',weight_col=['obiwan_weight','WEIGHT_CP','WEIGHT_NOZ','WEIGHT_FKP'])
+Obiwansys(eboss,'hpebv',sysmax=0.085,sysmin=0.01,dataset = 'uniform',xlab='star',weight_col=['WEIGHT_CP','WEIGHT_NOZ','WEIGHT_FKP'])
+'''
+Obiwansys(eboss,'hppsfsize_z',sysmax=1.7,sysmin=1.0, dataset = 'weight_systot',xlab='star',weight_col=['WEIGHT_SYSTOT','WEIGHT_CP','WEIGHT_NOZ','WEIGHT_FKP'])
+Obiwansys(eboss,'hppsfsize_z',sysmax=1.7,sysmin=1.0, dataset = 'obiwan_weight',xlab='star',weight_col=['obiwan_weight','WEIGHT_CP','WEIGHT_NOZ','WEIGHT_FKP'])
+Obiwansys(eboss,'hppsfsize_z',sysmax=1.7,sysmin=1.0, dataset = 'uniform',xlab='star',weight_col=['WEIGHT_CP','WEIGHT_NOZ','WEIGHT_FKP'])
 
 
 '''

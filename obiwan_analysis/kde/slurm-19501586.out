@@ -1,0 +1,322 @@
+I am  nid00535 rank 1 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00548 rank 26 (total 30)
+I am  nid00537 rank 4 (total 30)
+I am  nid00549 rank 29 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00549 rank 28 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00539 rank 8 (total 30)
+I am  nid00543 rank 16 (total 30)
+I am  nid00540 rank 10 (total 30)
+I am  nid00546 rank 22 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00536 rank 2 (total 30)
+I am  nid00540 rank 11 (total 30)
+I am  nid00542 rank 14 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00538 rank 7 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00538 rank 6 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00547 rank 25 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00537 rank 5 (total 30)
+I am  nid00541 rank 13 (total 30)
+I am  nid00547 rank 24 (total 30)
+I am  nid00545 rank 20 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00545 rank 21 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00541 rank 12 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00548 rank 27 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00539 rank 9 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00536 rank 3 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00543 rank 17 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+I am  nid00544 rank 18 (total 30)
+I am  nid00542 rank 15 (total 30)
+I am  nid00546 rank 23 (total 30)
+I am  nid00544 rank 19 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 143, in <module>
+    main()
+  File "kde_mpi.py", line 138, in main
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 86, in do_work
+    density_elg_like = kde_elg_like(values_sim[:,low:high])
+NameError: name 'kde_elg_like' is not defined
+slurmstepd: error: *** STEP 19501586.0 ON nid00535 CANCELLED AT 2019-03-04T20:23:37 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

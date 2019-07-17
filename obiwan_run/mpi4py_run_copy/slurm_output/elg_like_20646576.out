@@ -1,0 +1,18 @@
+I am  nid00545 rank 0 (total 20)
+Traceback (most recent call last):
+  File "./example1.py", line 106, in <module>
+    main()
+  File "./example1.py", line 96, in main
+    app.run()
+  File "./example1.py", line 37, in run
+    task_list = np.loadtxt(BRICKSTAT_DIR + 'UnfinishedBricks.txt', dtype=np.str)
+  File "/srv/py3_venv/lib/python3.5/site-packages/numpy/lib/npyio.py", line 926, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/srv/py3_venv/lib/python3.5/site-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/srv/py3_venv/lib/python3.5/site-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/UnfinishedBricks.txt not found.
+slurmstepd: error: *** STEP 20646576.1 ON nid00545 CANCELLED AT 2019-04-18T19:05:17 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

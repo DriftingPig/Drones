@@ -1,0 +1,874 @@
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_6.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_2.fits'
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_0.fits'
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_5.fits'
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_4.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_3.fits'
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_1.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_9.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_10.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_7.fits'
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_8.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_11.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_12.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_13.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_14.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_15.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_16.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_17.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_18.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_19.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_20.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_21.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_22.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_23.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_24.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_25.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_26.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_27.fits'
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(task_arg)+'.fits',overwrite=True)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2548, in write
+    io_registry.write(self, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 581, in write
+    writer(data, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/connect.py", line 221, in write_table_fits
+    table_hdu.writeto(output)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/base.py", line 1603, in writeto
+    checksum=checksum)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/hdu/hdulist.py", line 879, in writeto
+    fileobj = _File(fileobj, mode='ostream', overwrite=overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/decorators.py", line 508, in wrapper
+    return function(*args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 150, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/file.py", line 506, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/fits/util.py", line 409, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/kde_outputs2/sim_kde_weighed_chunk21_part_28.fits'
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+srun: forcing job termination
+slurmstepd: error: *** STEP 19523992.0 ON nid01967 CANCELLED AT 2019-03-05T07:12:18 ***

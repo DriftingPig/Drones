@@ -1,0 +1,18 @@
+/var/spool/slurmd/job20578952/slurm_script: line 30: [: -lt: unary operator expected
+start stacking finished images, this might be a long time...
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/elg_ngc_run_part0_of_5.fits
+Traceback (most recent call last):
+  File "stack.py", line 21, in <module>
+    tab_i = Table.read(fn_i)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/table/table.py", line 2519, in read
+    out = io_registry.read(cls, *args, **kwargs)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/io/registry.py", line 516, in read
+    fileobj = ctx.__enter__()
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/utils/data.py", line 208, in get_readable_fileobj
+    fileobj = io.FileIO(name_or_obj, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/elg_ngc_run_part0_of_5.fits'
+srun: error: nid00691: task 0: Exited with exit code 1
+srun: Terminating job step 20578952.0
+ALL Done

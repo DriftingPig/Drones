@@ -153,6 +153,27 @@ class surveynames():
         self.dir = '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/eboss_data/'
         self.data = self.dir+'eBOSS_ELG_full_ALL_v1_1.dat_sub.fits'
         self.uniform = self.dir+'eBOSS_ELG_full_ALL_v1_1.ran_sub.fits'
+    def elg_clustering_chunk23_w_edge(self):
+        self.dir='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/'
+        self.data = self.dir+'eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run_obiwan_weight_z.fits' 
+        self.obiwan=self.dir+'elg_ngc_run_chunk23_really_masked_obiwan_weight.fits'
+        self.uniform= self.dir+'eBOSS_ELG_clustering_eboss23_v4.ran_obiwan_weight.fits'
+        
+    def elg_clustering_chunk23_w_edge_weight_systot(self):  
+        self.elg_clustering_chunk23_w_edge()     
+    def elg_clustering_chunk23_w_edge_uniform(self):
+        self.elg_clustering_chunk23_w_edge()
+
+    def elg_ngc_run_conbimed_obiwan_weight(self):
+        self.dir='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/'
+        self.data = self.dir+'eBOSS_ELG_clustering_eboss23_v5.dat_obiwan_weight.fits'
+        self.obiwan = self.dir+'elg_ngc_run_chunk23_really_masked_combined_obiwan_weight.fits'
+        self.uniform = self.dir+'eBOSS_ELG_clustering_eboss23_v5.ran_obiwan_weight.fits' 
+    def elg_ngc_run_conbimed_weight_systot(self): 
+         self.elg_ngc_run_conbimed_obiwan_weight()
+    def elg_ngc_run_conbimed_uniform(self):
+         self.elg_ngc_run_conbimed_obiwan_weight()
+
 #mask
 class masks():
     def __init__(self):

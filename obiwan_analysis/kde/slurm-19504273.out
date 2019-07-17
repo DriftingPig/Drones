@@ -1,0 +1,235 @@
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+Traceback (most recent call last):
+  File "kde_mpi.py", line 134, in <module>
+    MySlave().run()
+  File "../../py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "kde_mpi.py", line 92, in do_work
+    table_final.write(topdir + 'kde_outputs2/sim_kde_weighed_chunk21_part_'+str(i)+'.fits',overwrite=True)
+NameError: name 'i' is not defined
+slurmstepd: error: *** STEP 19504273.0 ON nid00646 CANCELLED AT 2019-03-04T22:16:32 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

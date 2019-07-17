@@ -1,0 +1,13 @@
+I am  nid00786 rank 0 (total 30)
+Traceback (most recent call last):
+  File "kde_mpi.py", line 144, in <module>
+    main()
+  File "kde_mpi.py", line 134, in main
+    app.run(tasks = task_list)
+  File "kde_mpi.py", line 41, in run
+    task_list = np.loadtxt(BRICKSTAT_DIR + 'ProcessedBricks.txt', dtype=np.str)
+NameError: name 'BRICKSTAT_DIR' is not defined
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 19492061.0 ON nid00786 CANCELLED AT 2019-03-04T15:00:55 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

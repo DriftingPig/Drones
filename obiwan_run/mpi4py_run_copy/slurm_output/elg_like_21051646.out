@@ -1,0 +1,64 @@
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "./example1.py", line 6, in <module>
+    name = sys.srgv[1]
+NameError: name 'sys' is not defined
+srun: error: nid00714: tasks 4-5: Exited with exit code 1
+srun: Terminating job step 21051646.1
+srun: error: nid00716: tasks 8-9: Exited with exit code 1
+srun: error: nid00717: tasks 10-11: Exited with exit code 1
+srun: error: nid00718: tasks 12-13: Exited with exit code 1
+srun: error: nid00713: tasks 2-3: Exited with exit code 1
+srun: error: nid00712: tasks 0-1: Exited with exit code 1
+srun: error: nid00715: tasks 6-7: Exited with exit code 1

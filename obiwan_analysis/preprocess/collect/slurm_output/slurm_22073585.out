@@ -1,0 +1,513 @@
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12872 rank 6 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12872 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12872 rank 1 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12872 rank 2 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12872 rank 3 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12872 rank 4 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12872 rank 5 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12873 rank 1 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12873 rank 3 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12873 rank 2 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12873 rank 4 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12873 rank 5 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12873 rank 6 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12873 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12875 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12875 rank 2 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12875 rank 3 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12875 rank 4 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12875 rank 5 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12875 rank 1 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12875 rank 6 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12874 rank 1 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12874 rank 2 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12874 rank 3 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12874 rank 4 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12874 rank 5 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12874 rank 7 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12874 rank 6 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12876 rank 4 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12876 rank 5 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12876 rank 6 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12876 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12876 rank 1 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12876 rank 2 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12876 rank 3 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'NAME_FOR_RANDOMS' is not defined
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 22073585.1 ON nid12873 CANCELLED AT 2019-06-05T16:15:29 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 22073585.2 ON nid12874 CANCELLED AT 2019-06-05T16:15:29 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 22073585.0 ON nid12872 CANCELLED AT 2019-06-05T16:15:29 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 22073585.3 ON nid12875 CANCELLED AT 2019-06-05T16:15:29 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 22073585.4 ON nid12876 CANCELLED AT 2019-06-05T16:15:29 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination

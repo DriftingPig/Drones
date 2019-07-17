@@ -1,0 +1,3076 @@
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=0)
+I am  nid00698 rank 1 (total 8)
+  Slave nid00698 rank 1 executing "3168m017" task_id "0"
+  Slave nid00698 rank 1 executing "3176m015" task_id "8"
+  Slave nid00698 rank 1 executing "3188m017" task_id "15"
+  Slave nid00698 rank 1 executing "3226m010" task_id "22"
+  Slave nid00698 rank 1 executing "3233m010" task_id "25"
+  Slave nid00698 rank 1 executing "3253m012" task_id "34"
+  Slave nid00698 rank 1 executing "3263m012" task_id "41"
+  Slave nid00698 rank 1 executing "3273m015" task_id "49"
+  Slave nid00698 rank 1 executing "3283m015" task_id "57"
+  Slave nid00698 rank 1 executing "3296m017" task_id "67"
+  Slave nid00698 rank 1 executing "3331m010" task_id "74"
+  Slave nid00698 rank 1 executing "3343m010" task_id "79"
+  Slave nid00698 rank 1 executing "3351m012" task_id "86"
+  Slave nid00698 rank 1 executing "3361m015" task_id "92"
+  Slave nid00698 rank 1 executing "3373m015" task_id "102"
+  Slave nid00698 rank 1 executing "3381m017" task_id "110"
+  Slave nid00698 rank 1 executing "3391m017" task_id "118"
+  Slave nid00698 rank 1 executing "3401m015" task_id "125"
+  Slave nid00698 rank 1 executing "3431m010" task_id "133"
+  Slave nid00698 rank 1 executing "3451m010" task_id "142"
+  Slave nid00698 rank 1 executing "3463m012" task_id "151"
+  Slave nid00698 rank 1 executing "3471m015" task_id "158"
+  Slave nid00698 rank 1 executing "3478m015" task_id "165"
+  Slave nid00698 rank 1 executing "3483m017" task_id "172"
+  Slave nid00698 rank 1 executing "3491m017" task_id "178"
+  Slave nid00698 rank 1 executing "3498m017" task_id "183"
+  Slave nid00698 rank 1 executing "3553m012" task_id "190"
+  Slave nid00698 rank 1 executing "3566m012" task_id "195"
+  Slave nid00698 rank 1 executing "3578m012" task_id "205"
+  Slave nid00698 rank 1 executing "3583m017" task_id "213"
+  Slave nid00698 rank 1 executing "3591m017" task_id "221"
+Task completed (rank 1)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=0)
+I am  nid00698 rank 2 (total 8)
+  Slave nid00698 rank 2 executing "3171m012" task_id "1"
+  Slave nid00698 rank 2 executing "3176m017" task_id "9"
+  Slave nid00698 rank 2 executing "3191m017" task_id "16"
+  Slave nid00698 rank 2 executing "3228m010" task_id "23"
+  Slave nid00698 rank 2 executing "3243m012" task_id "30"
+  Slave nid00698 rank 2 executing "3258m015" task_id "38"
+  Slave nid00698 rank 2 executing "3266m012" task_id "43"
+  Slave nid00698 rank 2 executing "3273m017" task_id "50"
+  Slave nid00698 rank 2 executing "3283m017" task_id "58"
+  Slave nid00698 rank 2 executing "3298m017" task_id "68"
+  Slave nid00698 rank 2 executing "3333m010" task_id "75"
+  Slave nid00698 rank 2 executing "3346m012" task_id "82"
+  Slave nid00698 rank 2 executing "3356m012" task_id "89"
+  Slave nid00698 rank 2 executing "3366m015" task_id "96"
+  Slave nid00698 rank 2 executing "3373m017" task_id "103"
+  Slave nid00698 rank 2 executing "3378m015" task_id "107"
+  Slave nid00698 rank 2 executing "3386m017" task_id "114"
+  Slave nid00698 rank 2 executing "3396m017" task_id "122"
+  Slave nid00698 rank 2 executing "3413m017" task_id "131"
+  Slave nid00698 rank 2 executing "3443m010" task_id "138"
+  Slave nid00698 rank 2 executing "3453m010" task_id "144"
+  Slave nid00698 rank 2 executing "3463m015" task_id "152"
+  Slave nid00698 rank 2 executing "3473m012" task_id "159"
+  Slave nid00698 rank 2 executing "3478m017" task_id "166"
+  Slave nid00698 rank 2 executing "3486m017" task_id "174"
+  Slave nid00698 rank 2 executing "3501m017" task_id "184"
+  Slave nid00698 rank 2 executing "3558m012" task_id "192"
+  Slave nid00698 rank 2 executing "3571m012" task_id "199"
+  Slave nid00698 rank 2 executing "3578m015" task_id "206"
+  Slave nid00698 rank 2 executing "3586m012" task_id "214"
+  Slave nid00698 rank 2 executing "3593m015" task_id "222"
+Task completed (rank 2)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=0)
+I am  nid00698 rank 3 (total 8)
+  Slave nid00698 rank 3 executing "3171m015" task_id "2"
+  Slave nid00698 rank 3 executing "3178m015" task_id "10"
+  Slave nid00698 rank 3 executing "3193m017" task_id "17"
+  Slave nid00698 rank 3 executing "3236m010" task_id "26"
+  Slave nid00698 rank 3 executing "3248m012" task_id "32"
+  Slave nid00698 rank 3 executing "3261m012" task_id "39"
+  Slave nid00698 rank 3 executing "3271m015" task_id "47"
+  Slave nid00698 rank 3 executing "3276m017" task_id "52"
+  Slave nid00698 rank 3 executing "3286m015" task_id "59"
+  Slave nid00698 rank 3 executing "3301m017" task_id "69"
+  Slave nid00698 rank 3 executing "3336m010" task_id "76"
+  Slave nid00698 rank 3 executing "3348m010" task_id "83"
+  Slave nid00698 rank 3 executing "3358m012" task_id "90"
+  Slave nid00698 rank 3 executing "3368m015" task_id "98"
+  Slave nid00698 rank 3 executing "3376m012" task_id "104"
+  Slave nid00698 rank 3 executing "3383m015" task_id "111"
+  Slave nid00698 rank 3 executing "3393m015" task_id "119"
+  Slave nid00698 rank 3 executing "3401m017" task_id "126"
+  Slave nid00698 rank 3 executing "3428m010" task_id "132"
+  Slave nid00698 rank 3 executing "3446m010" task_id "139"
+  Slave nid00698 rank 3 executing "3456m012" task_id "147"
+  Slave nid00698 rank 3 executing "3466m015" task_id "154"
+  Slave nid00698 rank 3 executing "3473m015" task_id "160"
+  Slave nid00698 rank 3 executing "3481m012" task_id "167"
+  Slave nid00698 rank 3 executing "3486m015" task_id "173"
+  Slave nid00698 rank 3 executing "3493m015" task_id "179"
+  Slave nid00698 rank 3 executing "3506m017" task_id "186"
+  Slave nid00698 rank 3 executing "3561m012" task_id "193"
+  Slave nid00698 rank 3 executing "3573m012" task_id "201"
+  Slave nid00698 rank 3 executing "3581m012" task_id "208"
+  Slave nid00698 rank 3 executing "3586m015" task_id "215"
+  Slave nid00698 rank 3 executing "3593m017" task_id "223"
+Task completed (rank 3)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=0)
+I am  nid00698 rank 4 (total 8)
+  Slave nid00698 rank 4 executing "3171m017" task_id "3"
+  Slave nid00698 rank 4 executing "3178m017" task_id "11"
+  Slave nid00698 rank 4 executing "3196m017" task_id "18"
+  Slave nid00698 rank 4 executing "3238m010" task_id "27"
+  Slave nid00698 rank 4 executing "3256m012" task_id "35"
+  Slave nid00698 rank 4 executing "3263m015" task_id "42"
+  Slave nid00698 rank 4 executing "3271m017" task_id "48"
+  Slave nid00698 rank 4 executing "3278m015" task_id "53"
+  Slave nid00698 rank 4 executing "3288m015" task_id "61"
+  Slave nid00698 rank 4 executing "3303m017" task_id "70"
+  Slave nid00698 rank 4 executing "3338m010" task_id "77"
+  Slave nid00698 rank 4 executing "3348m012" task_id "84"
+  Slave nid00698 rank 4 executing "3361m012" task_id "91"
+  Slave nid00698 rank 4 executing "3368m012" task_id "97"
+  Slave nid00698 rank 4 executing "3376m015" task_id "105"
+  Slave nid00698 rank 4 executing "3383m017" task_id "112"
+  Slave nid00698 rank 4 executing "3393m017" task_id "120"
+  Slave nid00698 rank 4 executing "3403m017" task_id "127"
+  Slave nid00698 rank 4 executing "3438m010" task_id "136"
+  Slave nid00698 rank 4 executing "3448m010" task_id "140"
+  Slave nid00698 rank 4 executing "3458m010" task_id "148"
+  Slave nid00698 rank 4 executing "3468m012" task_id "155"
+  Slave nid00698 rank 4 executing "3476m012" task_id "161"
+  Slave nid00698 rank 4 executing "3481m015" task_id "168"
+  Slave nid00698 rank 4 executing "3488m015" task_id "175"
+  Slave nid00698 rank 4 executing "3496m015" task_id "181"
+  Slave nid00698 rank 4 executing "3508m017" task_id "187"
+  Slave nid00698 rank 4 executing "3566m015" task_id "196"
+  Slave nid00698 rank 4 executing "3573m015" task_id "202"
+  Slave nid00698 rank 4 executing "3581m017" task_id "210"
+  Slave nid00698 rank 4 executing "3588m012" task_id "217"
+  Slave nid00698 rank 4 executing "3596m015" task_id "224"
+Task completed (rank 4)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=0)
+I am  nid00698 rank 5 (total 8)
+  Slave nid00698 rank 5 executing "3173m012" task_id "4"
+  Slave nid00698 rank 5 executing "3181m017" task_id "12"
+  Slave nid00698 rank 5 executing "3198m017" task_id "19"
+  Slave nid00698 rank 5 executing "3241m010" task_id "28"
+  Slave nid00698 rank 5 executing "3256m015" task_id "36"
+  Slave nid00698 rank 5 executing "3266m015" task_id "44"
+  Slave nid00698 rank 5 executing "3276m015" task_id "51"
+  Slave nid00698 rank 5 executing "3281m017" task_id "56"
+  Slave nid00698 rank 5 executing "3288m017" task_id "62"
+  Slave nid00698 rank 5 executing "3291m017" task_id "64"
+  Slave nid00698 rank 5 executing "3306m017" task_id "71"
+  Slave nid00698 rank 5 executing "3341m010" task_id "78"
+  Slave nid00698 rank 5 executing "3351m010" task_id "85"
+  Slave nid00698 rank 5 executing "3363m012" task_id "93"
+  Slave nid00698 rank 5 executing "3371m012" task_id "99"
+  Slave nid00698 rank 5 executing "3378m017" task_id "108"
+  Slave nid00698 rank 5 executing "3388m015" task_id "115"
+  Slave nid00698 rank 5 executing "3396m015" task_id "121"
+  Slave nid00698 rank 5 executing "3406m017" task_id "128"
+  Slave nid00698 rank 5 executing "3433m010" task_id "134"
+  Slave nid00698 rank 5 executing "3448m012" task_id "141"
+  Slave nid00698 rank 5 executing "3453m012" task_id "145"
+  Slave nid00698 rank 5 executing "3466m012" task_id "153"
+  Slave nid00698 rank 5 executing "3476m015" task_id "162"
+  Slave nid00698 rank 5 executing "3481m017" task_id "169"
+  Slave nid00698 rank 5 executing "3488m017" task_id "176"
+  Slave nid00698 rank 5 executing "3503m017" task_id "185"
+  Slave nid00698 rank 5 executing "3556m012" task_id "191"
+  Slave nid00698 rank 5 executing "3568m012" task_id "197"
+  Slave nid00698 rank 5 executing "3576m012" task_id "203"
+  Slave nid00698 rank 5 executing "3583m012" task_id "211"
+  Slave nid00698 rank 5 executing "3588m015" task_id "218"
+Task completed (rank 5)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=0)
+I am  nid00698 rank 7 (total 8)
+  Slave nid00698 rank 7 executing "3173m017" task_id "6"
+  Slave nid00698 rank 7 executing "3176m012" task_id "7"
+  Slave nid00698 rank 7 executing "3186m017" task_id "14"
+  Slave nid00698 rank 7 executing "3223m010" task_id "21"
+  Slave nid00698 rank 7 executing "3241m012" task_id "29"
+  Slave nid00698 rank 7 executing "3251m012" task_id "33"
+  Slave nid00698 rank 7 executing "3261m015" task_id "40"
+  Slave nid00698 rank 7 executing "3268m015" task_id "46"
+  Slave nid00698 rank 7 executing "3281m015" task_id "55"
+  Slave nid00698 rank 7 executing "3291m015" task_id "63"
+  Slave nid00698 rank 7 executing "3293m017" task_id "66"
+  Slave nid00698 rank 7 executing "3328m010" task_id "73"
+  Slave nid00698 rank 7 executing "3346m010" task_id "81"
+  Slave nid00698 rank 7 executing "3356m010" task_id "88"
+  Slave nid00698 rank 7 executing "3366m012" task_id "95"
+  Slave nid00698 rank 7 executing "3373m012" task_id "101"
+  Slave nid00698 rank 7 executing "3381m015" task_id "109"
+  Slave nid00698 rank 7 executing "3391m015" task_id "117"
+  Slave nid00698 rank 7 executing "3398m017" task_id "124"
+  Slave nid00698 rank 7 executing "3411m017" task_id "130"
+  Slave nid00698 rank 7 executing "3436m010" task_id "135"
+  Slave nid00698 rank 7 executing "3451m012" task_id "143"
+  Slave nid00698 rank 7 executing "3461m012" task_id "150"
+  Slave nid00698 rank 7 executing "3471m012" task_id "157"
+  Slave nid00698 rank 7 executing "3478m012" task_id "164"
+  Slave nid00698 rank 7 executing "3483m015" task_id "171"
+  Slave nid00698 rank 7 executing "3493m017" task_id "180"
+  Slave nid00698 rank 7 executing "3551m012" task_id "189"
+  Slave nid00698 rank 7 executing "3568m015" task_id "198"
+  Slave nid00698 rank 7 executing "3576m015" task_id "204"
+  Slave nid00698 rank 7 executing "3581m015" task_id "209"
+  Slave nid00698 rank 7 executing "3586m017" task_id "216"
+  Slave nid00698 rank 7 executing "3591m015" task_id "220"
+Task completed (rank 7)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=0)
+I am  nid00698 rank 0 (total 8)
+No 6 is done
+No 0 is done
+No 1 is done
+No 2 is done
+No 3 is done
+No 4 is done
+No 5 is done
+No 7 is done
+No 8 is done
+No 9 is done
+No 10 is done
+No 11 is done
+No 12 is done
+No 13 is done
+No 14 is done
+No 15 is done
+No 16 is done
+No 20 is done
+No 22 is done
+No 17 is done
+No 18 is done
+No 19 is done
+No 21 is done
+No 23 is done
+No 24 is done
+No 26 is done
+No 29 is done
+No 25 is done
+No 27 is done
+No 28 is done
+No 31 is done
+No 30 is done
+No 32 is done
+No 33 is done
+No 34 is done
+No 35 is done
+No 38 is done
+No 36 is done
+No 37 is done
+No 40 is done
+No 39 is done
+No 42 is done
+No 41 is done
+No 43 is done
+No 44 is done
+No 47 is done
+No 48 is done
+No 45 is done
+No 46 is done
+No 51 is done
+No 49 is done
+No 50 is done
+No 52 is done
+No 54 is done
+No 53 is done
+No 56 is done
+No 55 is done
+No 62 is done
+No 60 is done
+No 63 is done
+No 57 is done
+No 58 is done
+No 59 is done
+No 61 is done
+No 64 is done
+No 65 is done
+No 66 is done
+No 67 is done
+No 68 is done
+No 69 is done
+No 70 is done
+No 71 is done
+No 74 is done
+No 72 is done
+No 73 is done
+No 75 is done
+No 76 is done
+No 77 is done
+No 78 is done
+No 79 is done
+No 80 is done
+No 81 is done
+No 82 is done
+No 83 is done
+No 84 is done
+No 86 is done
+No 85 is done
+No 87 is done
+No 88 is done
+No 89 is done
+No 91 is done
+No 90 is done
+No 93 is done
+No 94 is done
+No 95 is done
+No 92 is done
+No 96 is done
+No 98 is done
+No 97 is done
+No 100 is done
+No 103 is done
+No 99 is done
+No 101 is done
+No 102 is done
+No 104 is done
+No 105 is done
+No 106 is done
+No 107 is done
+No 108 is done
+No 113 is done
+No 109 is done
+No 110 is done
+No 111 is done
+No 112 is done
+No 115 is done
+No 114 is done
+No 116 is done
+No 117 is done
+No 118 is done
+No 119 is done
+No 120 is done
+No 121 is done
+No 123 is done
+No 124 is done
+No 122 is done
+No 126 is done
+No 125 is done
+No 128 is done
+No 130 is done
+No 127 is done
+No 129 is done
+No 131 is done
+No 132 is done
+No 136 is done
+No 134 is done
+No 133 is done
+No 135 is done
+No 138 is done
+No 141 is done
+No 137 is done
+No 139 is done
+No 140 is done
+No 146 is done
+No 143 is done
+No 142 is done
+No 144 is done
+No 145 is done
+No 147 is done
+No 148 is done
+No 149 is done
+No 150 is done
+No 151 is done
+No 152 is done
+No 154 is done
+No 155 is done
+No 153 is done
+No 156 is done
+No 157 is done
+No 158 is done
+No 159 is done
+No 160 is done
+No 161 is done
+No 162 is done
+No 163 is done
+No 164 is done
+No 165 is done
+No 167 is done
+No 166 is done
+No 168 is done
+No 169 is done
+No 170 is done
+No 172 is done
+No 173 is done
+No 171 is done
+No 175 is done
+No 177 is done
+No 178 is done
+No 174 is done
+No 176 is done
+No 179 is done
+No 181 is done
+No 182 is done
+No 180 is done
+No 183 is done
+No 185 is done
+No 184 is done
+No 186 is done
+No 188 is done
+No 190 is done
+No 187 is done
+No 191 is done
+No 189 is done
+No 192 is done
+No 194 is done
+No 193 is done
+No 196 is done
+No 197 is done
+No 198 is done
+No 195 is done
+No 199 is done
+No 200 is done
+No 201 is done
+No 204 is done
+No 202 is done
+No 203 is done
+No 207 is done
+No 205 is done
+No 206 is done
+No 208 is done
+No 209 is done
+No 210 is done
+No 211 is done
+No 212 is done
+No 216 is done
+No 213 is done
+No 214 is done
+No 215 is done
+No 217 is done
+No 218 is done
+No 219 is done
+No 220 is done
+No 221 is done
+No 222 is done
+No 223 is done
+No 224 is done
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/ subset elg_like_run_part0_of_5.fits
+writing all the output to one table...
+done!
+Task completed (rank 0)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=0)
+I am  nid00698 rank 6 (total 8)
+  Slave nid00698 rank 6 executing "3173m015" task_id "5"
+  Slave nid00698 rank 6 executing "3183m017" task_id "13"
+  Slave nid00698 rank 6 executing "3201m017" task_id "20"
+  Slave nid00698 rank 6 executing "3231m010" task_id "24"
+  Slave nid00698 rank 6 executing "3246m012" task_id "31"
+  Slave nid00698 rank 6 executing "3258m012" task_id "37"
+  Slave nid00698 rank 6 executing "3268m012" task_id "45"
+  Slave nid00698 rank 6 executing "3278m017" task_id "54"
+  Slave nid00698 rank 6 executing "3286m017" task_id "60"
+  Slave nid00698 rank 6 executing "3293m015" task_id "65"
+  Slave nid00698 rank 6 executing "3326m010" task_id "72"
+  Slave nid00698 rank 6 executing "3343m012" task_id "80"
+  Slave nid00698 rank 6 executing "3353m010" task_id "87"
+  Slave nid00698 rank 6 executing "3363m015" task_id "94"
+  Slave nid00698 rank 6 executing "3371m015" task_id "100"
+  Slave nid00698 rank 6 executing "3376m017" task_id "106"
+  Slave nid00698 rank 6 executing "3386m015" task_id "113"
+  Slave nid00698 rank 6 executing "3388m017" task_id "116"
+  Slave nid00698 rank 6 executing "3398m015" task_id "123"
+  Slave nid00698 rank 6 executing "3408m017" task_id "129"
+  Slave nid00698 rank 6 executing "3441m010" task_id "137"
+  Slave nid00698 rank 6 executing "3456m010" task_id "146"
+  Slave nid00698 rank 6 executing "3458m012" task_id "149"
+  Slave nid00698 rank 6 executing "3468m015" task_id "156"
+  Slave nid00698 rank 6 executing "3476m017" task_id "163"
+  Slave nid00698 rank 6 executing "3483m012" task_id "170"
+  Slave nid00698 rank 6 executing "3491m015" task_id "177"
+  Slave nid00698 rank 6 executing "3496m017" task_id "182"
+  Slave nid00698 rank 6 executing "3511m017" task_id "188"
+  Slave nid00698 rank 6 executing "3563m012" task_id "194"
+  Slave nid00698 rank 6 executing "3571m015" task_id "200"
+  Slave nid00698 rank 6 executing "3578m017" task_id "207"
+  Slave nid00698 rank 6 executing "3583m015" task_id "212"
+  Slave nid00698 rank 6 executing "3588m017" task_id "219"
+Task completed (rank 6)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=4)
+I am  nid00699 rank 1 (total 8)
+  Slave nid00699 rank 1 executing "3171m005" task_id "0"
+  Slave nid00699 rank 1 executing "3181m007" task_id "8"
+  Slave nid00699 rank 1 executing "3188m005" task_id "15"
+  Slave nid00699 rank 1 executing "3196m007" task_id "22"
+  Slave nid00699 rank 1 executing "3198m007" task_id "24"
+  Slave nid00699 rank 1 executing "3211m002" task_id "32"
+  Slave nid00699 rank 1 executing "3236m002" task_id "42"
+  Slave nid00699 rank 1 executing "3268m007" task_id "54"
+  Slave nid00699 rank 1 executing "3286m007" task_id "62"
+  Slave nid00699 rank 1 executing "3291p000" task_id "67"
+  Slave nid00699 rank 1 executing "3303m007" task_id "76"
+  Slave nid00699 rank 1 executing "3311m002" task_id "81"
+  Slave nid00699 rank 1 executing "3331m005" task_id "90"
+  Slave nid00699 rank 1 executing "3341m005" task_id "97"
+  Slave nid00699 rank 1 executing "3363m005" task_id "106"
+  Slave nid00699 rank 1 executing "3378m005" task_id "114"
+  Slave nid00699 rank 1 executing "3386m005" task_id "121"
+  Slave nid00699 rank 1 executing "3391p000" task_id "128"
+  Slave nid00699 rank 1 executing "3396m007" task_id "133"
+  Slave nid00699 rank 1 executing "3406m007" task_id "139"
+  Slave nid00699 rank 1 executing "3423m002" task_id "146"
+  Slave nid00699 rank 1 executing "3458m005" task_id "155"
+  Slave nid00699 rank 1 executing "3476m007" task_id "166"
+  Slave nid00699 rank 1 executing "3488m005" task_id "175"
+  Slave nid00699 rank 1 executing "3496m007" task_id "182"
+  Slave nid00699 rank 1 executing "3516m002" task_id "191"
+  Slave nid00699 rank 1 executing "3543m005" task_id "201"
+  Slave nid00699 rank 1 executing "3563m005" task_id "209"
+  Slave nid00699 rank 1 executing "3581m007" task_id "217"
+Task completed (rank 1)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=4)
+I am  nid00699 rank 3 (total 8)
+  Slave nid00699 rank 3 executing "3173m007" task_id "2"
+  Slave nid00699 rank 3 executing "3183m007" task_id "10"
+  Slave nid00699 rank 3 executing "3188p000" task_id "17"
+  Slave nid00699 rank 3 executing "3198p000" task_id "25"
+  Slave nid00699 rank 3 executing "3216m002" task_id "34"
+  Slave nid00699 rank 3 executing "3241m002" task_id "44"
+  Slave nid00699 rank 3 executing "3258m007" task_id "50"
+  Slave nid00699 rank 3 executing "3276m007" task_id "57"
+  Slave nid00699 rank 3 executing "3288m007" task_id "64"
+  Slave nid00699 rank 3 executing "3296p000" task_id "71"
+  Slave nid00699 rank 3 executing "3306m007" task_id "78"
+  Slave nid00699 rank 3 executing "3326m002" task_id "85"
+  Slave nid00699 rank 3 executing "3333m005" task_id "92"
+  Slave nid00699 rank 3 executing "3356m005" task_id "103"
+  Slave nid00699 rank 3 executing "3371m005" task_id "109"
+  Slave nid00699 rank 3 executing "3381m005" task_id "116"
+  Slave nid00699 rank 3 executing "3386p000" task_id "123"
+  Slave nid00699 rank 3 executing "3393m007" task_id "130"
+  Slave nid00699 rank 3 executing "3401m007" task_id "137"
+  Slave nid00699 rank 3 executing "3418m002" task_id "144"
+  Slave nid00699 rank 3 executing "3461m005" task_id "156"
+  Slave nid00699 rank 3 executing "3478m007" task_id "168"
+  Slave nid00699 rank 3 executing "3488m007" task_id "176"
+  Slave nid00699 rank 3 executing "3498m005" task_id "183"
+  Slave nid00699 rank 3 executing "3511m007" task_id "189"
+  Slave nid00699 rank 3 executing "3531m002" task_id "197"
+  Slave nid00699 rank 3 executing "3551m005" task_id "204"
+  Slave nid00699 rank 3 executing "3568m005" task_id "211"
+  Slave nid00699 rank 3 executing "3586m007" task_id "219"
+Task completed (rank 3)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=4)
+I am  nid00699 rank 5 (total 8)
+  Slave nid00699 rank 5 executing "3176m007" task_id "4"
+  Slave nid00699 rank 5 executing "3186m005" task_id "12"
+  Slave nid00699 rank 5 executing "3191p000" task_id "19"
+  Slave nid00699 rank 5 executing "3201p000" task_id "27"
+  Slave nid00699 rank 5 executing "3218m002" task_id "35"
+  Slave nid00699 rank 5 executing "3228m002" task_id "39"
+  Slave nid00699 rank 5 executing "3248m007" task_id "46"
+  Slave nid00699 rank 5 executing "3263m007" task_id "52"
+  Slave nid00699 rank 5 executing "3281m007" task_id "59"
+  Slave nid00699 rank 5 executing "3291m007" task_id "66"
+  Slave nid00699 rank 5 executing "3298p000" task_id "73"
+  Slave nid00699 rank 5 executing "3308m007" task_id "80"
+  Slave nid00699 rank 5 executing "3328m002" task_id "87"
+  Slave nid00699 rank 5 executing "3338m002" task_id "95"
+  Slave nid00699 rank 5 executing "3351m005" task_id "101"
+  Slave nid00699 rank 5 executing "3373m007" task_id "111"
+  Slave nid00699 rank 5 executing "3383m005" task_id "118"
+  Slave nid00699 rank 5 executing "3388m007" task_id "125"
+  Slave nid00699 rank 5 executing "3396p000" task_id "134"
+  Slave nid00699 rank 5 executing "3408m007" task_id "140"
+  Slave nid00699 rank 5 executing "3426m002" task_id "147"
+  Slave nid00699 rank 5 executing "3451m005" task_id "152"
+  Slave nid00699 rank 5 executing "3468m005" task_id "159"
+  Slave nid00699 rank 5 executing "3481m005" task_id "169"
+  Slave nid00699 rank 5 executing "3486m005" task_id "173"
+  Slave nid00699 rank 5 executing "3493m007" task_id "180"
+  Slave nid00699 rank 5 executing "3503m007" task_id "186"
+  Slave nid00699 rank 5 executing "3521m002" task_id "193"
+  Slave nid00699 rank 5 executing "3536m002" task_id "199"
+  Slave nid00699 rank 5 executing "3558m005" task_id "207"
+  Slave nid00699 rank 5 executing "3576m005" task_id "214"
+  Slave nid00699 rank 5 executing "3591m007" task_id "221"
+Task completed (rank 5)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=4)
+I am  nid00699 rank 7 (total 8)
+  Slave nid00699 rank 7 executing "3178m007" task_id "6"
+  Slave nid00699 rank 7 executing "3181m005" task_id "7"
+  Slave nid00699 rank 7 executing "3186p000" task_id "14"
+  Slave nid00699 rank 7 executing "3193p000" task_id "21"
+  Slave nid00699 rank 7 executing "3203p000" task_id "29"
+  Slave nid00699 rank 7 executing "3223m002" task_id "37"
+  Slave nid00699 rank 7 executing "3233m002" task_id "41"
+  Slave nid00699 rank 7 executing "3253m007" task_id "48"
+  Slave nid00699 rank 7 executing "3273m007" task_id "56"
+  Slave nid00699 rank 7 executing "3283p000" task_id "61"
+  Slave nid00699 rank 7 executing "3293p000" task_id "69"
+  Slave nid00699 rank 7 executing "3301p000" task_id "75"
+  Slave nid00699 rank 7 executing "3321m002" task_id "83"
+  Slave nid00699 rank 7 executing "3331m002" task_id "89"
+  Slave nid00699 rank 7 executing "3338m005" task_id "96"
+  Slave nid00699 rank 7 executing "3353m005" task_id "102"
+  Slave nid00699 rank 7 executing "3368m005" task_id "108"
+  Slave nid00699 rank 7 executing "3376m007" task_id "113"
+  Slave nid00699 rank 7 executing "3383p000" task_id "120"
+  Slave nid00699 rank 7 executing "3391m007" task_id "127"
+  Slave nid00699 rank 7 executing "3398m007" task_id "135"
+  Slave nid00699 rank 7 executing "3413m002" task_id "142"
+  Slave nid00699 rank 7 executing "3431m002" task_id "149"
+  Slave nid00699 rank 7 executing "3456m005" task_id "154"
+  Slave nid00699 rank 7 executing "3471p000" task_id "161"
+  Slave nid00699 rank 7 executing "3476m005" task_id "165"
+  Slave nid00699 rank 7 executing "3486m007" task_id "174"
+  Slave nid00699 rank 7 executing "3496m005" task_id "181"
+  Slave nid00699 rank 7 executing "3506m007" task_id "187"
+  Slave nid00699 rank 7 executing "3523m002" task_id "194"
+  Slave nid00699 rank 7 executing "3538m002" task_id "200"
+  Slave nid00699 rank 7 executing "3553m005" task_id "205"
+  Slave nid00699 rank 7 executing "3571m005" task_id "212"
+  Slave nid00699 rank 7 executing "3578m007" task_id "216"
+  Slave nid00699 rank 7 executing "3596m007" task_id "223"
+Task completed (rank 7)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=4)
+I am  nid00699 rank 0 (total 8)
+No 6 is done
+No 0 is done
+No 1 is done
+No 2 is done
+No 3 is done
+No 4 is done
+No 5 is done
+No 7 is done
+No 8 is done
+No 9 is done
+No 10 is done
+No 11 is done
+No 12 is done
+No 13 is done
+No 14 is done
+No 15 is done
+No 16 is done
+No 22 is done
+No 17 is done
+No 18 is done
+No 19 is done
+No 20 is done
+No 21 is done
+No 23 is done
+No 25 is done
+No 26 is done
+No 24 is done
+No 30 is done
+No 27 is done
+No 28 is done
+No 29 is done
+No 31 is done
+No 35 is done
+No 36 is done
+No 37 is done
+No 32 is done
+No 33 is done
+No 34 is done
+No 38 is done
+No 39 is done
+No 40 is done
+No 41 is done
+No 43 is done
+No 44 is done
+No 45 is done
+No 46 is done
+No 47 is done
+No 42 is done
+No 49 is done
+No 48 is done
+No 50 is done
+No 51 is done
+No 52 is done
+No 53 is done
+No 56 is done
+No 54 is done
+No 55 is done
+No 57 is done
+No 58 is done
+No 59 is done
+No 62 is done
+No 60 is done
+No 61 is done
+No 63 is done
+No 64 is done
+No 65 is done
+No 66 is done
+No 68 is done
+No 69 is done
+No 67 is done
+No 70 is done
+No 71 is done
+No 72 is done
+No 73 is done
+No 76 is done
+No 74 is done
+No 75 is done
+No 77 is done
+No 78 is done
+No 79 is done
+No 80 is done
+No 82 is done
+No 83 is done
+No 81 is done
+No 84 is done
+No 85 is done
+No 86 is done
+No 88 is done
+No 87 is done
+No 89 is done
+No 90 is done
+No 93 is done
+No 94 is done
+No 91 is done
+No 95 is done
+No 96 is done
+No 92 is done
+No 98 is done
+No 99 is done
+No 97 is done
+No 100 is done
+No 102 is done
+No 103 is done
+No 104 is done
+No 101 is done
+No 105 is done
+No 108 is done
+No 106 is done
+No 107 is done
+No 109 is done
+No 110 is done
+No 111 is done
+No 112 is done
+No 113 is done
+No 114 is done
+No 115 is done
+No 116 is done
+No 117 is done
+No 118 is done
+No 119 is done
+No 120 is done
+No 121 is done
+No 122 is done
+No 123 is done
+No 124 is done
+No 126 is done
+No 128 is done
+No 125 is done
+No 127 is done
+No 129 is done
+No 130 is done
+No 131 is done
+No 133 is done
+No 134 is done
+No 132 is done
+No 135 is done
+No 136 is done
+No 137 is done
+No 138 is done
+No 139 is done
+No 140 is done
+No 141 is done
+No 142 is done
+No 143 is done
+No 150 is done
+No 147 is done
+No 148 is done
+No 149 is done
+No 146 is done
+No 144 is done
+No 145 is done
+No 151 is done
+No 152 is done
+No 153 is done
+No 154 is done
+No 157 is done
+No 162 is done
+No 160 is done
+No 161 is done
+No 155 is done
+No 158 is done
+No 156 is done
+No 159 is done
+No 163 is done
+No 164 is done
+No 167 is done
+No 169 is done
+No 165 is done
+No 166 is done
+No 168 is done
+No 170 is done
+No 171 is done
+No 172 is done
+No 173 is done
+No 174 is done
+No 175 is done
+No 176 is done
+No 178 is done
+No 177 is done
+No 180 is done
+No 181 is done
+No 179 is done
+No 183 is done
+No 184 is done
+No 182 is done
+No 185 is done
+No 186 is done
+No 187 is done
+No 188 is done
+No 190 is done
+No 189 is done
+No 192 is done
+No 193 is done
+No 194 is done
+No 191 is done
+No 195 is done
+No 196 is done
+No 197 is done
+No 200 is done
+No 198 is done
+No 199 is done
+No 203 is done
+No 201 is done
+No 202 is done
+No 204 is done
+No 205 is done
+No 206 is done
+No 207 is done
+No 208 is done
+No 212 is done
+No 209 is done
+No 210 is done
+No 211 is done
+No 213 is done
+No 214 is done
+No 215 is done
+No 216 is done
+No 217 is done
+No 218 is done
+No 219 is done
+No 220 is done
+No 221 is done
+No 222 is done
+No 223 is done
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/ subset elg_like_run_part4_of_5.fits
+writing all the output to one table...
+done!
+Task completed (rank 0)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=4)
+I am  nid00699 rank 2 (total 8)
+  Slave nid00699 rank 2 executing "3173m005" task_id "1"
+  Slave nid00699 rank 2 executing "3183m005" task_id "9"
+  Slave nid00699 rank 2 executing "3188m007" task_id "16"
+  Slave nid00699 rank 2 executing "3196p000" task_id "23"
+  Slave nid00699 rank 2 executing "3206m002" task_id "30"
+  Slave nid00699 rank 2 executing "3213m002" task_id "33"
+  Slave nid00699 rank 2 executing "3238m002" task_id "43"
+  Slave nid00699 rank 2 executing "3256m007" task_id "49"
+  Slave nid00699 rank 2 executing "3271m007" task_id "55"
+  Slave nid00699 rank 2 executing "3286p000" task_id "63"
+  Slave nid00699 rank 2 executing "3296m007" task_id "70"
+  Slave nid00699 rank 2 executing "3303p000" task_id "77"
+  Slave nid00699 rank 2 executing "3323m002" task_id "84"
+  Slave nid00699 rank 2 executing "3333m002" task_id "91"
+  Slave nid00699 rank 2 executing "3348m005" task_id "100"
+  Slave nid00699 rank 2 executing "3366m005" task_id "107"
+  Slave nid00699 rank 2 executing "3378m007" task_id "115"
+  Slave nid00699 rank 2 executing "3386m007" task_id "122"
+  Slave nid00699 rank 2 executing "3393m005" task_id "129"
+  Slave nid00699 rank 2 executing "3398p000" task_id "136"
+  Slave nid00699 rank 2 executing "3416m002" task_id "143"
+  Slave nid00699 rank 2 executing "3446m005" task_id "150"
+  Slave nid00699 rank 2 executing "3448m005" task_id "151"
+  Slave nid00699 rank 2 executing "3466m005" task_id "158"
+  Slave nid00699 rank 2 executing "3478m005" task_id "167"
+  Slave nid00699 rank 2 executing "3483m007" task_id "172"
+  Slave nid00699 rank 2 executing "3493m005" task_id "179"
+  Slave nid00699 rank 2 executing "3508m007" task_id "188"
+  Slave nid00699 rank 2 executing "3526m002" task_id "195"
+  Slave nid00699 rank 2 executing "3546m005" task_id "202"
+  Slave nid00699 rank 2 executing "3566m005" task_id "210"
+  Slave nid00699 rank 2 executing "3583m007" task_id "218"
+Task completed (rank 2)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=4)
+I am  nid00699 rank 4 (total 8)
+  Slave nid00699 rank 4 executing "3176m005" task_id "3"
+  Slave nid00699 rank 4 executing "3183p000" task_id "11"
+  Slave nid00699 rank 4 executing "3191m007" task_id "18"
+  Slave nid00699 rank 4 executing "3201m007" task_id "26"
+  Slave nid00699 rank 4 executing "3208m002" task_id "31"
+  Slave nid00699 rank 4 executing "3226m002" task_id "38"
+  Slave nid00699 rank 4 executing "3246m007" task_id "45"
+  Slave nid00699 rank 4 executing "3261m007" task_id "51"
+  Slave nid00699 rank 4 executing "3278m007" task_id "58"
+  Slave nid00699 rank 4 executing "3288p000" task_id "65"
+  Slave nid00699 rank 4 executing "3298m007" task_id "72"
+  Slave nid00699 rank 4 executing "3308m002" task_id "79"
+  Slave nid00699 rank 4 executing "3326m005" task_id "86"
+  Slave nid00699 rank 4 executing "3336m002" task_id "93"
+  Slave nid00699 rank 4 executing "3343m005" task_id "98"
+  Slave nid00699 rank 4 executing "3358m005" task_id "104"
+  Slave nid00699 rank 4 executing "3373m005" task_id "110"
+  Slave nid00699 rank 4 executing "3381m007" task_id "117"
+  Slave nid00699 rank 4 executing "3388m005" task_id "124"
+  Slave nid00699 rank 4 executing "3393p000" task_id "131"
+  Slave nid00699 rank 4 executing "3403m007" task_id "138"
+  Slave nid00699 rank 4 executing "3421m002" task_id "145"
+  Slave nid00699 rank 4 executing "3463m005" task_id "157"
+  Slave nid00699 rank 4 executing "3473m005" task_id "162"
+  Slave nid00699 rank 4 executing "3473m007" task_id "163"
+  Slave nid00699 rank 4 executing "3481m007" task_id "170"
+  Slave nid00699 rank 4 executing "3491m005" task_id "177"
+  Slave nid00699 rank 4 executing "3501m007" task_id "185"
+  Slave nid00699 rank 4 executing "3518m002" task_id "192"
+  Slave nid00699 rank 4 executing "3533m002" task_id "198"
+  Slave nid00699 rank 4 executing "3556m005" task_id "206"
+  Slave nid00699 rank 4 executing "3573m005" task_id "213"
+  Slave nid00699 rank 4 executing "3588m007" task_id "220"
+Task completed (rank 4)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=4)
+I am  nid00699 rank 6 (total 8)
+  Slave nid00699 rank 6 executing "3178m005" task_id "5"
+  Slave nid00699 rank 6 executing "3186m007" task_id "13"
+  Slave nid00699 rank 6 executing "3193m007" task_id "20"
+  Slave nid00699 rank 6 executing "3203m007" task_id "28"
+  Slave nid00699 rank 6 executing "3221m002" task_id "36"
+  Slave nid00699 rank 6 executing "3231m002" task_id "40"
+  Slave nid00699 rank 6 executing "3251m007" task_id "47"
+  Slave nid00699 rank 6 executing "3266m007" task_id "53"
+  Slave nid00699 rank 6 executing "3283m007" task_id "60"
+  Slave nid00699 rank 6 executing "3293m007" task_id "68"
+  Slave nid00699 rank 6 executing "3301m007" task_id "74"
+  Slave nid00699 rank 6 executing "3318m002" task_id "82"
+  Slave nid00699 rank 6 executing "3328m005" task_id "88"
+  Slave nid00699 rank 6 executing "3336m005" task_id "94"
+  Slave nid00699 rank 6 executing "3346m005" task_id "99"
+  Slave nid00699 rank 6 executing "3361m005" task_id "105"
+  Slave nid00699 rank 6 executing "3376m005" task_id "112"
+  Slave nid00699 rank 6 executing "3383m007" task_id "119"
+  Slave nid00699 rank 6 executing "3391m005" task_id "126"
+  Slave nid00699 rank 6 executing "3396m005" task_id "132"
+  Slave nid00699 rank 6 executing "3411m007" task_id "141"
+  Slave nid00699 rank 6 executing "3428m002" task_id "148"
+  Slave nid00699 rank 6 executing "3453m005" task_id "153"
+  Slave nid00699 rank 6 executing "3471m005" task_id "160"
+  Slave nid00699 rank 6 executing "3473p000" task_id "164"
+  Slave nid00699 rank 6 executing "3483m005" task_id "171"
+  Slave nid00699 rank 6 executing "3491m007" task_id "178"
+  Slave nid00699 rank 6 executing "3498m007" task_id "184"
+  Slave nid00699 rank 6 executing "3513m007" task_id "190"
+  Slave nid00699 rank 6 executing "3528m002" task_id "196"
+  Slave nid00699 rank 6 executing "3548m005" task_id "203"
+  Slave nid00699 rank 6 executing "3561m005" task_id "208"
+  Slave nid00699 rank 6 executing "3576m007" task_id "215"
+  Slave nid00699 rank 6 executing "3593m007" task_id "222"
+Task completed (rank 6)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=2)
+I am  nid00697 rank 1 (total 8)
+  Slave nid00697 rank 1 executing "3193m010" task_id "2"
+  Slave nid00697 rank 1 executing "3206m012" task_id "9"
+  Slave nid00697 rank 1 executing "3211m010" task_id "14"
+  Slave nid00697 rank 1 executing "3216m015" task_id "23"
+  Slave nid00697 rank 1 executing "3218m015" task_id "27"
+  Slave nid00697 rank 1 executing "3228m015" task_id "37"
+  Slave nid00697 rank 1 executing "3233m012" task_id "42"
+  Slave nid00697 rank 1 executing "3243m017" task_id "51"
+  Slave nid00697 rank 1 executing "3281m010" task_id "56"
+  Slave nid00697 rank 1 executing "3301m010" task_id "65"
+  Slave nid00697 rank 1 executing "3316m012" task_id "72"
+  Slave nid00697 rank 1 executing "3323m007" task_id "77"
+  Slave nid00697 rank 1 executing "3336m015" task_id "86"
+  Slave nid00697 rank 1 executing "3346m015" task_id "92"
+  Slave nid00697 rank 1 executing "3358m015" task_id "99"
+  Slave nid00697 rank 1 executing "3393m010" task_id "106"
+  Slave nid00697 rank 1 executing "3408m010" task_id "114"
+  Slave nid00697 rank 1 executing "3418m007" task_id "122"
+  Slave nid00697 rank 1 executing "3423m007" task_id "128"
+  Slave nid00697 rank 1 executing "3428m007" task_id "134"
+  Slave nid00697 rank 1 executing "3438m015" task_id "142"
+  Slave nid00697 rank 1 executing "3456m015" task_id "151"
+  Slave nid00697 rank 1 executing "3468m017" task_id "159"
+  Slave nid00697 rank 1 executing "3508m010" task_id "168"
+  Slave nid00697 rank 1 executing "3518m012" task_id "175"
+  Slave nid00697 rank 1 executing "3526m007" task_id "182"
+  Slave nid00697 rank 1 executing "3531m012" task_id "190"
+  Slave nid00697 rank 1 executing "3541m010" task_id "197"
+  Slave nid00697 rank 1 executing "3546m010" task_id "202"
+  Slave nid00697 rank 1 executing "3553m017" task_id "211"
+  Slave nid00697 rank 1 executing "3563m017" task_id "219"
+Task completed (rank 1)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=2)
+I am  nid00697 rank 3 (total 8)
+  Slave nid00697 rank 3 executing "3198m010" task_id "4"
+  Slave nid00697 rank 3 executing "3208m010" task_id "11"
+  Slave nid00697 rank 3 executing "3213m012" task_id "18"
+  Slave nid00697 rank 3 executing "3218m010" task_id "25"
+  Slave nid00697 rank 3 executing "3223m012" task_id "32"
+  Slave nid00697 rank 3 executing "3231m012" task_id "39"
+  Slave nid00697 rank 3 executing "3236m015" task_id "46"
+  Slave nid00697 rank 3 executing "3273m010" task_id "53"
+  Slave nid00697 rank 3 executing "3293m010" task_id "62"
+  Slave nid00697 rank 3 executing "3308m010" task_id "68"
+  Slave nid00697 rank 3 executing "3321m007" task_id "75"
+  Slave nid00697 rank 3 executing "3331m012" task_id "83"
+  Slave nid00697 rank 3 executing "3341m015" task_id "90"
+  Slave nid00697 rank 3 executing "3356m015" task_id "97"
+  Slave nid00697 rank 3 executing "3368m017" task_id "104"
+  Slave nid00697 rank 3 executing "3398m010" task_id "109"
+  Slave nid00697 rank 3 executing "3413m010" task_id "117"
+  Slave nid00697 rank 3 executing "3418m010" task_id "123"
+  Slave nid00697 rank 3 executing "3423m010" task_id "129"
+  Slave nid00697 rank 3 executing "3428m012" task_id "135"
+  Slave nid00697 rank 3 executing "3436m015" task_id "140"
+  Slave nid00697 rank 3 executing "3448m015" task_id "147"
+  Slave nid00697 rank 3 executing "3458m017" task_id "154"
+  Slave nid00697 rank 3 executing "3461m017" task_id "156"
+  Slave nid00697 rank 3 executing "3501m005" task_id "163"
+  Slave nid00697 rank 3 executing "3513m010" task_id "170"
+  Slave nid00697 rank 3 executing "3521m010" task_id "177"
+  Slave nid00697 rank 3 executing "3528m007" task_id "185"
+  Slave nid00697 rank 3 executing "3533m012" task_id "192"
+  Slave nid00697 rank 3 executing "3541m015" task_id "199"
+  Slave nid00697 rank 3 executing "3551m015" task_id "207"
+  Slave nid00697 rank 3 executing "3558m015" task_id "214"
+  Slave nid00697 rank 3 executing "3571m017" task_id "222"
+Task completed (rank 3)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=2)
+I am  nid00697 rank 5 (total 8)
+  Slave nid00697 rank 5 executing "3203m010" task_id "6"
+  Slave nid00697 rank 5 executing "3211m007" task_id "13"
+  Slave nid00697 rank 5 executing "3216m007" task_id "20"
+  Slave nid00697 rank 5 executing "3221m007" task_id "28"
+  Slave nid00697 rank 5 executing "3226m012" task_id "34"
+  Slave nid00697 rank 5 executing "3231m017" task_id "41"
+  Slave nid00697 rank 5 executing "3238m015" task_id "48"
+  Slave nid00697 rank 5 executing "3278m010" task_id "55"
+  Slave nid00697 rank 5 executing "3293m005" task_id "61"
+  Slave nid00697 rank 5 executing "3311m007" task_id "69"
+  Slave nid00697 rank 5 executing "3321m012" task_id "76"
+  Slave nid00697 rank 5 executing "3328m012" task_id "82"
+  Slave nid00697 rank 5 executing "3341m012" task_id "89"
+  Slave nid00697 rank 5 executing "3351m015" task_id "94"
+  Slave nid00697 rank 5 executing "3361m017" task_id "101"
+  Slave nid00697 rank 5 executing "3401m005" task_id "110"
+  Slave nid00697 rank 5 executing "3411m010" task_id "115"
+  Slave nid00697 rank 5 executing "3416m010" task_id "120"
+  Slave nid00697 rank 5 executing "3421m007" task_id "125"
+  Slave nid00697 rank 5 executing "3426m012" task_id "133"
+  Slave nid00697 rank 5 executing "3441m012" task_id "143"
+  Slave nid00697 rank 5 executing "3453m015" task_id "149"
+  Slave nid00697 rank 5 executing "3463m017" task_id "157"
+  Slave nid00697 rank 5 executing "3501m010" task_id "164"
+  Slave nid00697 rank 5 executing "3516m010" task_id "172"
+  Slave nid00697 rank 5 executing "3523m010" task_id "180"
+  Slave nid00697 rank 5 executing "3528m012" task_id "187"
+  Slave nid00697 rank 5 executing "3536m012" task_id "194"
+  Slave nid00697 rank 5 executing "3546m015" task_id "203"
+  Slave nid00697 rank 5 executing "3553m010" task_id "209"
+  Slave nid00697 rank 5 executing "3558m017" task_id "215"
+  Slave nid00697 rank 5 executing "3568m017" task_id "221"
+Task completed (rank 5)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=2)
+I am  nid00697 rank 7 (total 8)
+  Slave nid00697 rank 7 executing "3191m010" task_id "1"
+  Slave nid00697 rank 7 executing "3206m010" task_id "8"
+  Slave nid00697 rank 7 executing "3213m007" task_id "16"
+  Slave nid00697 rank 7 executing "3216m012" task_id "22"
+  Slave nid00697 rank 7 executing "3221m012" task_id "30"
+  Slave nid00697 rank 7 executing "3228m012" task_id "36"
+  Slave nid00697 rank 7 executing "3233m017" task_id "44"
+  Slave nid00697 rank 7 executing "3241m017" task_id "50"
+  Slave nid00697 rank 7 executing "3286m010" task_id "58"
+  Slave nid00697 rank 7 executing "3298m010" task_id "64"
+  Slave nid00697 rank 7 executing "3316m007" task_id "71"
+  Slave nid00697 rank 7 executing "3326m012" task_id "80"
+  Slave nid00697 rank 7 executing "3336m012" task_id "85"
+  Slave nid00697 rank 7 executing "3343m015" task_id "91"
+  Slave nid00697 rank 7 executing "3356m017" task_id "98"
+  Slave nid00697 rank 7 executing "3371m017" task_id "105"
+  Slave nid00697 rank 7 executing "3403m010" task_id "112"
+  Slave nid00697 rank 7 executing "3416m012" task_id "121"
+  Slave nid00697 rank 7 executing "3421m012" task_id "127"
+  Slave nid00697 rank 7 executing "3426m007" task_id "131"
+  Slave nid00697 rank 7 executing "3433m012" task_id "138"
+  Slave nid00697 rank 7 executing "3443m015" task_id "145"
+  Slave nid00697 rank 7 executing "3458m015" task_id "153"
+  Slave nid00697 rank 7 executing "3498m010" task_id "162"
+  Slave nid00697 rank 7 executing "3506m010" task_id "167"
+  Slave nid00697 rank 7 executing "3518m010" task_id "174"
+  Slave nid00697 rank 7 executing "3523m007" task_id "179"
+  Slave nid00697 rank 7 executing "3526m012" task_id "184"
+  Slave nid00697 rank 7 executing "3531m010" task_id "189"
+  Slave nid00697 rank 7 executing "3538m012" task_id "196"
+  Slave nid00697 rank 7 executing "3543m015" task_id "201"
+  Slave nid00697 rank 7 executing "3551m010" task_id "206"
+  Slave nid00697 rank 7 executing "3556m015" task_id "212"
+  Slave nid00697 rank 7 executing "3563m015" task_id "218"
+Task completed (rank 7)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=2)
+I am  nid00697 rank 0 (total 8)
+No 0 is done
+No 1 is done
+No 2 is done
+No 3 is done
+No 4 is done
+No 5 is done
+No 6 is done
+No 9 is done
+No 7 is done
+No 8 is done
+No 10 is done
+No 11 is done
+No 12 is done
+No 13 is done
+No 15 is done
+No 16 is done
+No 14 is done
+No 17 is done
+No 18 is done
+No 19 is done
+No 23 is done
+No 20 is done
+No 21 is done
+No 22 is done
+No 24 is done
+No 25 is done
+No 26 is done
+No 28 is done
+No 29 is done
+No 30 is done
+No 27 is done
+No 31 is done
+No 32 is done
+No 33 is done
+No 34 is done
+No 37 is done
+No 35 is done
+No 36 is done
+No 38 is done
+No 39 is done
+No 40 is done
+No 41 is done
+No 43 is done
+No 44 is done
+No 42 is done
+No 45 is done
+No 46 is done
+No 47 is done
+No 48 is done
+No 51 is done
+No 49 is done
+No 50 is done
+No 52 is done
+No 54 is done
+No 55 is done
+No 53 is done
+No 57 is done
+No 58 is done
+No 56 is done
+No 59 is done
+No 60 is done
+No 62 is done
+No 61 is done
+No 63 is done
+No 64 is done
+No 65 is done
+No 67 is done
+No 66 is done
+No 68 is done
+No 69 is done
+No 72 is done
+No 73 is done
+No 70 is done
+No 71 is done
+No 74 is done
+No 76 is done
+No 75 is done
+No 78 is done
+No 80 is done
+No 77 is done
+No 79 is done
+No 81 is done
+No 82 is done
+No 83 is done
+No 85 is done
+No 86 is done
+No 84 is done
+No 89 is done
+No 87 is done
+No 88 is done
+No 90 is done
+No 91 is done
+No 92 is done
+No 93 is done
+No 94 is done
+No 95 is done
+No 96 is done
+No 97 is done
+No 98 is done
+No 99 is done
+No 100 is done
+No 103 is done
+No 104 is done
+No 101 is done
+No 102 is done
+No 105 is done
+No 107 is done
+No 106 is done
+No 110 is done
+No 108 is done
+No 109 is done
+No 111 is done
+No 113 is done
+No 115 is done
+No 112 is done
+No 114 is done
+No 117 is done
+No 116 is done
+No 120 is done
+No 118 is done
+No 121 is done
+No 122 is done
+No 123 is done
+No 119 is done
+No 127 is done
+No 124 is done
+No 125 is done
+No 128 is done
+No 129 is done
+No 130 is done
+No 126 is done
+No 131 is done
+No 132 is done
+No 135 is done
+No 136 is done
+No 134 is done
+No 133 is done
+No 137 is done
+No 138 is done
+No 139 is done
+No 140 is done
+No 141 is done
+No 143 is done
+No 144 is done
+No 142 is done
+No 146 is done
+No 145 is done
+No 147 is done
+No 148 is done
+No 154 is done
+No 149 is done
+No 150 is done
+No 151 is done
+No 152 is done
+No 155 is done
+No 153 is done
+No 156 is done
+No 157 is done
+No 158 is done
+No 161 is done
+No 162 is done
+No 159 is done
+No 160 is done
+No 163 is done
+No 166 is done
+No 164 is done
+No 165 is done
+No 167 is done
+No 168 is done
+No 169 is done
+No 170 is done
+No 171 is done
+No 174 is done
+No 172 is done
+No 173 is done
+No 175 is done
+No 176 is done
+No 179 is done
+No 177 is done
+No 178 is done
+No 180 is done
+No 181 is done
+No 184 is done
+No 182 is done
+No 183 is done
+No 185 is done
+No 186 is done
+No 187 is done
+No 188 is done
+No 189 is done
+No 190 is done
+No 191 is done
+No 192 is done
+No 193 is done
+No 196 is done
+No 197 is done
+No 194 is done
+No 195 is done
+No 198 is done
+No 201 is done
+No 199 is done
+No 200 is done
+No 203 is done
+No 204 is done
+No 202 is done
+No 206 is done
+No 205 is done
+No 207 is done
+No 209 is done
+No 208 is done
+No 210 is done
+No 212 is done
+No 211 is done
+No 213 is done
+No 215 is done
+No 214 is done
+No 216 is done
+No 217 is done
+No 218 is done
+No 219 is done
+No 221 is done
+No 220 is done
+No 223 is done
+No 222 is done
+No 224 is done
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/ subset elg_like_run_part2_of_5.fits
+writing all the output to one table...
+done!
+Task completed (rank 0)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=2)
+I am  nid00697 rank 2 (total 8)
+  Slave nid00697 rank 2 executing "3196m010" task_id "3"
+  Slave nid00697 rank 2 executing "3208m007" task_id "10"
+  Slave nid00697 rank 2 executing "3213m010" task_id "17"
+  Slave nid00697 rank 2 executing "3218m007" task_id "24"
+  Slave nid00697 rank 2 executing "3221m015" task_id "31"
+  Slave nid00697 rank 2 executing "3228m017" task_id "38"
+  Slave nid00697 rank 2 executing "3236m012" task_id "45"
+  Slave nid00697 rank 2 executing "3246m017" task_id "52"
+  Slave nid00697 rank 2 executing "3288m010" task_id "59"
+  Slave nid00697 rank 2 executing "3303m010" task_id "66"
+  Slave nid00697 rank 2 executing "3318m012" task_id "74"
+  Slave nid00697 rank 2 executing "3328m007" task_id "81"
+  Slave nid00697 rank 2 executing "3338m015" task_id "88"
+  Slave nid00697 rank 2 executing "3353m017" task_id "96"
+  Slave nid00697 rank 2 executing "3366m017" task_id "103"
+  Slave nid00697 rank 2 executing "3398m005" task_id "108"
+  Slave nid00697 rank 2 executing "3413m007" task_id "116"
+  Slave nid00697 rank 2 executing "3418m012" task_id "124"
+  Slave nid00697 rank 2 executing "3426m010" task_id "132"
+  Slave nid00697 rank 2 executing "3436m012" task_id "139"
+  Slave nid00697 rank 2 executing "3446m015" task_id "146"
+  Slave nid00697 rank 2 executing "3456m017" task_id "152"
+  Slave nid00697 rank 2 executing "3471m017" task_id "160"
+  Slave nid00697 rank 2 executing "3511m010" task_id "169"
+  Slave nid00697 rank 2 executing "3521m007" task_id "176"
+  Slave nid00697 rank 2 executing "3526m010" task_id "183"
+  Slave nid00697 rank 2 executing "3533m010" task_id "191"
+  Slave nid00697 rank 2 executing "3541m012" task_id "198"
+  Slave nid00697 rank 2 executing "3548m015" task_id "205"
+  Slave nid00697 rank 2 executing "3556m017" task_id "213"
+  Slave nid00697 rank 2 executing "3566m017" task_id "220"
+Task completed (rank 2)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=2)
+I am  nid00697 rank 4 (total 8)
+  Slave nid00697 rank 4 executing "3201m010" task_id "5"
+  Slave nid00697 rank 4 executing "3208m012" task_id "12"
+  Slave nid00697 rank 4 executing "3213m015" task_id "19"
+  Slave nid00697 rank 4 executing "3218m012" task_id "26"
+  Slave nid00697 rank 4 executing "3223m015" task_id "33"
+  Slave nid00697 rank 4 executing "3231m015" task_id "40"
+  Slave nid00697 rank 4 executing "3236m017" task_id "47"
+  Slave nid00697 rank 4 executing "3276m010" task_id "54"
+  Slave nid00697 rank 4 executing "3291m010" task_id "60"
+  Slave nid00697 rank 4 executing "3306m010" task_id "67"
+  Slave nid00697 rank 4 executing "3318m007" task_id "73"
+  Slave nid00697 rank 4 executing "3323m012" task_id "78"
+  Slave nid00697 rank 4 executing "3333m012" task_id "84"
+  Slave nid00697 rank 4 executing "3348m015" task_id "93"
+  Slave nid00697 rank 4 executing "3358m017" task_id "100"
+  Slave nid00697 rank 4 executing "3396m010" task_id "107"
+  Slave nid00697 rank 4 executing "3406m010" task_id "113"
+  Slave nid00697 rank 4 executing "3416m007" task_id "119"
+  Slave nid00697 rank 4 executing "3423m012" task_id "130"
+  Slave nid00697 rank 4 executing "3431m007" task_id "136"
+  Slave nid00697 rank 4 executing "3438m012" task_id "141"
+  Slave nid00697 rank 4 executing "3451m015" task_id "148"
+  Slave nid00697 rank 4 executing "3461m015" task_id "155"
+  Slave nid00697 rank 4 executing "3473m017" task_id "161"
+  Slave nid00697 rank 4 executing "3503m010" task_id "166"
+  Slave nid00697 rank 4 executing "3516m007" task_id "171"
+  Slave nid00697 rank 4 executing "3521m012" task_id "178"
+  Slave nid00697 rank 4 executing "3528m010" task_id "186"
+  Slave nid00697 rank 4 executing "3536m010" task_id "193"
+  Slave nid00697 rank 4 executing "3543m010" task_id "200"
+  Slave nid00697 rank 4 executing "3551m017" task_id "208"
+  Slave nid00697 rank 4 executing "3561m015" task_id "216"
+  Slave nid00697 rank 4 executing "3573m017" task_id "223"
+Task completed (rank 4)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=2)
+I am  nid00697 rank 6 (total 8)
+  Slave nid00697 rank 6 executing "3191m005" task_id "0"
+  Slave nid00697 rank 6 executing "3206m007" task_id "7"
+  Slave nid00697 rank 6 executing "3211m012" task_id "15"
+  Slave nid00697 rank 6 executing "3216m010" task_id "21"
+  Slave nid00697 rank 6 executing "3221m010" task_id "29"
+  Slave nid00697 rank 6 executing "3226m015" task_id "35"
+  Slave nid00697 rank 6 executing "3233m015" task_id "43"
+  Slave nid00697 rank 6 executing "3238m017" task_id "49"
+  Slave nid00697 rank 6 executing "3283m010" task_id "57"
+  Slave nid00697 rank 6 executing "3296m010" task_id "63"
+  Slave nid00697 rank 6 executing "3313m007" task_id "70"
+  Slave nid00697 rank 6 executing "3326m007" task_id "79"
+  Slave nid00697 rank 6 executing "3338m012" task_id "87"
+  Slave nid00697 rank 6 executing "3351m017" task_id "95"
+  Slave nid00697 rank 6 executing "3363m017" task_id "102"
+  Slave nid00697 rank 6 executing "3401m010" task_id "111"
+  Slave nid00697 rank 6 executing "3413m012" task_id "118"
+  Slave nid00697 rank 6 executing "3421m010" task_id "126"
+  Slave nid00697 rank 6 executing "3431m012" task_id "137"
+  Slave nid00697 rank 6 executing "3441m015" task_id "144"
+  Slave nid00697 rank 6 executing "3453m017" task_id "150"
+  Slave nid00697 rank 6 executing "3466m017" task_id "158"
+  Slave nid00697 rank 6 executing "3503m005" task_id "165"
+  Slave nid00697 rank 6 executing "3518m007" task_id "173"
+  Slave nid00697 rank 6 executing "3523m012" task_id "181"
+  Slave nid00697 rank 6 executing "3531m007" task_id "188"
+  Slave nid00697 rank 6 executing "3538m010" task_id "195"
+  Slave nid00697 rank 6 executing "3548m010" task_id "204"
+  Slave nid00697 rank 6 executing "3553m015" task_id "210"
+  Slave nid00697 rank 6 executing "3561m017" task_id "217"
+  Slave nid00697 rank 6 executing "3576m017" task_id "224"
+Task completed (rank 6)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=1)
+I am  nid00701 rank 3 (total 8)
+  Slave nid00701 rank 3 executing "3168m010" task_id "0"
+  Slave nid00701 rank 3 executing "3183m010" task_id "9"
+  Slave nid00701 rank 3 executing "3191m012" task_id "18"
+  Slave nid00701 rank 3 executing "3203m012" task_id "28"
+  Slave nid00701 rank 3 executing "3211m015" task_id "35"
+  Slave nid00701 rank 3 executing "3243m010" task_id "43"
+  Slave nid00701 rank 3 executing "3263m010" task_id "51"
+  Slave nid00701 rank 3 executing "3276m012" task_id "57"
+  Slave nid00701 rank 3 executing "3293m012" task_id "64"
+  Slave nid00701 rank 3 executing "3306m012" task_id "73"
+  Slave nid00701 rank 3 executing "3311m015" task_id "79"
+  Slave nid00701 rank 3 executing "3318m015" task_id "86"
+  Slave nid00701 rank 3 executing "3323m017" task_id "91"
+  Slave nid00701 rank 3 executing "3333m017" task_id "99"
+  Slave nid00701 rank 3 executing "3358m010" task_id "106"
+  Slave nid00701 rank 3 executing "3378m012" task_id "115"
+  Slave nid00701 rank 3 executing "3391m010" task_id "124"
+  Slave nid00701 rank 3 executing "3403m015" task_id "131"
+  Slave nid00701 rank 3 executing "3413m015" task_id "138"
+  Slave nid00701 rank 3 executing "3423m015" task_id "145"
+  Slave nid00701 rank 3 executing "3431m015" task_id "151"
+  Slave nid00701 rank 3 executing "3443m017" task_id "158"
+  Slave nid00701 rank 3 executing "3471m010" task_id "166"
+  Slave nid00701 rank 3 executing "3488m012" task_id "175"
+  Slave nid00701 rank 3 executing "3501m012" task_id "184"
+  Slave nid00701 rank 3 executing "3511m012" task_id "192"
+  Slave nid00701 rank 3 executing "3516m017" task_id "199"
+  Slave nid00701 rank 3 executing "3526m017" task_id "207"
+  Slave nid00701 rank 3 executing "3533m017" task_id "213"
+  Slave nid00701 rank 3 executing "3546m017" task_id "220"
+Task completed (rank 3)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=1)
+I am  nid00701 rank 5 (total 8)
+  Slave nid00701 rank 5 executing "3173m010" task_id "2"
+  Slave nid00701 rank 5 executing "3183m015" task_id "11"
+  Slave nid00701 rank 5 executing "3191m015" task_id "19"
+  Slave nid00701 rank 5 executing "3196m015" task_id "23"
+  Slave nid00701 rank 5 executing "3203m017" task_id "30"
+  Slave nid00701 rank 5 executing "3213m017" task_id "37"
+  Slave nid00701 rank 5 executing "3248m010" task_id "45"
+  Slave nid00701 rank 5 executing "3268m010" task_id "53"
+  Slave nid00701 rank 5 executing "3288m012" task_id "62"
+  Slave nid00701 rank 5 executing "3298m012" task_id "67"
+  Slave nid00701 rank 5 executing "3306m015" task_id "74"
+  Slave nid00701 rank 5 executing "3313m015" task_id "82"
+  Slave nid00701 rank 5 executing "3321m015" task_id "88"
+  Slave nid00701 rank 5 executing "3328m017" task_id "95"
+  Slave nid00701 rank 5 executing "3338m017" task_id "101"
+  Slave nid00701 rank 5 executing "3361m010" task_id "107"
+  Slave nid00701 rank 5 executing "3376m010" task_id "113"
+  Slave nid00701 rank 5 executing "3383m010" task_id "118"
+  Slave nid00701 rank 5 executing "3391m012" task_id "125"
+  Slave nid00701 rank 5 executing "3406m012" task_id "132"
+  Slave nid00701 rank 5 executing "3416m015" task_id "139"
+  Slave nid00701 rank 5 executing "3423m017" task_id "146"
+  Slave nid00701 rank 5 executing "3433m015" task_id "153"
+  Slave nid00701 rank 5 executing "3448m017" task_id "160"
+  Slave nid00701 rank 5 executing "3476m010" task_id "168"
+  Slave nid00701 rank 5 executing "3491m010" task_id "176"
+  Slave nid00701 rank 5 executing "3496m010" task_id "180"
+  Slave nid00701 rank 5 executing "3503m015" task_id "187"
+  Slave nid00701 rank 5 executing "3513m012" task_id "194"
+  Slave nid00701 rank 5 executing "3518m017" task_id "201"
+  Slave nid00701 rank 5 executing "3528m017" task_id "209"
+  Slave nid00701 rank 5 executing "3536m015" task_id "214"
+  Slave nid00701 rank 5 executing "3548m017" task_id "221"
+Task completed (rank 5)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=1)
+I am  nid00701 rank 0 (total 8)
+No 6 is done
+No 5 is done
+No 0 is done
+No 1 is done
+No 2 is done
+No 3 is done
+No 4 is done
+No 7 is done
+No 9 is done
+No 10 is done
+No 8 is done
+No 14 is done
+No 11 is done
+No 12 is done
+No 13 is done
+No 15 is done
+No 19 is done
+No 20 is done
+No 21 is done
+No 16 is done
+No 17 is done
+No 18 is done
+No 22 is done
+No 23 is done
+No 24 is done
+No 25 is done
+No 26 is done
+No 27 is done
+No 28 is done
+No 29 is done
+No 30 is done
+No 33 is done
+No 31 is done
+No 32 is done
+No 38 is done
+No 34 is done
+No 35 is done
+No 36 is done
+No 37 is done
+No 39 is done
+No 40 is done
+No 41 is done
+No 42 is done
+No 48 is done
+No 43 is done
+No 44 is done
+No 45 is done
+No 46 is done
+No 47 is done
+No 49 is done
+No 51 is done
+No 52 is done
+No 55 is done
+No 50 is done
+No 56 is done
+No 53 is done
+No 54 is done
+No 57 is done
+No 58 is done
+No 59 is done
+No 62 is done
+No 63 is done
+No 60 is done
+No 61 is done
+No 65 is done
+No 66 is done
+No 64 is done
+No 67 is done
+No 68 is done
+No 70 is done
+No 72 is done
+No 69 is done
+No 73 is done
+No 76 is done
+No 71 is done
+No 74 is done
+No 75 is done
+No 77 is done
+No 78 is done
+No 79 is done
+No 81 is done
+No 82 is done
+No 84 is done
+No 80 is done
+No 86 is done
+No 83 is done
+No 85 is done
+No 87 is done
+No 88 is done
+No 89 is done
+No 90 is done
+No 92 is done
+No 91 is done
+No 94 is done
+No 95 is done
+No 96 is done
+No 93 is done
+No 97 is done
+No 98 is done
+No 99 is done
+No 101 is done
+No 102 is done
+No 100 is done
+No 105 is done
+No 103 is done
+No 104 is done
+No 107 is done
+No 108 is done
+No 106 is done
+No 109 is done
+No 110 is done
+No 113 is done
+No 114 is done
+No 111 is done
+No 112 is done
+No 116 is done
+No 117 is done
+No 115 is done
+No 118 is done
+No 119 is done
+No 120 is done
+No 121 is done
+No 122 is done
+No 123 is done
+No 124 is done
+No 125 is done
+No 128 is done
+No 129 is done
+No 130 is done
+No 126 is done
+No 127 is done
+No 131 is done
+No 132 is done
+No 134 is done
+No 135 is done
+No 136 is done
+No 137 is done
+No 133 is done
+No 138 is done
+No 139 is done
+No 141 is done
+No 142 is done
+No 143 is done
+No 144 is done
+No 145 is done
+No 140 is done
+No 146 is done
+No 147 is done
+No 148 is done
+No 149 is done
+No 150 is done
+No 151 is done
+No 152 is done
+No 153 is done
+No 154 is done
+No 156 is done
+No 155 is done
+No 157 is done
+No 162 is done
+No 158 is done
+No 159 is done
+No 160 is done
+No 161 is done
+No 163 is done
+No 164 is done
+No 166 is done
+No 167 is done
+No 165 is done
+No 171 is done
+No 168 is done
+No 169 is done
+No 170 is done
+No 172 is done
+No 176 is done
+No 177 is done
+No 173 is done
+No 174 is done
+No 175 is done
+No 179 is done
+No 178 is done
+No 180 is done
+No 181 is done
+No 186 is done
+No 182 is done
+No 183 is done
+No 184 is done
+No 185 is done
+No 187 is done
+No 188 is done
+No 189 is done
+No 190 is done
+No 191 is done
+No 192 is done
+No 193 is done
+No 194 is done
+No 195 is done
+No 197 is done
+No 196 is done
+No 198 is done
+No 203 is done
+No 199 is done
+No 200 is done
+No 201 is done
+No 202 is done
+No 204 is done
+No 205 is done
+No 207 is done
+No 209 is done
+No 210 is done
+No 206 is done
+No 212 is done
+No 208 is done
+No 211 is done
+No 213 is done
+No 214 is done
+No 215 is done
+No 218 is done
+No 219 is done
+No 216 is done
+No 217 is done
+No 220 is done
+No 221 is done
+No 222 is done
+No 224 is done
+No 223 is done
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/ subset elg_like_run_part1_of_5.fits
+writing all the output to one table...
+done!
+Task completed (rank 0)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=1)
+I am  nid00701 rank 1 (total 8)
+  Slave nid00701 rank 1 executing "3178m012" task_id "5"
+  Slave nid00701 rank 1 executing "3181m015" task_id "8"
+  Slave nid00701 rank 1 executing "3188m012" task_id "16"
+  Slave nid00701 rank 1 executing "3201m012" task_id "26"
+  Slave nid00701 rank 1 executing "3208m015" task_id "33"
+  Slave nid00701 rank 1 executing "3216m017" task_id "38"
+  Slave nid00701 rank 1 executing "3223m017" task_id "41"
+  Slave nid00701 rank 1 executing "3256m010" task_id "48"
+  Slave nid00701 rank 1 executing "3261m010" task_id "50"
+  Slave nid00701 rank 1 executing "3283m012" task_id "60"
+  Slave nid00701 rank 1 executing "3301m012" task_id "69"
+  Slave nid00701 rank 1 executing "3311m012" task_id "78"
+  Slave nid00701 rank 1 executing "3316m017" task_id "85"
+  Slave nid00701 rank 1 executing "3326m017" task_id "93"
+  Slave nid00701 rank 1 executing "3343m017" task_id "103"
+  Slave nid00701 rank 1 executing "3371m010" task_id "111"
+  Slave nid00701 rank 1 executing "3386m010" task_id "120"
+  Slave nid00701 rank 1 executing "3396m012" task_id "127"
+  Slave nid00701 rank 1 executing "3411m015" task_id "137"
+  Slave nid00701 rank 1 executing "3421m015" task_id "143"
+  Slave nid00701 rank 1 executing "3428m015" task_id "149"
+  Slave nid00701 rank 1 executing "3438m017" task_id "156"
+  Slave nid00701 rank 1 executing "3461m010" task_id "162"
+  Slave nid00701 rank 1 executing "3468m010" task_id "165"
+  Slave nid00701 rank 1 executing "3486m012" task_id "173"
+  Slave nid00701 rank 1 executing "3498m012" task_id "182"
+  Slave nid00701 rank 1 executing "3508m012" task_id "190"
+  Slave nid00701 rank 1 executing "3516m012" task_id "197"
+  Slave nid00701 rank 1 executing "3521m017" task_id "203"
+  Slave nid00701 rank 1 executing "3526m015" task_id "206"
+  Slave nid00701 rank 1 executing "3538m015" task_id "216"
+Task completed (rank 1)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=1)
+I am  nid00701 rank 2 (total 8)
+  Slave nid00701 rank 2 executing "3181m010" task_id "6"
+  Slave nid00701 rank 2 executing "3181m012" task_id "7"
+  Slave nid00701 rank 2 executing "3186m015" task_id "14"
+  Slave nid00701 rank 2 executing "3188m015" task_id "17"
+  Slave nid00701 rank 2 executing "3201m015" task_id "27"
+  Slave nid00701 rank 2 executing "3208m017" task_id "34"
+  Slave nid00701 rank 2 executing "3226m017" task_id "42"
+  Slave nid00701 rank 2 executing "3258m010" task_id "49"
+  Slave nid00701 rank 2 executing "3273m012" task_id "56"
+  Slave nid00701 rank 2 executing "3286m012" task_id "61"
+  Slave nid00701 rank 2 executing "3301m015" task_id "70"
+  Slave nid00701 rank 2 executing "3308m015" task_id "76"
+  Slave nid00701 rank 2 executing "3311m017" task_id "80"
+  Slave nid00701 rank 2 executing "3323m015" task_id "90"
+  Slave nid00701 rank 2 executing "3331m017" task_id "97"
+  Slave nid00701 rank 2 executing "3346m017" task_id "104"
+  Slave nid00701 rank 2 executing "3373m010" task_id "112"
+  Slave nid00701 rank 2 executing "3386m012" task_id "121"
+  Slave nid00701 rank 2 executing "3398m012" task_id "128"
+  Slave nid00701 rank 2 executing "3406m015" task_id "133"
+  Slave nid00701 rank 2 executing "3421m017" task_id "144"
+  Slave nid00701 rank 2 executing "3428m017" task_id "150"
+  Slave nid00701 rank 2 executing "3441m017" task_id "157"
+  Slave nid00701 rank 2 executing "3466m010" task_id "164"
+  Slave nid00701 rank 2 executing "3483m010" task_id "171"
+  Slave nid00701 rank 2 executing "3488m010" task_id "174"
+  Slave nid00701 rank 2 executing "3498m015" task_id "183"
+  Slave nid00701 rank 2 executing "3508m015" task_id "191"
+  Slave nid00701 rank 2 executing "3516m015" task_id "198"
+  Slave nid00701 rank 2 executing "3523m017" task_id "205"
+  Slave nid00701 rank 2 executing "3533m015" task_id "212"
+  Slave nid00701 rank 2 executing "3538m017" task_id "217"
+Task completed (rank 2)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:49: RuntimeWarning: invalid value encountered in subtract
+  rz = r_mag - z_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=1)
+I am  nid00701 rank 4 (total 8)
+  Slave nid00701 rank 4 executing "3171m010" task_id "1"
+  Slave nid00701 rank 4 executing "3183m012" task_id "10"
+  Slave nid00701 rank 4 executing "3188m010" task_id "15"
+  Slave nid00701 rank 4 executing "3196m012" task_id "22"
+  Slave nid00701 rank 4 executing "3203m015" task_id "29"
+  Slave nid00701 rank 4 executing "3211m017" task_id "36"
+  Slave nid00701 rank 4 executing "3246m010" task_id "44"
+  Slave nid00701 rank 4 executing "3266m010" task_id "52"
+  Slave nid00701 rank 4 executing "3278m012" task_id "58"
+  Slave nid00701 rank 4 executing "3296m012" task_id "65"
+  Slave nid00701 rank 4 executing "3303m012" task_id "71"
+  Slave nid00701 rank 4 executing "3313m012" task_id "81"
+  Slave nid00701 rank 4 executing "3318m017" task_id "87"
+  Slave nid00701 rank 4 executing "3328m015" task_id "94"
+  Slave nid00701 rank 4 executing "3336m017" task_id "100"
+  Slave nid00701 rank 4 executing "3366m010" task_id "109"
+  Slave nid00701 rank 4 executing "3381m010" task_id "116"
+  Slave nid00701 rank 4 executing "3388m010" task_id "122"
+  Slave nid00701 rank 4 executing "3401m012" task_id "129"
+  Slave nid00701 rank 4 executing "3408m012" task_id "134"
+  Slave nid00701 rank 4 executing "3416m017" task_id "140"
+  Slave nid00701 rank 4 executing "3431m017" task_id "152"
+  Slave nid00701 rank 4 executing "3446m017" task_id "159"
+  Slave nid00701 rank 4 executing "3473m010" task_id "167"
+  Slave nid00701 rank 4 executing "3486m010" task_id "172"
+  Slave nid00701 rank 4 executing "3493m012" task_id "179"
+  Slave nid00701 rank 4 executing "3501m015" task_id "185"
+  Slave nid00701 rank 4 executing "3511m015" task_id "193"
+  Slave nid00701 rank 4 executing "3518m015" task_id "200"
+  Slave nid00701 rank 4 executing "3528m015" task_id "208"
+  Slave nid00701 rank 4 executing "3541m017" task_id "218"
+  Slave nid00701 rank 4 executing "3593m012" task_id "223"
+Task completed (rank 4)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=1)
+I am  nid00701 rank 6 (total 8)
+  Slave nid00701 rank 6 executing "3176m010" task_id "3"
+  Slave nid00701 rank 6 executing "3186m010" task_id "12"
+  Slave nid00701 rank 6 executing "3193m012" task_id "20"
+  Slave nid00701 rank 6 executing "3198m012" task_id "24"
+  Slave nid00701 rank 6 executing "3206m015" task_id "31"
+  Slave nid00701 rank 6 executing "3218m017" task_id "39"
+  Slave nid00701 rank 6 executing "3251m010" task_id "46"
+  Slave nid00701 rank 6 executing "3271m010" task_id "54"
+  Slave nid00701 rank 6 executing "3291m012" task_id "63"
+  Slave nid00701 rank 6 executing "3298m015" task_id "68"
+  Slave nid00701 rank 6 executing "3308m012" task_id "75"
+  Slave nid00701 rank 6 executing "3313m017" task_id "83"
+  Slave nid00701 rank 6 executing "3326m015" task_id "92"
+  Slave nid00701 rank 6 executing "3333m015" task_id "98"
+  Slave nid00701 rank 6 executing "3348m017" task_id "105"
+  Slave nid00701 rank 6 executing "3368m010" task_id "110"
+  Slave nid00701 rank 6 executing "3381m012" task_id "117"
+  Slave nid00701 rank 6 executing "3388m012" task_id "123"
+  Slave nid00701 rank 6 executing "3403m012" task_id "130"
+  Slave nid00701 rank 6 executing "3408m015" task_id "135"
+  Slave nid00701 rank 6 executing "3418m015" task_id "141"
+  Slave nid00701 rank 6 executing "3426m015" task_id "147"
+  Slave nid00701 rank 6 executing "3433m017" task_id "154"
+  Slave nid00701 rank 6 executing "3451m017" task_id "161"
+  Slave nid00701 rank 6 executing "3478m010" task_id "169"
+  Slave nid00701 rank 6 executing "3491m012" task_id "177"
+  Slave nid00701 rank 6 executing "3496m012" task_id "181"
+  Slave nid00701 rank 6 executing "3506m012" task_id "188"
+  Slave nid00701 rank 6 executing "3513m015" task_id "195"
+  Slave nid00701 rank 6 executing "3521m015" task_id "202"
+  Slave nid00701 rank 6 executing "3531m015" task_id "210"
+  Slave nid00701 rank 6 executing "3536m017" task_id "215"
+  Slave nid00701 rank 6 executing "3591m012" task_id "222"
+Task completed (rank 6)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=1)
+I am  nid00701 rank 7 (total 8)
+  Slave nid00701 rank 7 executing "3178m010" task_id "4"
+  Slave nid00701 rank 7 executing "3186m012" task_id "13"
+  Slave nid00701 rank 7 executing "3193m015" task_id "21"
+  Slave nid00701 rank 7 executing "3198m015" task_id "25"
+  Slave nid00701 rank 7 executing "3206m017" task_id "32"
+  Slave nid00701 rank 7 executing "3221m017" task_id "40"
+  Slave nid00701 rank 7 executing "3253m010" task_id "47"
+  Slave nid00701 rank 7 executing "3271m012" task_id "55"
+  Slave nid00701 rank 7 executing "3281m012" task_id "59"
+  Slave nid00701 rank 7 executing "3296m015" task_id "66"
+  Slave nid00701 rank 7 executing "3303m015" task_id "72"
+  Slave nid00701 rank 7 executing "3308m017" task_id "77"
+  Slave nid00701 rank 7 executing "3316m015" task_id "84"
+  Slave nid00701 rank 7 executing "3321m017" task_id "89"
+  Slave nid00701 rank 7 executing "3331m015" task_id "96"
+  Slave nid00701 rank 7 executing "3341m017" task_id "102"
+  Slave nid00701 rank 7 executing "3363m010" task_id "108"
+  Slave nid00701 rank 7 executing "3378m010" task_id "114"
+  Slave nid00701 rank 7 executing "3383m012" task_id "119"
+  Slave nid00701 rank 7 executing "3393m012" task_id "126"
+  Slave nid00701 rank 7 executing "3411m012" task_id "136"
+  Slave nid00701 rank 7 executing "3418m017" task_id "142"
+  Slave nid00701 rank 7 executing "3426m017" task_id "148"
+  Slave nid00701 rank 7 executing "3436m017" task_id "155"
+  Slave nid00701 rank 7 executing "3463m010" task_id "163"
+  Slave nid00701 rank 7 executing "3481m010" task_id "170"
+  Slave nid00701 rank 7 executing "3493m010" task_id "178"
+  Slave nid00701 rank 7 executing "3503m012" task_id "186"
+  Slave nid00701 rank 7 executing "3506m015" task_id "189"
+  Slave nid00701 rank 7 executing "3513m017" task_id "196"
+  Slave nid00701 rank 7 executing "3523m015" task_id "204"
+  Slave nid00701 rank 7 executing "3531m017" task_id "211"
+  Slave nid00701 rank 7 executing "3543m017" task_id "219"
+  Slave nid00701 rank 7 executing "3596m012" task_id "224"
+Task completed (rank 7)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=3)
+I am  nid00700 rank 1 (total 8)
+  Slave nid00700 rank 1 executing "3173m002" task_id "2"
+  Slave nid00700 rank 1 executing "3181p000" task_id "9"
+  Slave nid00700 rank 1 executing "3196m002" task_id "15"
+  Slave nid00700 rank 1 executing "3198m005" task_id "18"
+  Slave nid00700 rank 1 executing "3228m007" task_id "26"
+  Slave nid00700 rank 1 executing "3248m015" task_id "36"
+  Slave nid00700 rank 1 executing "3258m017" task_id "43"
+  Slave nid00700 rank 1 executing "3266m017" task_id "48"
+  Slave nid00700 rank 1 executing "3278p000" task_id "57"
+  Slave nid00700 rank 1 executing "3288m002" task_id "62"
+  Slave nid00700 rank 1 executing "3303m002" task_id "71"
+  Slave nid00700 rank 1 executing "3316m010" task_id "80"
+  Slave nid00700 rank 1 executing "3331m007" task_id "87"
+  Slave nid00700 rank 1 executing "3348m007" task_id "94"
+  Slave nid00700 rank 1 executing "3358m007" task_id "98"
+  Slave nid00700 rank 1 executing "3368p000" task_id "105"
+  Slave nid00700 rank 1 executing "3391m002" task_id "113"
+  Slave nid00700 rank 1 executing "3411m005" task_id "125"
+  Slave nid00700 rank 1 executing "3433m007" task_id "134"
+  Slave nid00700 rank 1 executing "3443m012" task_id "143"
+  Slave nid00700 rank 1 executing "3463m007" task_id "152"
+  Slave nid00700 rank 1 executing "3493m002" task_id "159"
+  Slave nid00700 rank 1 executing "3506m005" task_id "165"
+  Slave nid00700 rank 1 executing "3521m005" task_id "174"
+  Slave nid00700 rank 1 executing "3536m007" task_id "182"
+  Slave nid00700 rank 1 executing "3546m012" task_id "190"
+  Slave nid00700 rank 1 executing "3558m007" task_id "197"
+  Slave nid00700 rank 1 executing "3563m010" task_id "202"
+  Slave nid00700 rank 1 executing "3573m010" task_id "210"
+  Slave nid00700 rank 1 executing "3591m002" task_id "218"
+Task completed (rank 1)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=3)
+I am  nid00700 rank 3 (total 8)
+  Slave nid00700 rank 3 executing "3176m002" task_id "4"
+  Slave nid00700 rank 3 executing "3188m002" task_id "11"
+  Slave nid00700 rank 3 executing "3201m002" task_id "19"
+  Slave nid00700 rank 3 executing "3236m007" task_id "28"
+  Slave nid00700 rank 3 executing "3251m015" task_id "38"
+  Slave nid00700 rank 3 executing "3261p000" task_id "45"
+  Slave nid00700 rank 3 executing "3271p000" task_id "52"
+  Slave nid00700 rank 3 executing "3281p000" task_id "59"
+  Slave nid00700 rank 3 executing "3296m005" task_id "66"
+  Slave nid00700 rank 3 executing "3306m005" task_id "74"
+  Slave nid00700 rank 3 executing "3318m005" task_id "81"
+  Slave nid00700 rank 3 executing "3336m007" task_id "89"
+  Slave nid00700 rank 3 executing "3363m007" task_id "100"
+  Slave nid00700 rank 3 executing "3376p000" task_id "107"
+  Slave nid00700 rank 3 executing "3396m002" task_id "115"
+  Slave nid00700 rank 3 executing "3406m005" task_id "121"
+  Slave nid00700 rank 3 executing "3421m005" task_id "128"
+  Slave nid00700 rank 3 executing "3436m005" task_id "135"
+  Slave nid00700 rank 3 executing "3441m007" task_id "140"
+  Slave nid00700 rank 3 executing "3451m007" task_id "147"
+  Slave nid00700 rank 3 executing "3468m007" task_id "154"
+  Slave nid00700 rank 3 executing "3501m002" task_id "162"
+  Slave nid00700 rank 3 executing "3513m002" task_id "170"
+  Slave nid00700 rank 3 executing "3528m005" task_id "177"
+  Slave nid00700 rank 3 executing "3538m007" task_id "184"
+  Slave nid00700 rank 3 executing "3548m012" task_id "192"
+  Slave nid00700 rank 3 executing "3561m007" task_id "199"
+  Slave nid00700 rank 3 executing "3568m010" task_id "206"
+  Slave nid00700 rank 3 executing "3581m010" task_id "213"
+  Slave nid00700 rank 3 executing "3593m002" task_id "220"
+Task completed (rank 3)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=3)
+I am  nid00700 rank 5 (total 8)
+  Slave nid00700 rank 5 executing "3178m002" task_id "6"
+  Slave nid00700 rank 5 executing "3193m002" task_id "13"
+  Slave nid00700 rank 5 executing "3203m002" task_id "21"
+  Slave nid00700 rank 5 executing "3238m007" task_id "29"
+  Slave nid00700 rank 5 executing "3243m007" task_id "33"
+  Slave nid00700 rank 5 executing "3253m015" task_id "40"
+  Slave nid00700 rank 5 executing "3263p000" task_id "47"
+  Slave nid00700 rank 5 executing "3276m002" task_id "54"
+  Slave nid00700 rank 5 executing "3283m002" task_id "60"
+  Slave nid00700 rank 5 executing "3301m002" task_id "69"
+  Slave nid00700 rank 5 executing "3311m005" task_id "76"
+  Slave nid00700 rank 5 executing "3321m005" task_id "83"
+  Slave nid00700 rank 5 executing "3341m007" task_id "91"
+  Slave nid00700 rank 5 executing "3351m007" task_id "95"
+  Slave nid00700 rank 5 executing "3366m007" task_id "102"
+  Slave nid00700 rank 5 executing "3381p000" task_id "109"
+  Slave nid00700 rank 5 executing "3388m002" task_id "112"
+  Slave nid00700 rank 5 executing "3406m002" task_id "120"
+  Slave nid00700 rank 5 executing "3418m005" task_id "127"
+  Slave nid00700 rank 5 executing "3433m005" task_id "133"
+  Slave nid00700 rank 5 executing "3443m005" task_id "141"
+  Slave nid00700 rank 5 executing "3453m007" task_id "148"
+  Slave nid00700 rank 5 executing "3471m007" task_id "155"
+  Slave nid00700 rank 5 executing "3496m002" task_id "160"
+  Slave nid00700 rank 5 executing "3508m002" task_id "166"
+  Slave nid00700 rank 5 executing "3516m005" task_id "172"
+  Slave nid00700 rank 5 executing "3533m007" task_id "180"
+  Slave nid00700 rank 5 executing "3543m007" task_id "187"
+  Slave nid00700 rank 5 executing "3553m007" task_id "194"
+  Slave nid00700 rank 5 executing "3563m007" task_id "201"
+  Slave nid00700 rank 5 executing "3571m010" task_id "208"
+  Slave nid00700 rank 5 executing "3588m002" task_id "216"
+  Slave nid00700 rank 5 executing "3596m010" task_id "223"
+Task completed (rank 5)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=3)
+I am  nid00700 rank 7 (total 8)
+  Slave nid00700 rank 7 executing "3171p000" task_id "1"
+  Slave nid00700 rank 7 executing "3181m002" task_id "8"
+  Slave nid00700 rank 7 executing "3196m005" task_id "16"
+  Slave nid00700 rank 7 executing "3208m005" task_id "23"
+  Slave nid00700 rank 7 executing "3241m007" task_id "31"
+  Slave nid00700 rank 7 executing "3246m015" task_id "35"
+  Slave nid00700 rank 7 executing "3256m017" task_id "42"
+  Slave nid00700 rank 7 executing "3268m017" task_id "50"
+  Slave nid00700 rank 7 executing "3278m002" task_id "56"
+  Slave nid00700 rank 7 executing "3293m002" task_id "64"
+  Slave nid00700 rank 7 executing "3301m005" task_id "70"
+  Slave nid00700 rank 7 executing "3311m010" task_id "77"
+  Slave nid00700 rank 7 executing "3321m010" task_id "84"
+  Slave nid00700 rank 7 executing "3346m007" task_id "93"
+  Slave nid00700 rank 7 executing "3356m007" task_id "97"
+  Slave nid00700 rank 7 executing "3366p000" task_id "103"
+  Slave nid00700 rank 7 executing "3386m002" task_id "111"
+  Slave nid00700 rank 7 executing "3403m002" task_id "118"
+  Slave nid00700 rank 7 executing "3411m002" task_id "124"
+  Slave nid00700 rank 7 executing "3426m005" task_id "130"
+  Slave nid00700 rank 7 executing "3441m005" task_id "139"
+  Slave nid00700 rank 7 executing "3448m007" task_id "146"
+  Slave nid00700 rank 7 executing "3461m007" task_id "151"
+  Slave nid00700 rank 7 executing "3491m002" task_id "158"
+  Slave nid00700 rank 7 executing "3508m005" task_id "167"
+  Slave nid00700 rank 7 executing "3518m005" task_id "173"
+  Slave nid00700 rank 7 executing "3531m005" task_id "178"
+  Slave nid00700 rank 7 executing "3541m005" task_id "185"
+  Slave nid00700 rank 7 executing "3546m007" task_id "189"
+  Slave nid00700 rank 7 executing "3556m010" task_id "196"
+  Slave nid00700 rank 7 executing "3566m010" task_id "204"
+  Slave nid00700 rank 7 executing "3573m007" task_id "209"
+  Slave nid00700 rank 7 executing "3586m010" task_id "215"
+  Slave nid00700 rank 7 executing "3593m010" task_id "221"
+Task completed (rank 7)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: divide by zero encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in subtract
+  gr = g - r_mag
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=3)
+I am  nid00700 rank 0 (total 8)
+No 0 is done
+No 1 is done
+No 2 is done
+No 3 is done
+No 4 is done
+No 5 is done
+No 6 is done
+No 7 is done
+No 9 is done
+No 8 is done
+No 10 is done
+No 15 is done
+No 11 is done
+No 12 is done
+No 13 is done
+No 14 is done
+No 16 is done
+No 17 is done
+No 19 is done
+No 20 is done
+No 18 is done
+No 24 is done
+No 21 is done
+No 22 is done
+No 23 is done
+No 25 is done
+No 29 is done
+No 30 is done
+No 31 is done
+No 26 is done
+No 27 is done
+No 28 is done
+No 32 is done
+No 33 is done
+No 34 is done
+No 35 is done
+No 36 is done
+No 37 is done
+No 38 is done
+No 39 is done
+No 40 is done
+No 43 is done
+No 41 is done
+No 42 is done
+No 44 is done
+No 45 is done
+No 46 is done
+No 47 is done
+No 49 is done
+No 50 is done
+No 48 is done
+No 51 is done
+No 52 is done
+No 54 is done
+No 55 is done
+No 57 is done
+No 53 is done
+No 56 is done
+No 58 is done
+No 59 is done
+No 61 is done
+No 63 is done
+No 60 is done
+No 64 is done
+No 62 is done
+No 65 is done
+No 67 is done
+No 66 is done
+No 68 is done
+No 69 is done
+No 70 is done
+No 72 is done
+No 73 is done
+No 71 is done
+No 74 is done
+No 75 is done
+No 76 is done
+No 77 is done
+No 78 is done
+No 79 is done
+No 80 is done
+No 85 is done
+No 81 is done
+No 82 is done
+No 83 is done
+No 86 is done
+No 84 is done
+No 87 is done
+No 91 is done
+No 92 is done
+No 93 is done
+No 94 is done
+No 88 is done
+No 89 is done
+No 90 is done
+No 95 is done
+No 97 is done
+No 96 is done
+No 98 is done
+No 99 is done
+No 100 is done
+No 101 is done
+No 102 is done
+No 104 is done
+No 103 is done
+No 109 is done
+No 105 is done
+No 106 is done
+No 107 is done
+No 108 is done
+No 110 is done
+No 111 is done
+No 114 is done
+No 112 is done
+No 115 is done
+No 116 is done
+No 117 is done
+No 118 is done
+No 113 is done
+No 119 is done
+No 120 is done
+No 121 is done
+No 123 is done
+No 124 is done
+No 126 is done
+No 122 is done
+No 127 is done
+No 125 is done
+No 128 is done
+No 129 is done
+No 131 is done
+No 132 is done
+No 130 is done
+No 135 is done
+No 133 is done
+No 136 is done
+No 134 is done
+No 137 is done
+No 138 is done
+No 139 is done
+No 140 is done
+No 141 is done
+No 142 is done
+No 145 is done
+No 146 is done
+No 143 is done
+No 144 is done
+No 147 is done
+No 148 is done
+No 150 is done
+No 149 is done
+No 151 is done
+No 152 is done
+No 155 is done
+No 153 is done
+No 154 is done
+No 156 is done
+No 157 is done
+No 159 is done
+No 160 is done
+No 158 is done
+No 161 is done
+No 164 is done
+No 162 is done
+No 163 is done
+No 166 is done
+No 167 is done
+No 165 is done
+No 168 is done
+No 169 is done
+No 170 is done
+No 173 is done
+No 171 is done
+No 172 is done
+No 176 is done
+No 174 is done
+No 175 is done
+No 177 is done
+No 178 is done
+No 179 is done
+No 180 is done
+No 181 is done
+No 185 is done
+No 182 is done
+No 183 is done
+No 184 is done
+No 186 is done
+No 187 is done
+No 188 is done
+No 189 is done
+No 190 is done
+No 191 is done
+No 192 is done
+No 193 is done
+No 194 is done
+No 197 is done
+No 195 is done
+No 196 is done
+No 198 is done
+No 199 is done
+No 200 is done
+No 201 is done
+No 204 is done
+No 202 is done
+No 205 is done
+No 203 is done
+No 206 is done
+No 207 is done
+No 209 is done
+No 208 is done
+No 212 is done
+No 210 is done
+No 211 is done
+No 213 is done
+No 215 is done
+No 214 is done
+No 216 is done
+No 217 is done
+No 221 is done
+No 218 is done
+No 219 is done
+No 220 is done
+No 222 is done
+No 223 is done
+No 224 is done
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/ subset elg_like_run_part3_of_5.fits
+writing all the output to one table...
+done!
+Task completed (rank 0)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=3)
+I am  nid00700 rank 2 (total 8)
+  Slave nid00700 rank 2 executing "3173p000" task_id "3"
+  Slave nid00700 rank 2 executing "3186m002" task_id "10"
+  Slave nid00700 rank 2 executing "3198m002" task_id "17"
+  Slave nid00700 rank 2 executing "3223m007" task_id "24"
+  Slave nid00700 rank 2 executing "3231m007" task_id "27"
+  Slave nid00700 rank 2 executing "3248m017" task_id "37"
+  Slave nid00700 rank 2 executing "3261m017" task_id "44"
+  Slave nid00700 rank 2 executing "3268p000" task_id "51"
+  Slave nid00700 rank 2 executing "3281m002" task_id "58"
+  Slave nid00700 rank 2 executing "3296m002" task_id "65"
+  Slave nid00700 rank 2 executing "3303m005" task_id "72"
+  Slave nid00700 rank 2 executing "3313m010" task_id "78"
+  Slave nid00700 rank 2 executing "3323m005" task_id "85"
+  Slave nid00700 rank 2 executing "3333m007" task_id "88"
+  Slave nid00700 rank 2 executing "3361m007" task_id "99"
+  Slave nid00700 rank 2 executing "3371m007" task_id "106"
+  Slave nid00700 rank 2 executing "3393m002" task_id "114"
+  Slave nid00700 rank 2 executing "3403m005" task_id "119"
+  Slave nid00700 rank 2 executing "3413m005" task_id "126"
+  Slave nid00700 rank 2 executing "3428m005" task_id "131"
+  Slave nid00700 rank 2 executing "3438m005" task_id "137"
+  Slave nid00700 rank 2 executing "3446m007" task_id "144"
+  Slave nid00700 rank 2 executing "3466m007" task_id "153"
+  Slave nid00700 rank 2 executing "3498m002" task_id "161"
+  Slave nid00700 rank 2 executing "3511m002" task_id "168"
+  Slave nid00700 rank 2 executing "3523m005" task_id "175"
+  Slave nid00700 rank 2 executing "3538m005" task_id "183"
+  Slave nid00700 rank 2 executing "3548m007" task_id "191"
+  Slave nid00700 rank 2 executing "3558m010" task_id "198"
+  Slave nid00700 rank 2 executing "3568m007" task_id "205"
+  Slave nid00700 rank 2 executing "3576m010" task_id "211"
+  Slave nid00700 rank 2 executing "3591m010" task_id "219"
+Task completed (rank 2)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:45: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:50: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=3)
+I am  nid00700 rank 4 (total 8)
+  Slave nid00700 rank 4 executing "3176p000" task_id "5"
+  Slave nid00700 rank 4 executing "3191m002" task_id "12"
+  Slave nid00700 rank 4 executing "3201m005" task_id "20"
+  Slave nid00700 rank 4 executing "3226m007" task_id "25"
+  Slave nid00700 rank 4 executing "3241m015" task_id "32"
+  Slave nid00700 rank 4 executing "3251m017" task_id "39"
+  Slave nid00700 rank 4 executing "3263m017" task_id "46"
+  Slave nid00700 rank 4 executing "3273p000" task_id "53"
+  Slave nid00700 rank 4 executing "3291m002" task_id "63"
+  Slave nid00700 rank 4 executing "3298m005" task_id "68"
+  Slave nid00700 rank 4 executing "3308m005" task_id "75"
+  Slave nid00700 rank 4 executing "3318m010" task_id "82"
+  Slave nid00700 rank 4 executing "3338m007" task_id "90"
+  Slave nid00700 rank 4 executing "3363p000" task_id "101"
+  Slave nid00700 rank 4 executing "3378p000" task_id "108"
+  Slave nid00700 rank 4 executing "3398m002" task_id "116"
+  Slave nid00700 rank 4 executing "3408m002" task_id "122"
+  Slave nid00700 rank 4 executing "3431m005" task_id "132"
+  Slave nid00700 rank 4 executing "3438m007" task_id "138"
+  Slave nid00700 rank 4 executing "3446m012" task_id "145"
+  Slave nid00700 rank 4 executing "3458m007" task_id "150"
+  Slave nid00700 rank 4 executing "3486m002" task_id "156"
+  Slave nid00700 rank 4 executing "3503m002" task_id "163"
+  Slave nid00700 rank 4 executing "3513m005" task_id "171"
+  Slave nid00700 rank 4 executing "3533m005" task_id "179"
+  Slave nid00700 rank 4 executing "3541m007" task_id "186"
+  Slave nid00700 rank 4 executing "3551m007" task_id "193"
+  Slave nid00700 rank 4 executing "3561m010" task_id "200"
+  Slave nid00700 rank 4 executing "3571m007" task_id "207"
+  Slave nid00700 rank 4 executing "3583m010" task_id "214"
+  Slave nid00700 rank 4 executing "3596m002" task_id "222"
+Task completed (rank 4)
+Namespace(N_split=5, name_for_run='elg_like_run', split_idx=3)
+I am  nid00700 rank 6 (total 8)
+  Slave nid00700 rank 6 executing "3171m007" task_id "0"
+  Slave nid00700 rank 6 executing "3178p000" task_id "7"
+  Slave nid00700 rank 6 executing "3193m005" task_id "14"
+  Slave nid00700 rank 6 executing "3203m005" task_id "22"
+  Slave nid00700 rank 6 executing "3238m012" task_id "30"
+  Slave nid00700 rank 6 executing "3243m015" task_id "34"
+  Slave nid00700 rank 6 executing "3253m017" task_id "41"
+  Slave nid00700 rank 6 executing "3266p000" task_id "49"
+  Slave nid00700 rank 6 executing "3276p000" task_id "55"
+  Slave nid00700 rank 6 executing "3286m002" task_id "61"
+  Slave nid00700 rank 6 executing "3298m002" task_id "67"
+  Slave nid00700 rank 6 executing "3306m002" task_id "73"
+  Slave nid00700 rank 6 executing "3316m005" task_id "79"
+  Slave nid00700 rank 6 executing "3323m010" task_id "86"
+  Slave nid00700 rank 6 executing "3343m007" task_id "92"
+  Slave nid00700 rank 6 executing "3353m007" task_id "96"
+  Slave nid00700 rank 6 executing "3368m007" task_id "104"
+  Slave nid00700 rank 6 executing "3383m002" task_id "110"
+  Slave nid00700 rank 6 executing "3401m002" task_id "117"
+  Slave nid00700 rank 6 executing "3408m005" task_id "123"
+  Slave nid00700 rank 6 executing "3423m005" task_id "129"
+  Slave nid00700 rank 6 executing "3436m007" task_id "136"
+  Slave nid00700 rank 6 executing "3443m007" task_id "142"
+  Slave nid00700 rank 6 executing "3456m007" task_id "149"
+  Slave nid00700 rank 6 executing "3488m002" task_id "157"
+  Slave nid00700 rank 6 executing "3506m002" task_id "164"
+  Slave nid00700 rank 6 executing "3511m005" task_id "169"
+  Slave nid00700 rank 6 executing "3526m005" task_id "176"
+  Slave nid00700 rank 6 executing "3536m005" task_id "181"
+  Slave nid00700 rank 6 executing "3543m012" task_id "188"
+  Slave nid00700 rank 6 executing "3556m007" task_id "195"
+  Slave nid00700 rank 6 executing "3566m007" task_id "203"
+  Slave nid00700 rank 6 executing "3578m010" task_id "212"
+  Slave nid00700 rank 6 executing "3588m010" task_id "217"
+  Slave nid00700 rank 6 executing "3598m002" task_id "224"
+Task completed (rank 6)
+ALL Done

@@ -1,0 +1,33 @@
+Loading configuration ... 
+  Filename: brickmask.conf
+  [36;1mBRICK_LIST[0m = /global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/more/brickmask/survey-bricks.fits
+  [36;1mBRICK_DIR[0m  = /global/cscratch1/sd/raichoor/ELG_maskbrick
+  [36;1mINPUT[0m      = /global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/eBOSS_ELG_full_ALL_v4.ran.fits
+  [36;1mFILE_TYPE[0m  = 1
+  [36;1mOUTPUT[0m     = /global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/eBOSS_ELG_full_ALL_v4.ran_masked.fits 
+  [36;1mFORCE[0m      = 1
+  [36;1mVERBOSE[0m    = 1
+[70C[[32;1mDONE[0m]
+Reading the list of bricks ... 
+  Filename: /global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/more/brickmask/survey-bricks.fits
+  Number of bricks: 662174.
+  Allocating memory ...   ~ 30.94 Mb memory allocated for the list of bricks.
+[70C[[32;1mDONE[0m]
+Reading input data file ... 
+  Filename: /global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/eBOSS_ELG_full_ALL_v4.ran.fits
+  Number of records: 8308294.
+  Allocating memory ...   ~ 2345 Mb memory allocated for the input data.
+Associating inputs with bricks ... 
+  Bricks assigned to all inputs successfully
+  Inputs indexed by bricks.
+[70C[[32;1mDONE[0m]
+Reading and assigning masks ...[70C[[32;1mDONE[0m]
+[31;1mExit:[0m cfitio error: 
+FITSIO status = 105: couldn't create the named file
+failed to create new file (already exists?):
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/eBOSS
+_ELG_full_ALL_v4.ran_masked.fits 
+Saving output ...
+  Filename: /global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/subset/eBOSS_ELG_full_ALL_v4.ran_masked.fits 
+srun: error: nid00895: task 0: Exited with exit code 105
+srun: Terminating job step 20940182.0

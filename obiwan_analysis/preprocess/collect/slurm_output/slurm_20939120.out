@@ -1,0 +1,2 @@
+srun: fatal: Can not execute ./vetomask
+/var/spool/slurmd/job20939120/slurm_script: line 24: 21693 Aborted                 srun -N 1 -n 1 -c 64 ./vetomask

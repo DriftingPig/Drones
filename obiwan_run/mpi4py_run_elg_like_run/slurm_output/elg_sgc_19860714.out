@@ -1,0 +1,13 @@
+I am  nid00598 rank 0 (total 20)
+Traceback (most recent call last):
+  File "./example1.py", line 105, in <module>
+    main()
+  File "./example1.py", line 95, in main
+    app.run()
+  File "./example1.py", line 36, in run
+    task_list = np.loadtxt(BRICKSTAT_DIR + 'chunk23_unfinished.txt', dtype=np.str)
+NameError: name 'BRICKSTAT_DIR' is not defined
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 19860714.1 ON nid00598 CANCELLED AT 2019-03-20T09:45:24 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

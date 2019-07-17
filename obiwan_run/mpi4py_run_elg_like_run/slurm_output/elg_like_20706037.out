@@ -1,0 +1,16 @@
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/333//more_rs0/log.3336p002
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/350//more_rs0/log.3501p017
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/330//more_rs0/log.3303p007
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/349//more_rs0/log.3491p002
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/350//more_rs0/log.3503p010
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/327//more_rs0/log.3271p005
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/345//more_rs0/log.3453p007
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/331//more_rs0/log.3313p017
+slurmstepd: error: *** STEP 20706037.1 ON nid00549 CANCELLED AT 2019-04-21T14:46:07 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

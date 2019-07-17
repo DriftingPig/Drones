@@ -1,0 +1,250 @@
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='more_rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00559 rank 3 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/ 3351p002 more_rs0
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 363, in production_run_general_perbrick_official
+    idx, d2d, d3d = c1.match_to_catalog_sky(c2)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/sky_coordinate.py", line 916, in match_to_catalog_sky
+    storekdtree='_kdtree_sky')
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/matching.py", line 139, in match_coordinates_sky
+    raise ValueError('The catalog for coordinate matching cannot be a '
+ValueError: The catalog for coordinate matching cannot be a scalar or length-0.
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='more_rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00559 rank 7 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/ 3351m005 more_rs0
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 363, in production_run_general_perbrick_official
+    idx, d2d, d3d = c1.match_to_catalog_sky(c2)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/sky_coordinate.py", line 916, in match_to_catalog_sky
+    storekdtree='_kdtree_sky')
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/matching.py", line 139, in match_coordinates_sky
+    raise ValueError('The catalog for coordinate matching cannot be a '
+ValueError: The catalog for coordinate matching cannot be a scalar or length-0.
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='more_rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00559 rank 4 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/ 3351p005 more_rs0
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 363, in production_run_general_perbrick_official
+    idx, d2d, d3d = c1.match_to_catalog_sky(c2)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/sky_coordinate.py", line 916, in match_to_catalog_sky
+    storekdtree='_kdtree_sky')
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/matching.py", line 139, in match_coordinates_sky
+    raise ValueError('The catalog for coordinate matching cannot be a '
+ValueError: The catalog for coordinate matching cannot be a scalar or length-0.
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='more_rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00559 rank 2 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/ 3351p000 more_rs0
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 363, in production_run_general_perbrick_official
+    idx, d2d, d3d = c1.match_to_catalog_sky(c2)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/sky_coordinate.py", line 916, in match_to_catalog_sky
+    storekdtree='_kdtree_sky')
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/matching.py", line 139, in match_coordinates_sky
+    raise ValueError('The catalog for coordinate matching cannot be a '
+ValueError: The catalog for coordinate matching cannot be a scalar or length-0.
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='more_rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00559 rank 6 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/ 3351m002 more_rs0
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 363, in production_run_general_perbrick_official
+    idx, d2d, d3d = c1.match_to_catalog_sky(c2)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/sky_coordinate.py", line 916, in match_to_catalog_sky
+    storekdtree='_kdtree_sky')
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/matching.py", line 139, in match_coordinates_sky
+    raise ValueError('The catalog for coordinate matching cannot be a '
+ValueError: The catalog for coordinate matching cannot be a scalar or length-0.
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='more_rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00559 rank 5 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/ 3351p007 more_rs0
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 363, in production_run_general_perbrick_official
+    idx, d2d, d3d = c1.match_to_catalog_sky(c2)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/sky_coordinate.py", line 916, in match_to_catalog_sky
+    storekdtree='_kdtree_sky')
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/matching.py", line 139, in match_coordinates_sky
+    raise ValueError('The catalog for coordinate matching cannot be a '
+ValueError: The catalog for coordinate matching cannot be a scalar or length-0.
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='more_rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00559 rank 1 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/ 3351m007 more_rs0
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:46: RuntimeWarning: invalid value encountered in log10
+  g     = 22.5 - 2.5 * n.log10(dat['flux_g'] / dat['mw_transmission_g'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: divide by zero encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:47: RuntimeWarning: invalid value encountered in log10
+  r_mag = 22.5 - 2.5 * n.log10(dat['flux_r'] / dat['mw_transmission_r'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:48: RuntimeWarning: invalid value encountered in log10
+  z_mag = 22.5 - 2.5 * n.log10(dat['flux_z'] / dat['mw_transmission_z'])
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in greater
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:51: RuntimeWarning: invalid value encountered in less
+  color_sgc = (g>21.825)&(g<22.825)&(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.218*gr+0.571<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in greater
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py:52: RuntimeWarning: invalid value encountered in less
+  color_ngc = (g>21.825)&(g<22.9)  &(-0.068*rz+0.457<gr)&(gr< 0.112*rz+0.773) &(0.637*gr+0.399<rz)&(rz<-0.555*gr+1.901)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 363, in production_run_general_perbrick_official
+    idx, d2d, d3d = c1.match_to_catalog_sky(c2)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/sky_coordinate.py", line 916, in match_to_catalog_sky
+    storekdtree='_kdtree_sky')
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/astropy/coordinates/matching.py", line 139, in match_coordinates_sky
+    raise ValueError('The catalog for coordinate matching cannot be a '
+ValueError: The catalog for coordinate matching cannot be a scalar or length-0.
+slurmstepd: error: *** STEP 22772691.0 ON nid00559 CANCELLED AT 2019-07-03T16:12:32 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

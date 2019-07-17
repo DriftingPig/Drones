@@ -1,0 +1,512 @@
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12879 rank 2 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12881 rank 1 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12879 rank 3 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12879 rank 4 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12879 rank 5 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12879 rank 6 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+replacing:
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12879 rank 7 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+Traceback (most recent call last):
+I am  nid12881 rank 2 (total 8)
+  File "collect_mpi.py", line 218, in <module>
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+    main()
+replacing:
+  File "collect_mpi.py", line 212, in main
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+    MySlave().run()
+I am  nid12881 rank 3 (total 8)
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+    result = self.do_work(data)
+replacing:
+  File "collect_mpi.py", line 128, in do_work
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+I am  nid12881 rank 5 (total 8)
+NameError: name 'STARTID' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+Traceback (most recent call last):
+replacing:
+  File "collect_mpi.py", line 218, in <module>
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+    main()
+I am  nid12881 rank 6 (total 8)
+  File "collect_mpi.py", line 212, in main
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+    MySlave().run()
+replacing:
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+    result = self.do_work(data)
+I am  nid12881 rank 4 (total 8)
+  File "collect_mpi.py", line 128, in do_work
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=4, start_id=201)
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+replacing:
+NameError: name 'STARTID' is not defined
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+Traceback (most recent call last):
+I am  nid12881 rank 7 (total 8)
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+  File "collect_mpi.py", line 218, in <module>
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+    main()
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12880 rank 1 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12880 rank 2 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12880 rank 3 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12880 rank 4 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12880 rank 5 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12880 rank 6 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=2, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12880 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=0, start_id=201)
+  File "collect_mpi.py", line 218, in <module>
+replacing:
+    main()
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+  File "collect_mpi.py", line 212, in main
+I am  nid12879 rank 1 (total 8)
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12883 rank 1 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12883 rank 2 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12883 rank 3 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12883 rank 4 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12883 rank 5 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12883 rank 6 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=3, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12883 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12882 rank 1 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12882 rank 2 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12882 rank 3 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12882 rank 4 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12882 rank 5 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12882 rank 6 (total 8)
+Namespace(N_split=5, n_obj=101, name_for_randoms='ngc_randoms_per_brick', name_for_run='elg_ngc_run', region='ngc', rs_type='more_rs201', split_idx=1, start_id=201)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/elg_ngc_run/FinishedBricks.txt
+I am  nid12882 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+Traceback (most recent call last):
+  File "collect_mpi.py", line 218, in <module>
+    main()
+  File "collect_mpi.py", line 212, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=STARTID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+NameError: name 'STARTID' is not defined
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+slurmstepd: error: *** STEP 22072422.1 ON nid12880 CANCELLED AT 2019-06-05T15:25:41 ***
+slurmstepd: error: *** STEP 22072422.3 ON nid12882 CANCELLED AT 2019-06-05T15:25:41 ***
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+slurmstepd: error: *** STEP 22072422.0 ON nid12879 CANCELLED AT 2019-06-05T15:25:41 ***
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+slurmstepd: error: *** STEP 22072422.2 ON nid12881 CANCELLED AT 2019-06-05T15:25:41 ***
+slurmstepd: error: *** STEP 22072422.4 ON nid12883 CANCELLED AT 2019-06-05T15:25:41 ***

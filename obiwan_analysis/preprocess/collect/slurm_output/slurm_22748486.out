@@ -1,0 +1,130 @@
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00561 rank 6 (total 8)
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00561 rank 7 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 348, in production_run_general_perbrick_official
+    print(os.environ[env_dir],brickname,rs_type)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'chunk21_10deg2_test'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 348, in production_run_general_perbrick_official
+    print(os.environ[env_dir],brickname,rs_type)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'chunk21_10deg2_test'
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00561 rank 1 (total 8)
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00561 rank 2 (total 8)
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00561 rank 3 (total 8)
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00561 rank 4 (total 8)
+Namespace(N_split=1, n_obj=1, name_for_randoms='sgc_brick_dat_2', name_for_run='chunk21_10deg2_test', region='sgc', rs_type='rs0', split_idx=0, start_id=0)
+replacing:
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/chunk21_10deg2_test/FinishedBricks.txt
+I am  nid00561 rank 5 (total 8)
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 348, in production_run_general_perbrick_official
+    print(os.environ[env_dir],brickname,rs_type)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'chunk21_10deg2_test'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 348, in production_run_general_perbrick_official
+    print(os.environ[env_dir],brickname,rs_type)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'chunk21_10deg2_test'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 348, in production_run_general_perbrick_official
+    print(os.environ[env_dir],brickname,rs_type)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'chunk21_10deg2_test'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 348, in production_run_general_perbrick_official
+    print(os.environ[env_dir],brickname,rs_type)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'chunk21_10deg2_test'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 220, in <module>
+    main()
+  File "collect_mpi.py", line 214, in main
+    MySlave().run()
+  File "/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/py/mpi_master_slave/master_slave.py", line 143, in run
+    result = self.do_work(data)
+  File "collect_mpi.py", line 128, in do_work
+    tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
+  File "/global/u2/h/huikong/obiwan_codes/obiwan_Aug/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/collect/collect.py", line 348, in production_run_general_perbrick_official
+    print(os.environ[env_dir],brickname,rs_type)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'chunk21_10deg2_test'
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 22748486.0 ON nid00561 CANCELLED AT 2019-07-02T19:30:30 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

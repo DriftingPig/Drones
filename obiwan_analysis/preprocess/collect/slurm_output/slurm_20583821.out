@@ -1,0 +1,80 @@
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=2)
+I am  nid00598 rank 0 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt
+Traceback (most recent call last):
+  File "collect_mpi.py", line 196, in <module>
+    main()
+  File "collect_mpi.py", line 185, in main
+    app.run(split_idx = split_idx, N_splits = N_splits, name_for_run = name_for_run)
+  File "collect_mpi.py", line 55, in run
+    paths = np.loadtxt(BRICKPATH,dtype=np.str)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/numpy/lib/npyio.py", line 898, in loadtxt
+    fh = iter(open(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt'
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=3)
+I am  nid00602 rank 0 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt
+Traceback (most recent call last):
+  File "collect_mpi.py", line 196, in <module>
+    main()
+  File "collect_mpi.py", line 185, in main
+    app.run(split_idx = split_idx, N_splits = N_splits, name_for_run = name_for_run)
+  File "collect_mpi.py", line 55, in run
+    paths = np.loadtxt(BRICKPATH,dtype=np.str)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/numpy/lib/npyio.py", line 898, in loadtxt
+    fh = iter(open(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt'
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=0)
+I am  nid00600 rank 0 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=1)
+I am  nid00601 rank 0 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt
+Traceback (most recent call last):
+  File "collect_mpi.py", line 196, in <module>
+    main()
+  File "collect_mpi.py", line 185, in main
+    app.run(split_idx = split_idx, N_splits = N_splits, name_for_run = name_for_run)
+  File "collect_mpi.py", line 55, in run
+    paths = np.loadtxt(BRICKPATH,dtype=np.str)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/numpy/lib/npyio.py", line 898, in loadtxt
+    fh = iter(open(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 196, in <module>
+    main()
+  File "collect_mpi.py", line 185, in main
+    app.run(split_idx = split_idx, N_splits = N_splits, name_for_run = name_for_run)
+  File "collect_mpi.py", line 55, in run
+    paths = np.loadtxt(BRICKPATH,dtype=np.str)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/numpy/lib/npyio.py", line 898, in loadtxt
+    fh = iter(open(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt'
+Namespace(N_split=5, name_for_run='elg_ngc_run', split_idx=4)
+I am  nid00599 rank 0 (total 8)
+/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt
+Traceback (most recent call last):
+  File "collect_mpi.py", line 196, in <module>
+    main()
+  File "collect_mpi.py", line 185, in main
+    app.run(split_idx = split_idx, N_splits = N_splits, name_for_run = name_for_run)
+  File "collect_mpi.py", line 55, in run
+    paths = np.loadtxt(BRICKPATH,dtype=np.str)
+  File "/global/common/software/desi/cori/desiconda/20180512-1.2.5-img/conda/lib/python3.6/site-packages/numpy/lib/npyio.py", line 898, in loadtxt
+    fh = iter(open(fname))
+FileNotFoundError: [Errno 2] No such file or directory: '/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_like_run/FinishedBricks.txt'
+slurmstepd: error: *** STEP 20583821.4 ON nid00602 CANCELLED AT 2019-04-17T10:30:57 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 20583821.2 ON nid00600 CANCELLED AT 2019-04-17T10:30:57 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 20583821.3 ON nid00601 CANCELLED AT 2019-04-17T10:30:57 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 20583821.0 ON nid00598 CANCELLED AT 2019-04-17T10:30:57 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 20583821.1 ON nid00599 CANCELLED AT 2019-04-17T10:30:57 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: got SIGCONT
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination
+srun: forcing job termination

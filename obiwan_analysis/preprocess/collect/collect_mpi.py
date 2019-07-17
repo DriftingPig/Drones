@@ -6,6 +6,16 @@ import numpy as np
 from collect import *
 from astropy.table import vstack
 import os
+import sys
+import argparse
+#should be the only thing need to be changed
+BRICKPATH='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/preprocess/brickstat/name_for_run/FinishedBricks.txt'
+NAME_FOR_RUN='name4run'
+RS_TYPE=None
+START_ID=None
+N_OBJ=None
+REGION=None
+
 class MyApp(object):
     """
     This is my application that has a lot of work to do so it gives work to do
@@ -13,7 +23,7 @@ class MyApp(object):
     """
 
     def __init__(self, slaves):
-        # when creating the Master we tell it what slaves it can handle
+        # when creating taahe Master we tell it what slaves it can handle
         self.master = Master(slaves)
         # WorkQueue is a convenient class that run slaves on a tasks queue
         self.work_queue = WorkQueue(self.master)
@@ -24,8 +34,9 @@ class MyApp(object):
         """
         self.master.terminate_slaves()
 
-    def run(self, tasks=None):
+    def run(self, name_for_run = None, split_idx = 0, N_splits = 1, tasks=None):
         """
+        name for run list: elg_like_run,elg_ngc_run
         This is the core of my application, keep starting slaves
         as long as there is work to do
         """
@@ -42,12 +53,17 @@ class MyApp(object):
         #version 2:
         import glob
         from astropy.table import vstack
-        paths = glob.glob(os.path.join(os.environ['production_run_sgc'],'tractor','*','*'))
+        global BRICKPATH
+        print(BRICKPATH)
+        #paths = glob.glob(os.path.join(os.environ[name_for_run],'tractor','*','*'))
+        #paths = np.array_split(paths, N_splits)[split_idx]
+        paths = np.loadtxt(BRICKPATH,dtype=np.str)
+        paths = np.array_split(paths, N_splits)[split_idx]
         final_tab = None
         final_sim = None
         n=0
         paths.sort()
-        paths = paths[:5000]
+        paths = paths
         for path in paths:
             brickname = os.path.basename(path)
             self.work_queue.add_work(data=(n, brickname))   
@@ -81,16 +97,17 @@ class MyApp(object):
                 if tab is not None:
                      if final_table is not None:
                          final_table = vstack((final_table, tab))
-                         #final_sim = vstack((final_sim,sim)) 
+                         final_sim = vstack((final_sim,sim)) 
                      else:
                          final_table = tab          
-                         #final_sim=sim 
+                         final_sim=sim 
             
             # sleep some time
             time.sleep(0.3)
+        print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits' %(name_for_run, split_idx, N_splits))
         print('writing all the output to one table...')
-        final_table.write(os.path.join(os.environ['obiwan_out'],'subset','sgc_200per_sm_tc_match_part1.fits'), format='fits',overwrite=True)
-        #final_sim.write(os.path.join(os.environ['obiwan_out'],'subset','sgc_200per_w_psfdg_sim.fits'), format='fits',overwrite=True)
+        final_table.write(os.path.join(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits' % (name_for_run, split_idx, N_splits)), format='fits',overwrite=True)
+        final_sim.write(os.path.join(os.environ['obiwan_out'],'subset','sim_%s_part%d_of_%d.fits' % (name_for_run, split_idx, N_splits)), format='fits',overwrite=True)
         print('done!')
 
 class MySlave(Slave):
@@ -103,16 +120,82 @@ class MySlave(Slave):
         super(MySlave, self).__init__()
 
     def do_work(self, data):
+        global NAME_FOR_RUN
         rank = MPI.COMM_WORLD.Get_rank()
         name = MPI.Get_processor_name()
         task, task_arg = data
         #FUNCTION CAN BE CHANGED HERE
-        tab,sim = production_run_general_perbrick_sim(task_arg,env_dir='production_run_sgc',rs_type='more_rs0',region='sgc')
+        tab,sim = production_run_general_perbrick_official(task_arg,env_dir=NAME_FOR_RUN, rs_type=RS_TYPE,region=REGION,startid=START_ID,nobj = N_OBJ,name_for_randoms=NAME_FOR_RANDOMS)
         print('  Slave %s rank %d executing "%s" task_id "%d"' % (name, rank, task_arg, task) )
         return (task, tab, sim)
 
-def main():
+def get_parser():
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,description='Collection of production run data')
+    parser.add_argument('--split_idx',type=int,required = True, help='index number for the chunk of bricks to stack')
+    parser.add_argument('--N_split',type=int,required = True, help='total of splits for bricks')
+    parser.add_argument('--name_for_run',type=str, required=True,help='production run directory (specified in DRONE_ENV.sh)')
+    parser.add_argument('--region',type=str,required = True,help='sgc/ngc')
+    parser.add_argument('--n_obj',type=int,required = True,help='#of randoms injected')
+    parser.add_argument('--start_id',type=int,required = True, help='startid in run')
+    parser.add_argument('--rs_type',type=str,required = True,help='rs0 rs201 rs202')
+    parser.add_argument('--name_for_randoms',type=str,required=True,help='dir name for original randoms')
+    args = parser.parse_args(args=None)
+    print(args)
+    return parser
 
+def stack(N_split, name_for_run):
+    #stack data
+    tab = None
+    for i in range(0,N_split):
+       print(fn_i)
+       fn_i = os.path.join(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits' % (name_for_run, i, N_splits))
+       tab_i = Table.read(fn_i)  
+       if tab is None: 
+          tab = tab_i
+       else:
+          tab = vstack((tab, tab_i))
+    print('writing')
+    tab.write(os.path.join(os.environ['obiwan_out'],'subset','%s.fits') %name_for_run)
+    tab = None
+    for i in range(0,N_split): 
+        print(fn_i)
+        fn_i = os.path.join(os.environ['obiwan_out'],'subset','sim_%s_part%d_of_%d.fits' % (name_for_run, i, N_splits))  
+        tab_i = Table.read(fn_i)
+        if tab is None: 
+           tab = tab_i
+        else:
+           tab = vstack((tab, tab_i))
+    print('writing')
+    tab.write(os.path.join(os.environ['obiwan_out'],'subset','sim_%s.fits') %name_for_run)
+
+def main(args=None):
+    if args is None:
+       parser= get_parser()
+       args = parser.parse_args(args=args)
+    else:
+       # args is already a argparse.Namespace obj
+       pass
+    global NAME_FOR_RUN
+    global BRICKPATH
+    global START_ID
+    global N_OBJ
+    global REGION
+    global NAME_FOR_RANDOMS
+    global RS_TYPE
+    
+    split_idx = args.split_idx
+    N_splits = args.N_split
+    name_for_run = args.name_for_run
+    NAME_FOR_RUN = name_for_run
+    START_ID = args.start_id
+    N_OBJ = args.n_obj
+    REGION = args.region
+    NAME_FOR_RANDOMS = args.name_for_randoms
+    RS_TYPE = args.rs_type
+    
+    print('replacing:')
+    BRICKPATH=BRICKPATH.replace('name_for_run',NAME_FOR_RUN)
+    print(BRICKPATH)
     name = MPI.Get_processor_name()
     rank = MPI.COMM_WORLD.Get_rank()
     size = MPI.COMM_WORLD.Get_size()
@@ -123,7 +206,7 @@ def main():
     if rank == 0: # Master
 
         app = MyApp(slaves=range(1, size))
-        app.run()
+        app.run(split_idx = split_idx, N_splits = N_splits, name_for_run = name_for_run)
         app.terminate_slaves()
 
     else: # Any slave
@@ -131,6 +214,7 @@ def main():
         MySlave().run()
 
     print('Task completed (rank %d)' % (rank) )
+    
 
 if __name__ == "__main__":
     main()
