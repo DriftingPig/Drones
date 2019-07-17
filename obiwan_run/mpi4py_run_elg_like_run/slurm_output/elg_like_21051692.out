@@ -1,0 +1,66 @@
+srun: Job 21051692 step creation temporarily disabled, retrying
+srun: Step created for job 21051692
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+Traceback (most recent call last):
+  File "./example1.py", line 7, in <module>
+    name = sys.srgv[1]
+AttributeError: module 'sys' has no attribute 'srgv'
+srun: error: nid00717: tasks 10-11: Exited with exit code 1
+srun: Terminating job step 21051692.1
+srun: error: nid00713: tasks 2-3: Exited with exit code 1
+srun: error: nid00718: tasks 12-13: Exited with exit code 1
+srun: error: nid00715: tasks 6-7: Exited with exit code 1
+srun: error: nid00714: tasks 4-5: Exited with exit code 1
+srun: error: nid00712: tasks 0-1: Exited with exit code 1
+srun: error: nid00716: tasks 8-9: Exited with exit code 1

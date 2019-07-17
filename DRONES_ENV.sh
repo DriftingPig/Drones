@@ -25,4 +25,8 @@ export dr3_tractor_data=/global/project/projectdirs/cosmo/data/legacysurvey/dr3/
 export NGC_tractor=/global/cscratch1/sd/huikong/obiwan_Aug/HPSS/tractor
 export NGC_sim=/global/cscratch1/sd/huikong/obiwan_Aug/HPSS/obiwan
 
-export my_ngc_run=/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/
+export elg_ngc_run=/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/
+
+export elg_like_run=/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/
+
+export chunk21_10deg2_test=/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/

@@ -1,0 +1,73 @@
+srun: error: slurm_receive_msgs: Socket timed out on send/recv operation
+srun: error: Task launch for 21052082.0 failed on node nid00547: Socket timed out on send/recv operation
+srun: error: Application launch failed: Socket timed out on send/recv operation
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/327//more_rs0/log.3273p002
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/353//more_rs0/log.3538p007
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/338//more_rs0/log.3381p007
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/335//more_rs0/log.3353p010
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/324//more_rs0/log.3241p015
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/341//more_rs0/log.3418p017
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/340//more_rs0/log.3408p017
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/327//more_rs0/log.3271p017
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/357//more_rs0/log.3573p002
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/330//more_rs0/log.3301p002
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/336//more_rs0/log.3366p015
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/326//more_rs0/log.3261p017
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/326//more_rs0/log.3261p012
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/354//more_rs0/log.3543p002
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/344//more_rs0/log.3441p015
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/328//more_rs0/log.3288p017
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/358//more_rs0/log.3581m002
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/317//more_rs0/log.3171p007
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/323//more_rs0/log.3238p012
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/324//more_rs0/log.3246p007
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/332//more_rs0/log.3323p010
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/343//more_rs0/log.3433p005
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/329//more_rs0/log.3296p015
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/353//more_rs0/log.3531p015
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/353//more_rs0/log.3538p017
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/339//more_rs0/log.3391p015
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/350//more_rs0/log.3501p012
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/318//more_rs0/log.3186p012
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/336//more_rs0/log.3363p017
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/332//more_rs0/log.3321p007
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/323//more_rs0/log.3231p015
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/322//more_rs0/log.3223p015
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/319//more_rs0/log.3196p017
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/326//more_rs0/log.3266p010
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/320//more_rs0/log.3208p000
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/327//more_rs0/log.3271p002
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/333//more_rs0/log.3338p005
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/356//more_rs0/log.3568p017
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_like_run/logs/344//more_rs0/log.3446p007
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 21052082.1 ON nid00545 CANCELLED AT 2019-05-03T12:01:13 DUE TO TIME LIMIT ***
+srun: forcing job termination
+srun: got SIGCONT

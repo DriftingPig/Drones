@@ -1,0 +1,171 @@
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+srun: error: nid00695: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20368938.0
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+srun: error: nid00696: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20368938.1
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+srun: error: nid00697: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20368938.2
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+srun: error: nid00698: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20368938.3
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+  File "collect_mpi.py", line 99
+    print(os.environ['obiwan_out'],'subset','%s_part%d_of_%d.fits', %(name_for_run, split_idx, N_splits))
+                                                                    ^
+SyntaxError: invalid syntax
+srun: error: nid00699: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20368938.4
+ALL Done

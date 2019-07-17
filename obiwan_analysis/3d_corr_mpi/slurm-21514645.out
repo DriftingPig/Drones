@@ -1,0 +1,8 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'python/2.7-anaconda-5.2' is currently not loaded
+Fri May 17 11:28:24 2019: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Fri May 17 11:28:24 2019: [unset]:_pmi_init:_pmi_alps_init returned -1
+[Fri May 17 11:28:24 2019] [c2-0c2s13n1] Fatal error in PMPI_Init_thread: Other MPI error, error stack:
+MPIR_Init_thread(537): 
+MPID_Init(246).......: channel initialization failed
+MPID_Init(638).......:  PMI2 init failed: 1 
+/var/spool/slurmd/job21514645/slurm_script: line 15: 29679 Aborted                 python3 example1.py eBOSS_ELG_full_ALL_v4.dat_really_masked_chunk23_elg_ngc_run_obiwan_weight_z_subset eBOSS_ELG_clustering_eboss23_v4.ran_obiwan_weight_subset elg_clustering_chunk23_w_edge_debug

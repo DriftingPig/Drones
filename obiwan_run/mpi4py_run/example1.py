@@ -3,7 +3,10 @@ from mpi_master_slave import Master, Slave
 from mpi_master_slave import WorkQueue
 import time
 import numpy as np
-BRICKSTAT_DIR='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/more/obiwan_run/brickstat/elg_ngc_run/'
+#BRICKSTAT_DIR='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/more/obiwan_run/brickstat/elg_ngc_run/'
+#BRICKSTAT_DIR='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/more/obiwan_run/brickstat/elg_like_run/'
+#BRICKSTAT_DIR='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_code/py/obiwan/Drones/obiwan_analysis/brickstat/elg_kaylan_run/'
+BRICKSTAT_DIR='/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/eboss_ccds/'
 class MyApp(object):
     """
     This is my application that has a lot of work to do so it gives work to do
@@ -31,7 +34,7 @@ class MyApp(object):
         # let's prepare our work queue. This can be built at initialization time
         # but it can also be added later as more work become available
         #
-        task_list = np.loadtxt(BRICKSTAT_DIR + 'UnfinishedBricks.txt', dtype=np.str)
+        task_list = np.loadtxt(BRICKSTAT_DIR + 'dr5_eboss.txt', dtype=np.str)
         if tasks is None:
            tasks = len(task_list)
         for i in range(tasks):

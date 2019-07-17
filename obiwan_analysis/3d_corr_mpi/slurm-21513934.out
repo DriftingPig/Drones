@@ -1,0 +1,6 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'python/2.7-anaconda-5.2' is currently not loaded
+/var/spool/slurmd/job21513934/slurm_script: line 13: activate: No such file or directory
+Traceback (most recent call last):
+  File "example1.py", line 1, in <module>
+    from mpi4py import MPI
+ImportError: No module named 'mpi4py'

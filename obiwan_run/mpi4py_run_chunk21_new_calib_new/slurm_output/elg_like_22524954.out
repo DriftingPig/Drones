@@ -1,0 +1,8 @@
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/logs/335//more_rs0/log.3351m005
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/logs/335//more_rs0/log.3351m002
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/chunk21_10deg2_test/logs/335//more_rs0/log.3351m007
+slurmstepd: error: *** STEP 22524954.1 ON nid01744 CANCELLED AT 2019-06-23T18:33:48 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+srun: forcing job termination
+srun: forcing job termination

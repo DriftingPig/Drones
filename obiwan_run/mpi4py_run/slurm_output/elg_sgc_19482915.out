@@ -1,0 +1,26 @@
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/137//more_rs0/log.1374p137
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/137//more_rs0/log.1371p137
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/137//more_rs0/log.1377p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/137//more_rs0/log.1379p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/138//more_rs0/log.1382p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/138//more_rs0/log.1384p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/138//more_rs0/log.1387p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/138//more_rs0/log.1389p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/139//more_rs0/log.1392p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/139//more_rs0/log.1395p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/139//more_rs0/log.1397p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/140//more_rs0/log.1400p137
+FINISHED NOW!
+logging to.../global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out/elg_ngc_run/logs/140//more_rs0/log.1402p137
+slurmstepd: error: *** STEP 19482915.1 ON nid00563 CANCELLED AT 2019-03-03T20:42:13 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

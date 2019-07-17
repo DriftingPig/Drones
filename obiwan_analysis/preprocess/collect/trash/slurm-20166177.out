@@ -1,0 +1,251 @@
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+srun: error: nid00548: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166177.1
+srun: error: nid00567: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166177.4
+srun: error: nid00551: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166177.2
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+srun: error: nid00547: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166177.0
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+Traceback (most recent call last):
+  File "collect_mpi.py", line 157, in <module>
+    main()
+  File "collect_mpi.py", line 128, in main
+    args = parser.parse_args(args=args)
+AttributeError: 'NoneType' object has no attribute 'parse_args'
+srun: error: nid00552: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166177.3
+ALL Done

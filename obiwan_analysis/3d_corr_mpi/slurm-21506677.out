@@ -1,0 +1,5 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'python/2.7-anaconda-5.2' is currently not loaded
+  File "example1.py", line 15
+    OutputELGs="/global/cscratch1/sd/huikong/obiwan_Aug/repos_for_docker/obiwan_out//obiwan_co
+                                                                                             ^
+SyntaxError: EOL while scanning string literal

@@ -1,0 +1,331 @@
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+srun: error: nid00594: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166389.0
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+srun: error: nid00596: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166389.2
+srun: error: nid00595: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166389.1
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+Traceback (most recent call last):
+  File "collect_mpi.py", line 160, in <module>
+    main()
+  File "collect_mpi.py", line 130, in main
+    parser= get_parser()
+  File "collect_mpi.py", line 124, in get_parser
+    args = parser.parse_args(args=args)
+UnboundLocalError: local variable 'args' referenced before assignment
+srun: error: nid00598: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166389.4
+srun: error: nid00597: tasks 0-7: Exited with exit code 1
+srun: Terminating job step 20166389.3
+ALL Done

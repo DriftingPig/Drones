@@ -1,0 +1,1 @@
+gcc NewData_CorrFun.c -Wl,-rpath=$HOME/.conda/envs/myenv/lib -I$HOME/.conda/envs/myenv/include -I$HOME/.conda/envs/myenv/include/python2.7 -L$HOME/.conda/envs/myenv/lib -o NewData_CorrFun -lcfitsio -lpython2.7 -lm 

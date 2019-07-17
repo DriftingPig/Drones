@@ -42,7 +42,7 @@ def ranHelpsort(filename,res=256,rad=''):
     return tb_dat
 
 #generate txt files which inculde sin, cos of ra,dec
-def SprtFile_nest(filename, total_subs,res=256,rad='', use_weight = False):
+def SprtFile_nest(filename, total_subs,res=256,rad='', use_weight = False, weight_name = None):
     dat = ranHelpsort(filename,res,rad)
     import os
     base_filename = os.path.basename(filename)
@@ -69,7 +69,7 @@ def SprtFile_nest(filename, total_subs,res=256,rad='', use_weight = False):
         #assert(weight>=0)
         #assert(weight<=1)
         if use_weight == True:
-            weight = 1
+            weight = dat[weight_name][i]
             files[j].write(str(sin(thi))+' '+str(cos(thi))+' '+str(sin(phi))+' '+str(cos(phi))+' '+str(weight)+'\n')
         else:
             files[j].write(str(sin(thi))+' '+str(cos(thi))+' '+str(sin(phi))+' '+str(cos(phi))+' 1\n')
@@ -83,7 +83,7 @@ def SprtFile_nest(filename, total_subs,res=256,rad='', use_weight = False):
         files[i].close()
     return pixflag
 
-def SprtFile_nest_dat(filename, total_subs, pixflag, res=256,rad='',use_weight = False):
+def SprtFile_nest_dat(filename, total_subs, pixflag, res=256,rad='',use_weight = False, weight_name = None):
     dat = ranHelpsort(filename,res,rad)
     import os
     base_filename = os.path.basename(filename)
@@ -106,8 +106,11 @@ def SprtFile_nest_dat(filename, total_subs, pixflag, res=256,rad='',use_weight =
         thi = dec*pi/180.
         phi = ra*pi/180.
         if use_weight == True:
-            weight = dat['WEIGHT_SYSTOT'][i]
-            files[j].write(str(sin(thi))+' '+str(cos(thi))+' '+str(sin(phi))+' '+str(cos(phi))+' '+str(weight)+'\n')
+            try:
+               weight = dat[weight_name][i]
+               files[j].write(str(sin(thi))+' '+str(cos(thi))+' '+str(sin(phi))+' '+str(cos(phi))+' '+str(weight)+'\n')
+            except:
+               files[j].write(str(sin(thi))+' '+str(cos(thi))+' '+str(sin(phi))+' '+str(cos(phi))+' 1\n')
         else:
             files[j].write(str(sin(thi))+' '+str(cos(thi))+' '+str(sin(phi))+' '+str(cos(phi))+' 1\n')
         #files[j].write(str(thi)+' '+str(phi)+'\n')
@@ -124,17 +127,19 @@ import sys
 work_name = sys.argv[1]
 Type = sys.argv[2]
 func_name = sys.argv[3]
+weight_name = sys.argv[4]
 dirs = surveyname(work_name,Type)
 func_name = 'dirs.'+func_name
 func = eval(func_name)
 func()
 names = survey(dirs)
 output_filename = names.splitfile_dir
+
 if Type == 'obiwan' and names.weight == True:
-    pix_flag = SprtFile_nest(names.rawdata_random,20,use_weight = True)
+    pix_flag = SprtFile_nest(names.rawdata_random,20,use_weight = False, weight_name = weight_name)
 else:
-    pix_flag = SprtFile_nest(names.rawdata_random,20,use_weight = False)
-if Type == 'obiwan' and names.weight == True:
-      SprtFile_nest_dat(names.rawdata_data,20,pix_flag,use_weight = True)
+    pix_flag = SprtFile_nest(names.rawdata_random,20,use_weight = names.weight, weight_name = weight_name)
+if Type == 'obiwan' and names.weight == False:
+      SprtFile_nest_dat(names.rawdata_data,20,pix_flag,use_weight = False, weight_name = weight_name)
 else:
-      SprtFile_nest_dat(names.rawdata_data,20,pix_flag,use_weight = False)
+      SprtFile_nest_dat(names.rawdata_data,20,pix_flag,use_weight = names.weight, weight_name = weight_name)

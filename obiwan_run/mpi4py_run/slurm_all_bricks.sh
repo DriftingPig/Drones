@@ -1,8 +1,8 @@
 #!/bin/bash -l
 
-#SBATCH -p regular
-#SBATCH -N 40
-#SBATCH -t 10:00:00
+#SBATCH -p debug
+#SBATCH -N 4
+#SBATCH -t 00:30:00
 #SBATCH --account=desi
 #SBATCH --image=driftingpig/obiwan_composit:v3
 #SBATCH -J obiwan
@@ -12,15 +12,15 @@
 #SBATCH --mail-user=kong.291@osu.edu  
 #SBATCH --mail-type=ALL
 
-export name_for_run=elg_ngc_run
+export name_for_run=elg_dr5_eboss
 export randoms_db=None #run from a fits file
 export dataset=dr3
 export rowstart=0
 export do_skipids=no
-export do_more=yes
+export do_more=no
 export minid=1
 export object=elg
-export nobj=93
+export nobj=100
 
 export usecores=32
 export threads=$usecores
@@ -44,5 +44,5 @@ export OMP_NUM_THREADS=1
 export XDG_CONFIG_HOME=/dev/shm
 srun -n $SLURM_JOB_NUM_NODES mkdir -p $XDG_CONFIG_HOME/astropy
 
-srun -N 40 -n 80 -c $usecores shifter ./example1.sh
+srun -N 4 -n 8 -c $usecores shifter ./example1.sh
 wait

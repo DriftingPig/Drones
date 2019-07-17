@@ -1,0 +1,2060 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'python/2.7-anaconda-5.2' is currently not loaded
+total event1: 4633 total event2: 4633
+total event1: 4202 total event2: 4202
+total event1: 4343 total event2: 4343
+total event1: 4379 total event2: 4379
+total event1: 3925 total event2: 3925
+total event1: 4389 total event2: 4389
+total event1: 4699 total event2: 4699
+total event1: 4395 total event2: 4395
+total event1: 4208 total event2: 4208
+total event1: 4143 total event2: 4143
+total event1: 4103 total event2: 4103
+total event1: 4561 total event2: 4561
+total event1: 4189 total event2: 4189
+total event1: 3999 total event2: 3999
+total event1: 4014 total event2: 4014
+total event1: 4006 total event2: 4006
+total event1: 4142 total event2: 4142
+total event1: 4099 total event2: 4099
+total event1: 4072 total event2: 4072
+total event1: 4072 total event2: 4072
+DD total:11043344.622050
+DD total:13254277.609459
+DD total:12468218.178927
+DD total:12684009.492268
+DD total:13869155.585300
+DD total:11497713.645402
+DD total:13998856.350191
+DD total:12674516.443215
+DD total:14307414.833701
+DD total:11207711.809223
+DD total:11453613.332229
+DD total:14773068.413261
+DD total:11421236.613764
+DD total:13542161.825231
+DD total:11237034.621489
+DD total:12845951.233003
+DD total:11502032.918586
+DD total:12012342.991377
+DD total:11397732.020168
+DD total:11193662.033484
+total event1: 4561 total event2: 4343
+total event1: 4699 total event2: 3999
+total event1: 4561 total event2: 4699
+total event1: 4561 total event2: 4389
+total event1: 4699 total event2: 4395
+total event1: 4561 total event2: 4099
+total event1: 4561 total event2: 4142
+total event1: 4699 total event2: 4633
+total event1: 4561 total event2: 4103
+total event1: 4561 total event2: 4202
+total event1: 4699 total event2: 4202
+total event1: 4699 total event2: 4099
+total event1: 4561 total event2: 4072
+total event1: 4561 total event2: 4143
+total event1: 4561 total event2: 4072
+total event1: 4699 total event2: 4072
+total event1: 4561 total event2: 3925
+total event1: 4633 total event2: 4072
+total event1: 4561 total event2: 4395
+total event1: 4561 total event2: 4379
+total event1: 4561 total event2: 4633
+total event1: 4699 total event2: 4389
+total event1: 4633 total event2: 4379
+total event1: 4561 total event2: 4189
+total event1: 4561 total event2: 4014
+total event1: 4561 total event2: 3999
+total event1: 4389 total event2: 4202
+total event1: 4633 total event2: 4389
+total event1: 4699 total event2: 4189
+total event1: 4633 total event2: 4142
+total event1: 4561 total event2: 4208
+total event1: 4699 total event2: 4072
+total event1: 4561 total event2: 4006
+total event1: 4633 total event2: 4014
+total event1: 4633 total event2: 4202
+total event1: 4633 total event2: 3925
+total event1: 4389 total event2: 4103
+total event1: 4633 total event2: 3999
+total event1: 4699 total event2: 4343
+total event1: 4389 total event2: 4395
+total event1: 4699 total event2: 3925
+total event1: 4699 total event2: 4103
+total event1: 4633 total event2: 4103
+total event1: 4699 total event2: 4014
+total event1: 4633 total event2: 4099
+total event1: 4633 total event2: 4395
+total event1: 4699 total event2: 4208
+total event1: 4699 total event2: 4143
+total event1: 4699 total event2: 4142
+total event1: 4633 total event2: 4189
+total event1: 4699 total event2: 4006
+total event1: 4389 total event2: 4343
+total event1: 4633 total event2: 4072
+total event1: 4633 total event2: 4006
+total event1: 4633 total event2: 4143
+total event1: 4633 total event2: 4343
+total event1: 4633 total event2: 4208
+total event1: 4699 total event2: 4379
+total event1: 4389 total event2: 3925
+total event1: 4072 total event2: 3925
+total event1: 4142 total event2: 4072
+total event1: 4389 total event2: 4006
+total event1: 4395 total event2: 4099
+total event1: 4395 total event2: 4189
+total event1: 4343 total event2: 4072
+total event1: 4389 total event2: 4072
+total event1: 4142 total event2: 4143
+total event1: 4072 total event2: 4006
+total event1: 4189 total event2: 4143
+total event1: 4389 total event2: 4189
+total event1: 4343 total event2: 3925
+total event1: 4208 total event2: 4143
+total event1: 3925 total event2: 4006
+total event1: 4389 total event2: 4379
+total event1: 4014 total event2: 4006
+total event1: 4395 total event2: 4143
+total event1: 4014 total event2: 4072
+total event1: 4343 total event2: 3999
+total event1: 4395 total event2: 4006
+total event1: 4142 total event2: 4006
+total event1: 4202 total event2: 4208
+total event1: 4343 total event2: 4006
+total event1: 4343 total event2: 4208
+total event1: 4343 total event2: 4099
+total event1: 4389 total event2: 4072
+total event1: 4202 total event2: 4103
+total event1: 4395 total event2: 4103
+total event1: 4395 total event2: 3925
+total event1: 4202 total event2: 4379
+total event1: 4072 total event2: 4143
+total event1: 4343 total event2: 4103
+total event1: 4389 total event2: 3999
+total event1: 4343 total event2: 4072
+total event1: 4389 total event2: 4143
+total event1: 4208 total event2: 3999
+total event1: 4006 total event2: 4143
+total event1: 4202 total event2: 4099
+total event1: 4202 total event2: 3999
+total event1: 4343 total event2: 4142
+total event1: 4202 total event2: 4189
+total event1: 4395 total event2: 3999
+total event1: 4343 total event2: 4202
+total event1: 4389 total event2: 4099
+total event1: 4202 total event2: 4072
+total event1: 4343 total event2: 4395
+total event1: 4395 total event2: 4208
+total event1: 4395 total event2: 4014
+total event1: 4014 total event2: 4143
+total event1: 4395 total event2: 4202
+total event1: 4343 total event2: 4379
+total event1: 4395 total event2: 4072
+total event1: 4343 total event2: 4143
+total event1: 4389 total event2: 4014
+total event1: 4395 total event2: 4142
+total event1: 4389 total event2: 4208
+total event1: 4343 total event2: 4014
+total event1: 4389 total event2: 4142
+total event1: 4395 total event2: 4379
+total event1: 4189 total event2: 4072
+total event1: 4343 total event2: 4189
+total event1: 3925 total event2: 4014
+total event1: 4395 total event2: 4072
+total event1: 4099 total event2: 4142
+total event1: 4189 total event2: 3999
+total event1: 4208 total event2: 4006
+total event1: 4202 total event2: 4014
+total event1: 4189 total event2: 4006
+total event1: 3999 total event2: 4014
+total event1: 3999 total event2: 3925
+total event1: 4072 total event2: 4014
+total event1: 4189 total event2: 4014
+total event1: 4072 total event2: 4143
+total event1: 4099 total event2: 3925
+total event1: 4103 total event2: 4072
+total event1: 3999 total event2: 4142
+total event1: 4099 total event2: 4006
+total event1: 4202 total event2: 3925
+total event1: 4099 total event2: 4072
+total event1: 3999 total event2: 4072
+total event1: 4103 total event2: 4014
+total event1: 3925 total event2: 4142
+total event1: 4208 total event2: 4189
+total event1: 4189 total event2: 3925
+total event1: 4103 total event2: 4142
+total event1: 3999 total event2: 4006
+total event1: 4099 total event2: 3999
+total event1: 4072 total event2: 4099
+total event1: 4208 total event2: 4014
+total event1: 4142 total event2: 4014
+total event1: 4072 total event2: 4006
+total event1: 3925 total event2: 4072
+total event1: 4103 total event2: 4099
+total event1: 4208 total event2: 3925
+total event1: 4099 total event2: 4014
+total event1: 4379 total event2: 4072
+total event1: 3925 total event2: 4143
+total event1: 4189 total event2: 4142
+total event1: 4099 total event2: 4143
+total event1: 4099 total event2: 4208
+total event1: 4208 total event2: 4142
+total event1: 4208 total event2: 4072
+total event1: 3999 total event2: 4143
+total event1: 4103 total event2: 4208
+total event1: 4099 total event2: 4189
+total event1: 4202 total event2: 4072
+total event1: 4379 total event2: 4014
+total event1: 4072 total event2: 3999
+total event1: 4202 total event2: 4143
+total event1: 4379 total event2: 4189
+total event1: 4103 total event2: 4072
+total event1: 4103 total event2: 4379
+total event1: 4072 total event2: 4189
+total event1: 4072 total event2: 4379
+total event1: 4202 total event2: 4142
+total event1: 4379 total event2: 4143
+total event1: 4379 total event2: 4142
+total event1: 4072 total event2: 4072
+total event1: 4103 total event2: 4006
+total event1: 4202 total event2: 4006
+total event1: 4103 total event2: 4143
+total event1: 4103 total event2: 3925
+total event1: 4072 total event2: 4142
+total event1: 4379 total event2: 4006
+total event1: 4379 total event2: 4099
+total event1: 4103 total event2: 4189
+total event1: 4103 total event2: 3999
+total event1: 4072 total event2: 4208
+total event1: 4379 total event2: 3925
+total event1: 4379 total event2: 4208
+total event1: 4379 total event2: 3999
+DD cross total:25608646.526857
+DD cross total:22242381.555892
+DD cross total:26077077.052716
+DD cross total:22285510.724100
+DD cross total:25552038.617943
+DD cross total:24464424.993058
+DD cross total:25177748.804409
+DD cross total:26072251.565008
+DD cross total:22640151.841631
+DD cross total:24962495.257211
+DD cross total:22467422.459160
+DD cross total:26649333.492642
+DD cross total:24203032.047934
+DD cross total:22663540.427930
+DD cross total:22619679.658506
+DD cross total:26225756.015203
+DD cross total:23852152.812476
+DD cross total:27992858.128235
+DD cross total:24677974.782568
+DD cross total:22905416.167464
+DD cross total:22436535.144245
+DD cross total:24757781.899686
+DD cross total:24003989.874802
+DD cross total:25958661.721319
+DD cross total:24414300.140306
+DD cross total:22713670.201976
+DD cross total:22924835.827428
+DD cross total:25213384.012153
+DD cross total:23883403.390273
+DD cross total:25725199.640076
+DD cross total:24648425.442769
+DD cross total:22824958.434334
+DD cross total:24069349.806469
+DD cross total:25145902.079335
+DD cross total:23514851.450665
+DD cross total:25775082.178943
+DD cross total:24873538.591111
+DD cross total:22743429.164333
+DD cross total:22407177.741706
+DD cross total:25266500.098316
+DD cross total:22499221.619317
+DD cross total:27373899.114667
+DD cross total:24630215.476584
+DD cross total:22450626.458558
+DD cross total:23667871.087468
+DD cross total:27120437.701573
+DD cross total:24035439.386255
+DD cross total:26022256.944419
+DD cross total:25941696.275892
+DD cross total:22633885.997128
+DD cross total:22901177.586440
+DD cross total:25316310.795890
+DD cross total:24265931.535698
+DD cross total:25985478.520244
+DD cross total:24103416.246928
+DD cross total:22610528.013957
+DD cross total:22739220.558534
+DD cross total:24973892.399518
+DD cross total:22880876.506676
+DD cross total:27558465.363459
+DD cross total:24853740.325639
+DD cross total:23005645.627308
+DD cross total:25546062.117180
+DD cross total:24112437.563299
+DD cross total:25741356.407217
+DD cross total:25090659.530265
+DD cross total:22651694.315166
+DD cross total:24925560.403915
+DD cross total:23041401.118233
+DD cross total:27384144.492416
+DD cross total:26385448.882910
+DD cross total:22596336.336161
+DD cross total:26938805.038573
+DD cross total:24206628.557740
+DD cross total:27150000.715291
+DD cross total:24367051.124087
+DD cross total:22542447.695014
+DD cross total:25572452.676858
+DD cross total:22695617.162738
+DD cross total:28295181.226194
+DD cross total:24588187.696354
+DD cross total:22699413.786169
+DD cross total:26208738.632233
+DD cross total:23242529.342579
+DD cross total:29083367.241718
+DD cross total:24914628.640232
+DD cross total:24154194.005810
+total event1: 4395 total event2: 178738
+DD cross total:25365400.477408
+DD cross total:22857263.631342
+DD cross total:28768355.780773
+DD cross total:26826687.372339
+DD cross total:24044510.436519
+DD cross total:24941214.955921
+DD cross total:23408071.119348
+total event1: 4202 total event2: 178739
+DD cross total:28179343.098420
+DD cross total:25295469.079631
+DD cross total:23197548.055404
+DD cross total:25151765.575863
+DD cross total:22256350.931626
+DD cross total:28634473.355042
+DD cross total:25364880.328261
+DD cross total:22957282.385439
+DD cross total:28311097.531706
+DD cross total:22546619.881830
+DD cross total:27845443.843797
+DD cross total:24149724.342056
+total event1: 4699 total event2: 178738
+DD cross total:23874467.763680
+total event1: 4395 total event2: 178738
+total event1: 4343 total event2: 178738
+DD cross total:26523011.887952
+total event1: 4395 total event2: 178739
+DD cross total:23676729.390017
+total event1: 4343 total event2: 178738
+total event1: 4395 total event2: 178738
+DD cross total:23828263.485533
+total event1: 4395 total event2: 178739
+I am  nid00604 rank 0 (total 1920)
+Master: slave finished is task and says "I completed my task (11)"
+Master: slave finished is task and says "I completed my task (14)"
+Master: slave finished is task and says "I completed my task (4)"
+Master: slave finished is task and says "I completed my task (9)"
+Master: slave finished is task and says "I completed my task (0)"
+Master: slave finished is task and says "I completed my task (1)"
+Master: slave finished is task and says "I completed my task (2)"
+Master: slave finished is task and says "I completed my task (5)"
+Master: slave finished is task and says "I completed my task (6)"
+Master: slave finished is task and says "I completed my task (7)"
+Master: slave finished is task and says "I completed my task (13)"
+Master: slave finished is task and says "I completed my task (16)"
+Master: slave finished is task and says "I completed my task (19)"
+Master: slave finished is task and says "I completed my task (3)"
+Master: slave finished is task and says "I completed my task (8)"
+Master: slave finished is task and says "I completed my task (10)"
+Master: slave finished is task and says "I completed my task (12)"
+Master: slave finished is task and says "I completed my task (15)"
+Master: slave finished is task and says "I completed my task (17)"
+Master: slave finished is task and says "I completed my task (18)"
+Master: slave finished is task and says "I completed my task (569)"
+Master: slave finished is task and says "I completed my task (504)"
+Master: slave finished is task and says "I completed my task (470)"
+Master: slave finished is task and says "I completed my task (453)"
+Master: slave finished is task and says "I completed my task (454)"
+Master: slave finished is task and says "I completed my task (618)"
+Master: slave finished is task and says "I completed my task (519)"
+Master: slave finished is task and says "I completed my task (625)"
+Master: slave finished is task and says "I completed my task (446)"
+Master: slave finished is task and says "I completed my task (571)"
+Master: slave finished is task and says "I completed my task (467)"
+Master: slave finished is task and says "I completed my task (449)"
+Master: slave finished is task and says "I completed my task (627)"
+Master: slave finished is task and says "I completed my task (490)"
+Master: slave finished is task and says "I completed my task (616)"
+Master: slave finished is task and says "I completed my task (601)"
+Master: slave finished is task and says "I completed my task (497)"
+Master: slave finished is task and says "I completed my task (508)"
+Master: slave finished is task and says "I completed my task (621)"
+Master: slave finished is task and says "I completed my task (443)"
+Master: slave finished is task and says "I completed my task (518)"
+Master: slave finished is task and says "I completed my task (623)"
+Master: slave finished is task and says "I completed my task (624)"
+Master: slave finished is task and says "I completed my task (523)"
+Master: slave finished is task and says "I completed my task (560)"
+Master: slave finished is task and says "I completed my task (608)"
+Master: slave finished is task and says "I completed my task (447)"
+Master: slave finished is task and says "I completed my task (573)"
+Master: slave finished is task and says "I completed my task (487)"
+Master: slave finished is task and says "I completed my task (488)"
+Master: slave finished is task and says "I completed my task (600)"
+Master: slave finished is task and says "I completed my task (456)"
+Master: slave finished is task and says "I completed my task (498)"
+Master: slave finished is task and says "I completed my task (546)"
+Master: slave finished is task and says "I completed my task (622)"
+Master: slave finished is task and says "I completed my task (548)"
+Master: slave finished is task and says "I completed my task (589)"
+Master: slave finished is task and says "I completed my task (445)"
+Master: slave finished is task and says "I completed my task (609)"
+Master: slave finished is task and says "I completed my task (489)"
+Master: slave finished is task and says "I completed my task (574)"
+Master: slave finished is task and says "I completed my task (471)"
+Master: slave finished is task and says "I completed my task (533)"
+Master: slave finished is task and says "I completed my task (629)"
+Master: slave finished is task and says "I completed my task (457)"
+Master: slave finished is task and says "I completed my task (607)"
+Master: slave finished is task and says "I completed my task (465)"
+Master: slave finished is task and says "I completed my task (626)"
+Master: slave finished is task and says "I completed my task (529)"
+Master: slave finished is task and says "I completed my task (469)"
+Master: slave finished is task and says "I completed my task (452)"
+Master: slave finished is task and says "I completed my task (628)"
+Master: slave finished is task and says "I completed my task (602)"
+Master: slave finished is task and says "I completed my task (492)"
+Master: slave finished is task and says "I completed my task (455)"
+Master: slave finished is task and says "I completed my task (561)"
+Master: slave finished is task and says "I completed my task (562)"
+Master: slave finished is task and says "I completed my task (545)"
+Master: slave finished is task and says "I completed my task (482)"
+Master: slave finished is task and says "I completed my task (588)"
+Master: slave finished is task and says "I completed my task (502)"
+Master: slave finished is task and says "I completed my task (568)"
+Master: slave finished is task and says "I completed my task (611)"
+Master: slave finished is task and says "I completed my task (450)"
+Master: slave finished is task and says "I completed my task (451)"
+Master: slave finished is task and says "I completed my task (507)"
+Master: slave finished is task and says "I completed my task (595)"
+Master: slave finished is task and says "I completed my task (474)"
+Master: slave finished is task and says "I completed my task (537)"
+Master: slave finished is task and says "I completed my task (559)"
+Master: slave finished is task and says "I completed my task (458)"
+Master: slave finished is task and says "I completed my task (606)"
+Master: slave finished is task and says "I completed my task (522)"
+Master: slave finished is task and says "I completed my task (463)"
+Master: slave finished is task and says "I completed my task (570)"
+Master: slave finished is task and says "I completed my task (572)"
+Master: slave finished is task and says "I completed my task (592)"
+Master: slave finished is task and says "I completed my task (448)"
+Master: slave finished is task and says "I completed my task (613)"
+Master: slave finished is task and says "I completed my task (473)"
+Master: slave finished is task and says "I completed my task (558)"
+Master: slave finished is task and says "I completed my task (513)"
+Master: slave finished is task and says "I completed my task (496)"
+Master: slave finished is task and says "I completed my task (442)"
+Master: slave finished is task and says "I completed my task (475)"
+Master: slave finished is task and says "I completed my task (547)"
+Master: slave finished is task and says "I completed my task (444)"
+Master: slave finished is task and says "I completed my task (503)"
+Master: slave finished is task and says "I completed my task (549)"
+Master: slave finished is task and says "I completed my task (591)"
+Master: slave finished is task and says "I completed my task (612)"
+Master: slave finished is task and says "I completed my task (531)"
+Master: slave finished is task and says "I completed my task (493)"
+Master: slave finished is task and says "I completed my task (440)"
+Master: slave finished is task and says "I completed my task (619)"
+Master: slave finished is task and says "I completed my task (565)"
+Master: slave finished is task and says "I completed my task (462)"
+Master: slave finished is task and says "I completed my task (550)"
+Master: slave finished is task and says "I completed my task (596)"
+Master: slave finished is task and says "I completed my task (491)"
+DD cross total:23510500.095405
+DD cross total:25820968.582897
+DD cross total:23465417.739187
+DD cross total:24700351.352010
+DD cross total:23843228.877838
+DD cross total:25261824.605536
+total event1: 4395 total event2: 178738
+DD cross total:22444236.264985
+DD cross total:25057829.301070
+DD cross total:22695213.325277
+DD cross total:26306073.121462
+DD cross total:22665920.760661
+DD cross total:24684253.147144
+DD cross total:23872480.194539
+DD cross total:27543840.735986
+DD cross total:23212117.325526
+DD cross total:24613588.716354
+DD cross total:22709467.102983
+DD cross total:25662595.297660
+DD cross total:23432253.010666
+DD cross total:25938412.847013
+DD cross total:23988923.579589
+DD cross total:25332210.759508
+DD cross total:23827449.749070
+DD cross total:25242395.811249
+DD cross total:23837181.818991
+total event1: 4343 total event2: 178739
+DD cross total:26701841.100035
+DD cross total:22961531.350417
+DD cross total:25331270.902208
+DD cross total:24312551.859332
+DD cross total:25657846.508625
+total event1: 4343 total event2: 178738
+DD cross total:24231635.405085
+DD cross total:25379937.982883
+DD cross total:24693491.856510
+DD cross total:26948887.571298
+DD cross total:22929078.787155
+DD cross total:24879415.676876
+DD cross total:23679192.143801
+DD cross total:27415656.969082
+DD cross total:24053509.705901
+DD cross total:25526347.049776
+DD cross total:23847843.992404
+DD cross total:26801351.870947
+DD cross total:24078358.372613
+DD cross total:24645684.536567
+DD cross total:23648208.769110
+DD cross total:26532938.799513
+DD cross total:24163234.327059
+DD cross total:24967115.349704
+DD cross total:24158762.990429
+DD cross total:27122731.248589
+DD cross total:25535900.934196
+DD cross total:24382354.903133
+total event1: 4103 total event2: 178738
+DD cross total:23956630.430623
+total event1: 4202 total event2: 178738
+DD cross total:26718465.389342
+total event1: 4202 total event2: 178738
+total event1: 4103 total event2: 178739
+DD cross total:24317051.659430
+total event1: 4343 total event2: 178738
+DD cross total:25269364.364734
+total event1: 4103 total event2: 178738
+total event1: 4072 total event2: 178738
+DD cross total:23474285.276750
+DD cross total:27874123.418581
+DD cross total:24850684.680637
+total event1: 4072 total event2: 178738
+DD cross total:24695780.623418
+total event1: 4103 total event2: 178738
+DD cross total:23906267.996523
+DD cross total:27547926.016310
+DD cross total:25148001.948593
+total event1: 4103 total event2: 178738
+DD cross total:23633365.782720
+total event1: 4343 total event2: 178739
+DD cross total:25384635.336242
+DD cross total:24482354.077306
+total event1: 4072 total event2: 178738
+DD cross total:26103530.538463
+DD cross total:25317560.269990
+DD cross total:25928708.368655
+DD cross total:23952197.325441
+DD cross total:26656995.357650
+DD cross total:25157414.227736
+DD cross total:25994370.390254
+DD cross total:26218547.919056
+DD cross total:27249545.421369
+DD cross total:25716630.568657
+DD cross total:26647022.032121
+DD cross total:25042101.555141
+DD cross total:26429068.953662
+DD cross total:25515013.893552
+total event1: 4343 total event2: 178739
+total event1: 4202 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4103 total event2: 178739
+total event1: 4103 total event2: 178738
+total event1: 4395 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4379 total event2: 178739
+total event1: 4202 total event2: 178738
+total event1: 4103 total event2: 178738
+total event1: 4103 total event2: 178739
+total event1: 4699 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4072 total event2: 178739
+total event1: 4343 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4202 total event2: 178739
+total event1: 4379 total event2: 178739
+total event1: 4395 total event2: 178738
+total event1: 4072 total event2: 178739
+total event1: 4379 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4343 total event2: 178739
+total event1: 4389 total event2: 178738
+total event1: 4343 total event2: 178739
+total event1: 4389 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4395 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4343 total event2: 178738
+total event1: 4014 total event2: 178738
+total event1: 4014 total event2: 178739
+total event1: 4389 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4389 total event2: 178739
+total event1: 4389 total event2: 178739
+total event1: 4014 total event2: 178738
+total event1: 4633 total event2: 178739
+total event1: 4389 total event2: 178739
+total event1: 4389 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 4014 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4633 total event2: 178739
+total event1: 4633 total event2: 178738
+total event1: 4014 total event2: 178739
+total event1: 4014 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4343 total event2: 178738
+total event1: 4202 total event2: 178739
+total event1: 4395 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4014 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 4202 total event2: 178739
+total event1: 4389 total event2: 178739
+total event1: 4343 total event2: 178738
+total event1: 4014 total event2: 178739
+total event1: 4014 total event2: 178738
+total event1: 4014 total event2: 178738
+total event1: 4395 total event2: 178739
+total event1: 4343 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 4014 total event2: 178739
+total event1: 4395 total event2: 178738
+total event1: 4202 total event2: 178739
+total event1: 4103 total event2: 178738
+total event1: 4389 total event2: 178739
+total event1: 4099 total event2: 178738
+total event1: 4395 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4208 total event2: 178739
+total event1: 4099 total event2: 178738
+total event1: 4379 total event2: 178739
+total event1: 4202 total event2: 178738
+total event1: 4395 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4014 total event2: 178738
+total event1: 4014 total event2: 178738
+total event1: 4142 total event2: 178739
+total event1: 4014 total event2: 178739
+total event1: 4072 total event2: 178739
+total event1: 4142 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4395 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4343 total event2: 178738
+total event1: 4072 total event2: 178739
+total event1: 4014 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4395 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4006 total event2: 178739
+total event1: 4103 total event2: 178738
+total event1: 4343 total event2: 178738
+total event1: 4395 total event2: 178738
+total event1: 4395 total event2: 178738
+total event1: 4014 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 4072 total event2: 178739
+total event1: 4072 total event2: 178739
+total event1: 4072 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4072 total event2: 178739
+total event1: 4072 total event2: 178738
+total event1: 4103 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4014 total event2: 178738
+total event1: 4006 total event2: 178739
+total event1: 4699 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4072 total event2: 178739
+total event1: 4072 total event2: 178739
+total event1: 4006 total event2: 178739
+total event1: 4699 total event2: 178739
+total event1: 4072 total event2: 178739
+total event1: 4072 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4561 total event2: 178738
+total event1: 4633 total event2: 178739
+total event1: 4699 total event2: 178738
+total event1: 4699 total event2: 178739
+total event1: 4561 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 4189 total event2: 178739
+total event1: 4189 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4395 total event2: 178739
+total event1: 3999 total event2: 178738
+total event1: 4561 total event2: 178739
+total event1: 4103 total event2: 178738
+total event1: 4561 total event2: 178739
+total event1: 4103 total event2: 178738
+total event1: 4561 total event2: 178739
+total event1: 4379 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4343 total event2: 178738
+total event1: 4202 total event2: 178738
+total event1: 4561 total event2: 178739
+total event1: 4561 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4142 total event2: 178739
+total event1: 4343 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 4561 total event2: 178738
+total event1: 4143 total event2: 178739
+total event1: 4561 total event2: 178738
+total event1: 4395 total event2: 178739
+total event1: 4561 total event2: 178738
+total event1: 4561 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 4006 total event2: 178738
+total event1: 4561 total event2: 178739
+total event1: 4143 total event2: 178739
+total event1: 4561 total event2: 178738
+total event1: 4143 total event2: 178739
+total event1: 4014 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4699 total event2: 178739
+total event1: 4099 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4633 total event2: 178739
+total event1: 4633 total event2: 178739
+total event1: 4699 total event2: 178739
+total event1: 4561 total event2: 178738
+total event1: 4014 total event2: 178738
+total event1: 4561 total event2: 178738
+total event1: 4699 total event2: 178739
+total event1: 4014 total event2: 178738
+total event1: 4561 total event2: 178738
+total event1: 4561 total event2: 178738
+total event1: 4561 total event2: 178738
+total event1: 4561 total event2: 178738
+total event1: 4561 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4343 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4343 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4099 total event2: 178739
+total event1: 4699 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 4389 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 4142 total event2: 178739
+total event1: 4142 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 3925 total event2: 178739
+total event1: 4103 total event2: 178739
+total event1: 4099 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 4633 total event2: 178738
+total event1: 3925 total event2: 178739
+total event1: 4142 total event2: 178739
+total event1: 3925 total event2: 178739
+total event1: 4099 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4099 total event2: 178739
+total event1: 3999 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4103 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4208 total event2: 178739
+total event1: 4379 total event2: 178738
+total event1: 4379 total event2: 178739
+total event1: 4208 total event2: 178739
+total event1: 4208 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 3925 total event2: 178739
+total event1: 4379 total event2: 178738
+total event1: 4103 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 3999 total event2: 178739
+total event1: 4379 total event2: 178739
+total event1: 4103 total event2: 178739
+total event1: 3999 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4099 total event2: 178739
+total event1: 4099 total event2: 178739
+total event1: 4099 total event2: 178739
+total event1: 3999 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 3999 total event2: 178739
+total event1: 4142 total event2: 178738
+total event1: 3999 total event2: 178739
+total event1: 3925 total event2: 178738
+total event1: 4072 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4208 total event2: 178739
+total event1: 4189 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 4006 total event2: 178738
+total event1: 3925 total event2: 178739
+total event1: 4006 total event2: 178738
+total event1: 4142 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 4142 total event2: 178739
+total event1: 4006 total event2: 178738
+total event1: 3925 total event2: 178738
+total event1: 4006 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4189 total event2: 178739
+total event1: 4006 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4699 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4189 total event2: 178739
+total event1: 4006 total event2: 178738
+total event1: 3999 total event2: 178739
+total event1: 4143 total event2: 178739
+total event1: 4208 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 4099 total event2: 178738
+total event1: 4006 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4208 total event2: 178739
+total event1: 4189 total event2: 178738
+total event1: 4006 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4006 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4143 total event2: 178739
+total event1: 4006 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4006 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4006 total event2: 178738
+total event1: 4208 total event2: 178738
+total event1: 4006 total event2: 178738
+total event1: 3999 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4189 total event2: 178739
+total event1: 4006 total event2: 178738
+total event1: 4143 total event2: 178738
+total event1: 4189 total event2: 178739
+total event1: 4103 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 3999 total event2: 178739
+total event1: 4103 total event2: 178738
+total event1: 4379 total event2: 178738
+total event1: 4189 total event2: 178738
+total event1: 4006 total event2: 178739
+total event1: 4006 total event2: 178739
+total event1: 178738 total event2: 178738
+****: 0.939923 0.939923
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+****: 0.942016 0.942016
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+****: 0.943409 0.943409
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+****: 0.930210 0.930210
+total event1: 178738 total event2: 178738
+****: 0.948970 0.948970
+total event1: 178738 total event2: 178738
+****: 0.948806 0.948806
+total event1: 178738 total event2: 178738
+****: 0.952843 0.952843
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+****: 0.944336 0.944336
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178739
+****: 1.031907 1.031907
+total event1: 178739 total event2: 178739
+****: 1.040105 1.040105
+total event1: 178739 total event2: 178739
+****: 1.034980 1.034980
+total event1: 178738 total event2: 178738
+****: 1.036471 1.036471
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+****: 0.941686 0.941686
+total event1: 178739 total event2: 178739
+****: 1.041339 1.041339
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178739
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178739
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178739
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178739
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178739
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178739
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178739
+total event1: 178738 total event2: 178738
+****: 0.948229 0.948229
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+****: 0.944411 0.944411
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+****: 1.038168 1.038168
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+****: 1.041960 1.041960
+total event1: 178739 total event2: 178739
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178739
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178739
+****: 1.041414 1.041414
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+****: 1.031187 1.031187
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178739
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178738 total event2: 178738
+total event1: 178739 total event2: 178738
+total event1: 178739 total event2: 178738
+DR total:922752221.707641
+DR total:932549305.564693
+DR total:796592440.560561
+DR total:809215632.132652
+DR total:817724632.174634
+DR total:887400657.749488
+DR total:836805091.128303
+DR total:797211916.849507
+DR total:890363945.765406
+DR total:878082252.286396
+DR total:860552835.025703
+DR total:849615424.343509
+DR total:889956482.143209
+DR total:848304343.340559
+DR total:880215650.470653
+DR total:829447179.342226
+DR total:812220378.075633
+DR total:828756340.790966
+DR total:860574275.371669
+DR total:827216046.237182
+DR total:793069559.927528
+DR total:845271602.580633
+DR total:885249845.069619
+DR total:888205950.761136
+DR total:886285161.913297
+DR total:879812831.139598
+DR total:892286269.693985
+DR total:886994550.286290
+DR total:825048296.878955
+DR total:826686633.260903
+DR total:867093870.105811
+DR total:886484867.610430
+DR total:847645165.527623
+DR total:844399289.084071
+DR total:847921281.157012
+DR total:791329818.598542
+DR total:822486750.365873
+Master: slave finished is task and says "I completed my task (535)"
+Master: slave finished is task and says "I completed my task (557)"
+Master: slave finished is task and says "I completed my task (615)"
+Master: slave finished is task and says "I completed my task (539)"
+Master: slave finished is task and says "I completed my task (540)"
+Master: slave finished is task and says "I completed my task (543)"
+Master: slave finished is task and says "I completed my task (441)"
+Master: slave finished is task and says "I completed my task (480)"
+Master: slave finished is task and says "I completed my task (459)"
+Master: slave finished is task and says "I completed my task (460)"
+Master: slave finished is task and says "I completed my task (481)"
+Master: slave finished is task and says "I completed my task (520)"
+Master: slave finished is task and says "I completed my task (483)"
+Master: slave finished is task and says "I completed my task (484)"
+Master: slave finished is task and says "I completed my task (587)"
+Master: slave finished is task and says "I completed my task (551)"
+Master: slave finished is task and says "I completed my task (552)"
+Master: slave finished is task and says "I completed my task (593)"
+Master: slave finished is task and says "I completed my task (617)"
+Master: slave finished is task and says "I completed my task (554)"
+Master: slave finished is task and says "I completed my task (614)"
+Master: slave finished is task and says "I completed my task (538)"
+Master: slave finished is task and says "I completed my task (581)"
+Master: slave finished is task and says "I completed my task (495)"
+Master: slave finished is task and says "I completed my task (542)"
+Master: slave finished is task and says "I completed my task (605)"
+Master: slave finished is task and says "I completed my task (521)"
+Master: slave finished is task and says "I completed my task (566)"
+Master: slave finished is task and says "I completed my task (567)"
+Master: slave finished is task and says "I completed my task (590)"
+Master: slave finished is task and says "I completed my task (464)"
+Master: slave finished is task and says "I completed my task (486)"
+Master: slave finished is task and says "I completed my task (526)"
+Master: slave finished is task and says "I completed my task (610)"
+Master: slave finished is task and says "I completed my task (532)"
+Master: slave finished is task and says "I completed my task (472)"
+Master: slave finished is task and says "I completed my task (515)"
+Master: slave finished is task and says "I completed my task (556)"
+Master: slave finished is task and says "I completed my task (476)"
+Master: slave finished is task and says "I completed my task (563)"
+Master: slave finished is task and says "I completed my task (516)"
+Master: slave finished is task and says "I completed my task (603)"
+Master: slave finished is task and says "I completed my task (544)"
+Master: slave finished is task and says "I completed my task (485)"
+Master: slave finished is task and says "I completed my task (505)"
+Master: slave finished is task and says "I completed my task (468)"
+Master: slave finished is task and says "I completed my task (506)"
+Master: slave finished is task and says "I completed my task (582)"
+Master: slave finished is task and says "I completed my task (509)"
+Master: slave finished is task and says "I completed my task (555)"
+Master: slave finished is task and says "I completed my task (597)"
+Master: slave finished is task and says "I completed my task (598)"
+Master: slave finished is task and says "I completed my task (599)"
+Master: slave finished is task and says "I completed my task (494)"
+Master: slave finished is task and says "I completed my task (477)"
+Master: slave finished is task and says "I completed my task (583)"
+Master: slave finished is task and says "I completed my task (584)"
+Master: slave finished is task and says "I completed my task (620)"
+Master: slave finished is task and says "I completed my task (585)"
+Master: slave finished is task and says "I completed my task (586)"
+DR total:849035465.140584
+Master: slave finished is task and says "I completed my task (580)"
+Master: slave finished is task and says "I completed my task (461)"
+Master: slave finished is task and says "I completed my task (524)"
+Master: slave finished is task and says "I completed my task (466)"
+Master: slave finished is task and says "I completed my task (594)"
+Master: slave finished is task and says "I completed my task (541)"
+Master: slave finished is task and says "I completed my task (575)"
+Master: slave finished is task and says "I completed my task (534)"
+Master: slave finished is task and says "I completed my task (512)"
+Master: slave finished is task and says "I completed my task (536)"
+Master: slave finished is task and says "I completed my task (578)"
+Master: slave finished is task and says "I completed my task (579)"
+Master: slave finished is task and says "I completed my task (478)"
+Master: slave finished is task and says "I completed my task (564)"
+Master: slave finished is task and says "I completed my task (479)"
+Master: slave finished is task and says "I completed my task (604)"
+Master: slave finished is task and says "I completed my task (499)"
+Master: slave finished is task and says "I completed my task (500)"
+Master: slave finished is task and says "I completed my task (501)"
+Master: slave finished is task and says "I completed my task (525)"
+Master: slave finished is task and says "I completed my task (527)"
+Master: slave finished is task and says "I completed my task (528)"
+Master: slave finished is task and says "I completed my task (553)"
+Master: slave finished is task and says "I completed my task (530)"
+Master: slave finished is task and says "I completed my task (510)"
+Master: slave finished is task and says "I completed my task (511)"
+Master: slave finished is task and says "I completed my task (577)"
+Master: slave finished is task and says "I completed my task (576)"
+Master: slave finished is task and says "I completed my task (514)"
+Master: slave finished is task and says "I completed my task (517)"
+Master: slave finished is task and says "I completed my task (48)"
+Master: slave finished is task and says "I completed my task (140)"
+Master: slave finished is task and says "I completed my task (197)"
+Master: slave finished is task and says "I completed my task (178)"
+Master: slave finished is task and says "I completed my task (190)"
+Master: slave finished is task and says "I completed my task (196)"
+Master: slave finished is task and says "I completed my task (158)"
+Master: slave finished is task and says "I completed my task (186)"
+Master: slave finished is task and says "I completed my task (380)"
+Master: slave finished is task and says "I completed my task (342)"
+Master: slave finished is task and says "I completed my task (345)"
+Master: slave finished is task and says "I completed my task (162)"
+Master: slave finished is task and says "I completed my task (310)"
+Master: slave finished is task and says "I completed my task (156)"
+Master: slave finished is task and says "I completed my task (169)"
+Master: slave finished is task and says "I completed my task (170)"
+Master: slave finished is task and says "I completed my task (382)"
+Master: slave finished is task and says "I completed my task (161)"
+Master: slave finished is task and says "I completed my task (168)"
+Master: slave finished is task and says "I completed my task (318)"
+Master: slave finished is task and says "I completed my task (344)"
+Master: slave finished is task and says "I completed my task (346)"
+Master: slave finished is task and says "I completed my task (349)"
+Master: slave finished is task and says "I completed my task (135)"
+Master: slave finished is task and says "I completed my task (351)"
+Master: slave finished is task and says "I completed my task (341)"
+Master: slave finished is task and says "I completed my task (160)"
+Master: slave finished is task and says "I completed my task (381)"
+Master: slave finished is task and says "I completed my task (343)"
+Master: slave finished is task and says "I completed my task (340)"
+Master: slave finished is task and says "I completed my task (119)"
+DR total:859686169.620741
+DR total:846219826.208709
+DR total:825833499.207200
+DR total:807602046.338408
+DR total:871501853.102904
+DR total:847751639.297470
+DR total:906532718.601393
+DR total:886079179.173252
+DR total:823612086.434951
+DR total:859664751.437763
+DR total:872199408.722689
+DR total:851933261.886640
+DR total:811785566.863427
+DR total:807966893.891883
+DR total:805971876.583785
+DR total:846198743.492630
+DR total:885370522.981755
+DR total:934387231.530804
+DR total:872598742.331233
+DR total:804753167.253498
+DR total:806522419.898191
+DR total:831172403.124208
+DR total:884336274.442045
+DR total:814496354.180113
+DR total:874496045.377390
+DR total:797899003.808311
+DR total:804914204.445262
+DR total:870483805.250918
+DR total:848951475.200240
+DR total:825998093.937242
+DR total:806053436.149472
+DR total:878110128.462584
+DR total:876382898.740893
+DR total:868147358.296064
+DR total:827956583.167832
+DR total:807339060.429224
+DR total:805060472.599678
+DR total:810710816.512303
+DR total:890528735.645745
+DR total:812897432.530317
+DR total:809603107.931041
+DR total:898722568.661072
+DR total:799446172.987270
+DR total:878512168.268388
+DR total:816204840.492575
+DR total:851954487.425870
+DR total:878661627.499738
+DR total:791845737.672278
+DR total:805690095.355212
+DR total:828909728.276953
+DR total:805892146.787616
+DR total:791230431.201881
+DR total:807663927.704190
+DR total:879063919.784416
+DR total:815089625.269212
+DR total:804083539.746630
+DR total:792449799.696579
+DR total:808812918.796213
+DR total:826085785.895860
+DR total:803922668.508430
+DR total:863607790.333451
+DR total:807440471.307007
+DR total:815601544.004866
+DR total:805790954.413718
+DR total:827803372.188798
+DR total:823336426.944337
+DR total:892895772.685484
+DR total:825312318.809767
+DR total:792528199.681702
+DR total:877407845.703088
+DR total:804652093.822670
+DR total:791488169.924834
+DR total:818920276.675872
+DR total:915219443.244483
+DR total:805277837.751335
+DR total:824462925.541366
+DR total:955952406.097278
+DR total:826480395.950399
+DR total:811286423.715461
+DR total:803821699.484566
+DR total:818406274.767805
+DR total:876933313.024082
+DR total:952712496.846323
+DR total:910568879.084414
+DR total:798244917.173203
+DR total:825145670.515851
+DR total:798444032.669975
+DR total:804446797.687069
+DR total:816670127.773859
+DR total:935164915.834278
+DR total:981200590.272579
+DR total:855159784.475643
+DR total:888249953.666448
+DR total:808116433.558785
+DR total:796851925.892259
+DR total:867327814.162121
+DR total:853585206.168202
+DR total:810947810.730787
+DR total:867485593.923006
+DR total:927053684.097016
+DR total:878209651.445883
+DR total:887539561.347073
+DR total:807488483.826496
+DR total:909654734.919593
+DR total:906555304.458878
+DR total:819993208.474546
+DR total:952736233.279654
+DR total:807589913.490489
+DR total:941117950.541440
+DR total:933639940.229601
+DR total:954750738.223001
+DR total:818368137.314124
+DR total:869131150.429447
+DR total:866865884.648809
+DR total:908927223.801145
+DR total:890435000.158208
+DR total:824196853.678570
+DR total:817787505.502435
+DR total:796692501.543114
+DR total:907865457.221991
+DR total:870131695.750021
+Master: slave finished is task and says "I completed my task (314)"
+Master: slave finished is task and says "I completed my task (157)"
+Master: slave finished is task and says "I completed my task (159)"
+Master: slave finished is task and says "I completed my task (362)"
+Master: slave finished is task and says "I completed my task (366)"
+Master: slave finished is task and says "I completed my task (367)"
+Master: slave finished is task and says "I completed my task (369)"
+Master: slave finished is task and says "I completed my task (179)"
+Master: slave finished is task and says "I completed my task (155)"
+Master: slave finished is task and says "I completed my task (303)"
+Master: slave finished is task and says "I completed my task (304)"
+Master: slave finished is task and says "I completed my task (364)"
+Master: slave finished is task and says "I completed my task (145)"
+Master: slave finished is task and says "I completed my task (176)"
+Master: slave finished is task and says "I completed my task (154)"
+Master: slave finished is task and says "I completed my task (301)"
+Master: slave finished is task and says "I completed my task (352)"
+Master: slave finished is task and says "I completed my task (361)"
+Master: slave finished is task and says "I completed my task (185)"
+Master: slave finished is task and says "I completed my task (365)"
+Master: slave finished is task and says "I completed my task (368)"
+Master: slave finished is task and says "I completed my task (358)"
+Master: slave finished is task and says "I completed my task (302)"
+Master: slave finished is task and says "I completed my task (306)"
+Master: slave finished is task and says "I completed my task (354)"
+Master: slave finished is task and says "I completed my task (305)"
+Master: slave finished is task and says "I completed my task (363)"
+Master: slave finished is task and says "I completed my task (141)"
+Master: slave finished is task and says "I completed my task (355)"
+Master: slave finished is task and says "I completed my task (172)"
+Master: slave finished is task and says "I completed my task (195)"
+Master: slave finished is task and says "I completed my task (112)"
+Master: slave finished is task and says "I completed my task (359)"
+Master: slave finished is task and says "I completed my task (360)"
+Master: slave finished is task and says "I completed my task (153)"
+Master: slave finished is task and says "I completed my task (177)"
+Master: slave finished is task and says "I completed my task (300)"
+Master: slave finished is task and says "I completed my task (350)"
+Master: slave finished is task and says "I completed my task (113)"
+Master: slave finished is task and says "I completed my task (180)"
+Master: slave finished is task and says "I completed my task (373)"
+Master: slave finished is task and says "I completed my task (322)"
+Master: slave finished is task and says "I completed my task (331)"
+Master: slave finished is task and says "I completed my task (181)"
+Master: slave finished is task and says "I completed my task (308)"
+Master: slave finished is task and says "I completed my task (299)"
+Master: slave finished is task and says "I completed my task (309)"
+Master: slave finished is task and says "I completed my task (182)"
+Master: slave finished is task and says "I completed my task (132)"
+Master: slave finished is task and says "I completed my task (395)"
+Master: slave finished is task and says "I completed my task (307)"
+Master: slave finished is task and says "I completed my task (188)"
+Master: slave finished is task and says "I completed my task (401)"
+Master: slave finished is task and says "I completed my task (184)"
+Master: slave finished is task and says "I completed my task (378)"
+Master: slave finished is task and says "I completed my task (316)"
+Master: slave finished is task and says "I completed my task (330)"
+Master: slave finished is task and says "I completed my task (298)"
+Master: slave finished is task and says "I completed my task (313)"
+Master: slave finished is task and says "I completed my task (167)"
+Master: slave finished is task and says "I completed my task (335)"
+Master: slave finished is task and says "I completed my task (317)"
+Master: slave finished is task and says "I completed my task (353)"
+Master: slave finished is task and says "I completed my task (379)"
+Master: slave finished is task and says "I completed my task (187)"
+Master: slave finished is task and says "I completed my task (402)"
+Master: slave finished is task and says "I completed my task (407)"
+Master: slave finished is task and says "I completed my task (174)"
+Master: slave finished is task and says "I completed my task (347)"
+Master: slave finished is task and says "I completed my task (374)"
+Master: slave finished is task and says "I completed my task (297)"
+Master: slave finished is task and says "I completed my task (234)"
+Master: slave finished is task and says "I completed my task (324)"
+Master: slave finished is task and says "I completed my task (138)"
+Master: slave finished is task and says "I completed my task (171)"
+Master: slave finished is task and says "I completed my task (348)"
+Master: slave finished is task and says "I completed my task (357)"
+Master: slave finished is task and says "I completed my task (102)"
+Master: slave finished is task and says "I completed my task (409)"
+Master: slave finished is task and says "I completed my task (319)"
+Master: slave finished is task and says "I completed my task (233)"
+Master: slave finished is task and says "I completed my task (129)"
+Master: slave finished is task and says "I completed my task (183)"
+Master: slave finished is task and says "I completed my task (315)"
+Master: slave finished is task and says "I completed my task (356)"
+Master: slave finished is task and says "I completed my task (311)"
+Master: slave finished is task and says "I completed my task (312)"
+Master: slave finished is task and says "I completed my task (125)"
+Master: slave finished is task and says "I completed my task (377)"
+Master: slave finished is task and says "I completed my task (400)"
+DR total:868826320.185090
+Master: slave finished is task and says "I completed my task (106)"
+Master: slave finished is task and says "I completed my task (189)"
+Master: slave finished is task and says "I completed my task (152)"
+Master: slave finished is task and says "I completed my task (242)"
+Master: slave finished is task and says "I completed my task (387)"
+Master: slave finished is task and says "I completed my task (123)"
+Master: slave finished is task and says "I completed my task (370)"
+Master: slave finished is task and says "I completed my task (376)"
+Master: slave finished is task and says "I completed my task (198)"
+Master: slave finished is task and says "I completed my task (281)"
+Master: slave finished is task and says "I completed my task (199)"
+Master: slave finished is task and says "I completed my task (336)"
+Master: slave finished is task and says "I completed my task (385)"
+Master: slave finished is task and says "I completed my task (147)"
+Master: slave finished is task and says "I completed my task (389)"
+Master: slave finished is task and says "I completed my task (124)"
+Master: slave finished is task and says "I completed my task (334)"
+Master: slave finished is task and says "I completed my task (372)"
+Master: slave finished is task and says "I completed my task (116)"
+Master: slave finished is task and says "I completed my task (283)"
+Master: slave finished is task and says "I completed my task (337)"
+Master: slave finished is task and says "I completed my task (104)"
+Master: slave finished is task and says "I completed my task (221)"
+Master: slave finished is task and says "I completed my task (98)"
+Master: slave finished is task and says "I completed my task (144)"
+Master: slave finished is task and says "I completed my task (151)"
+Master: slave finished is task and says "I completed my task (146)"
+Master: slave finished is task and says "I completed my task (194)"
+Master: slave finished is task and says "I completed my task (226)"
+Master: slave finished is task and says "I completed my task (388)"
+Master: slave finished is task and says "I completed my task (371)"
+DR total:838427701.143062
+DR total:876458490.872838
+DR total:886502779.058801
+DR total:910071217.384023
+DR total:870857024.274631
+DR total:819310244.106390
+DR total:803654462.205951
+DR total:826562162.726480
+DR total:934815037.579272
+DR total:805212791.505701
+DR total:868233247.265309
+DR total:890768268.021147
+DR total:868514502.397750
+DR total:797712607.588766
+DR total:853638320.136037
+DR total:882559497.212227
+DR total:853606472.816441
+DR total:808663250.305823
+DR total:912644940.442184
+DR total:879109186.508707
+DR total:799367088.577154
+DR total:798237331.077697
+DR total:798945497.316231
+DR total:890825146.715290
+DR total:888656635.858224
+DR total:806417583.843683
+DR total:848621842.665467
+DR total:824501732.069651
+DR total:805140120.116602
+DR total:861792284.917768
+DR total:861770814.339725
+DR total:827856680.055071
+DR total:817297331.766324
+DR total:863586274.394451
+DR total:854023965.215424
+DR total:826216024.909588
+DR total:808583254.257574
+DR total:798321145.337992
+DR total:883940609.814362
+DR total:846467953.645305
+DR total:877958903.619164
+DR total:844370327.754707
+DR total:955514926.760988
+DR total:852468320.465733
+DR total:888370341.118991
+DR total:873175700.160018
+DR total:837330648.394676
+DR total:890121196.567753
+DR total:852489559.362118
+DR total:863447982.316090
+DR total:889409307.689644
+DR total:842090978.128703
+DR total:798757753.467746
+DR total:888783321.946231
+DR total:889244725.062797
+DR total:953635442.874726
+DR total:863734052.890956
+DR total:804159199.427229
+DR total:826238678.816845
+DR total:863426470.315523
+DR total:849353238.034978
+DR total:882537509.212112
+DR total:797352390.501318
+DR total:911510451.359559
+DR total:891115327.790960
+DR total:866811511.253585
+DR total:848094209.359329
+DR total:853467534.386669
+DR total:829600694.706537
+DR total:924921736.735332
+DR total:825477470.259634
+DR total:818238205.838655
+DR total:927168936.819730
+DR total:890937044.461535
+DR total:866920392.444907
+DR total:875998486.757960
+DR total:848251175.721314
+DR total:825208663.349255
+DR total:913405651.574724
+DR total:798137076.012175
+DR total:927030587.524105
+DR total:891517903.750102
+DR total:854760016.425046
+DR total:807751518.458814
+DR total:825850393.267121
+DR total:816717459.698304
+DR total:877523356.781474
+DR total:874991195.338963
+DR total:827369148.352109
+DR total:827167166.289140
+DR total:896518160.723622
+DR total:868839565.964060
+DR total:876854445.473713
+DR total:797192865.899996
+DR total:899140347.462242
+DR total:876173082.612585
+DR total:807032762.259105
+DR total:812934523.597167
+DR total:920403030.469017
+DR total:906872011.451835
+DR total:799992258.712714
+DR total:889806490.859159
+DR total:883151895.424133
+DR total:877610173.390384
+DR total:807112604.977025
+DR total:939934930.066625
+DR total:827126770.894503
+DR total:798397064.559036
+DR total:809365402.770933
+DR total:914457165.750866
+DR total:797820072.456406
+DR total:876283139.773539
+DR total:899117946.334362
+DR total:965062054.088674
+DR total:848165205.131339
+DR total:849269216.663408
+Master: slave finished is task and says "I completed my task (391)"
+Master: slave finished is task and says "I completed my task (262)"
+Master: slave finished is task and says "I completed my task (103)"
+Master: slave finished is task and says "I completed my task (223)"
+Master: slave finished is task and says "I completed my task (143)"
+Master: slave finished is task and says "I completed my task (192)"
+Master: slave finished is task and says "I completed my task (386)"
+Master: slave finished is task and says "I completed my task (148)"
+Master: slave finished is task and says "I completed my task (390)"
+Master: slave finished is task and says "I completed my task (392)"
+Master: slave finished is task and says "I completed my task (115)"
+Master: slave finished is task and says "I completed my task (416)"
+Master: slave finished is task and says "I completed my task (149)"
+Master: slave finished is task and says "I completed my task (246)"
+Master: slave finished is task and says "I completed my task (280)"
+Master: slave finished is task and says "I completed my task (235)"
+Master: slave finished is task and says "I completed my task (220)"
+Master: slave finished is task and says "I completed my task (222)"
+Master: slave finished is task and says "I completed my task (142)"
+Master: slave finished is task and says "I completed my task (118)"
+Master: slave finished is task and says "I completed my task (150)"
+Master: slave finished is task and says "I completed my task (99)"
+Master: slave finished is task and says "I completed my task (383)"
+Master: slave finished is task and says "I completed my task (384)"
+Master: slave finished is task and says "I completed my task (175)"
+Master: slave finished is task and says "I completed my task (279)"
+Master: slave finished is task and says "I completed my task (393)"
+Master: slave finished is task and says "I completed my task (256)"
+Master: slave finished is task and says "I completed my task (394)"
+Master: slave finished is task and says "I completed my task (418)"
+Master: slave finished is task and says "I completed my task (137)"
+Master: slave finished is task and says "I completed my task (282)"
+Master: slave finished is task and says "I completed my task (265)"
+Master: slave finished is task and says "I completed my task (287)"
+Master: slave finished is task and says "I completed my task (224)"
+Master: slave finished is task and says "I completed my task (296)"
+Master: slave finished is task and says "I completed my task (101)"
+Master: slave finished is task and says "I completed my task (173)"
+Master: slave finished is task and says "I completed my task (276)"
+Master: slave finished is task and says "I completed my task (227)"
+Master: slave finished is task and says "I completed my task (325)"
+Master: slave finished is task and says "I completed my task (411)"
+Master: slave finished is task and says "I completed my task (413)"
+Master: slave finished is task and says "I completed my task (375)"
+Master: slave finished is task and says "I completed my task (92)"
+Master: slave finished is task and says "I completed my task (285)"
+Master: slave finished is task and says "I completed my task (284)"
+Master: slave finished is task and says "I completed my task (286)"
+Master: slave finished is task and says "I completed my task (289)"
+Master: slave finished is task and says "I completed my task (291)"
+Master: slave finished is task and says "I completed my task (403)"
+Master: slave finished is task and says "I completed my task (163)"
+Master: slave finished is task and says "I completed my task (164)"
+Master: slave finished is task and says "I completed my task (111)"
+Master: slave finished is task and says "I completed my task (215)"
+Master: slave finished is task and says "I completed my task (320)"
+Master: slave finished is task and says "I completed my task (321)"
+Master: slave finished is task and says "I completed my task (396)"
+Master: slave finished is task and says "I completed my task (323)"
+Master: slave finished is task and says "I completed my task (267)"
+Master: slave finished is task and says "I completed my task (404)"
+Master: slave finished is task and says "I completed my task (405)"
+Master: slave finished is task and says "I completed my task (406)"
+Master: slave finished is task and says "I completed my task (100)"
+Master: slave finished is task and says "I completed my task (327)"
+Master: slave finished is task and says "I completed my task (165)"
+Master: slave finished is task and says "I completed my task (166)"
+Master: slave finished is task and says "I completed my task (225)"
+Master: slave finished is task and says "I completed my task (329)"
+Master: slave finished is task and says "I completed my task (412)"
+Master: slave finished is task and says "I completed my task (209)"
+Master: slave finished is task and says "I completed my task (255)"
+Master: slave finished is task and says "I completed my task (127)"
+Master: slave finished is task and says "I completed my task (419)"
+Master: slave finished is task and says "I completed my task (117)"
+Master: slave finished is task and says "I completed my task (139)"
+Master: slave finished is task and says "I completed my task (410)"
+Master: slave finished is task and says "I completed my task (134)"
+Master: slave finished is task and says "I completed my task (114)"
+Master: slave finished is task and says "I completed my task (200)"
+Master: slave finished is task and says "I completed my task (202)"
+Master: slave finished is task and says "I completed my task (326)"
+Master: slave finished is task and says "I completed my task (397)"
+Master: slave finished is task and says "I completed my task (131)"
+Master: slave finished is task and says "I completed my task (270)"
+Master: slave finished is task and says "I completed my task (237)"
+Master: slave finished is task and says "I completed my task (239)"
+Master: slave finished is task and says "I completed my task (274)"
+Master: slave finished is task and says "I completed my task (275)"
+Master: slave finished is task and says "I completed my task (328)"
+Master: slave finished is task and says "I completed my task (408)"
+Master: slave finished is task and says "I completed my task (93)"
+Master: slave finished is task and says "I completed my task (136)"
+Master: slave finished is task and says "I completed my task (236)"
+Master: slave finished is task and says "I completed my task (290)"
+Master: slave finished is task and says "I completed my task (339)"
+Master: slave finished is task and says "I completed my task (87)"
+Master: slave finished is task and says "I completed my task (105)"
+Master: slave finished is task and says "I completed my task (248)"
+Master: slave finished is task and says "I completed my task (110)"
+Master: slave finished is task and says "I completed my task (293)"
+Master: slave finished is task and says "I completed my task (86)"
+Master: slave finished is task and says "I completed my task (414)"
+Master: slave finished is task and says "I completed my task (245)"
+Master: slave finished is task and says "I completed my task (96)"
+Master: slave finished is task and says "I completed my task (398)"
+Master: slave finished is task and says "I completed my task (97)"
+Master: slave finished is task and says "I completed my task (204)"
+Master: slave finished is task and says "I completed my task (292)"
+Master: slave finished is task and says "I completed my task (206)"
+Master: slave finished is task and says "I completed my task (271)"
+Master: slave finished is task and says "I completed my task (193)"
+Master: slave finished is task and says "I completed my task (83)"
+Master: slave finished is task and says "I completed my task (212)"
+Master: slave finished is task and says "I completed my task (130)"
+Master: slave finished is task and says "I completed my task (94)"
+Master: slave finished is task and says "I completed my task (95)"
+Master: slave finished is task and says "I completed my task (338)"
+Master: slave finished is task and says "I completed my task (399)"
+Master: slave finished is task and says "I completed my task (263)"
+Master: slave finished is task and says "I completed my task (205)"
+DR total:940687259.983352
+DR total:832524376.048268
+DR total:842007675.198451
+DR total:966276700.048745
+DR total:892198001.362663
+DR total:816784348.516949
+DR total:814647102.253303
+DR total:805892170.742002
+DR total:848238636.877945
+DR total:845525605.239507
+DR total:798400126.110114
+DR total:982435548.395835
+DR total:897744787.527132
+DR total:808732907.891454
+DR total:825629825.105579
+DR total:853360342.850330
+DR total:797092742.106579
+DR total:932898335.723019
+DR total:870457364.648166
+DR total:847962418.162764
+DR total:846125931.217591
+DR total:898382189.202383
+DR total:842666193.625807
+DR total:938836941.966947
+DR total:876728705.506528
+DR total:848068931.714092
+DR total:937042525.575410
+DR total:849933414.379593
+DR total:934736949.646917
+DR total:855343885.976040
+DR total:937065871.741697
+DR total:912757590.886986
+DR total:840817653.031983
+DR total:935794742.899147
+DR total:847806122.357568
+DR total:840985907.408874
+DR total:963934713.348874
+DR total:854675460.203570
+DR total:965834495.791273
+DR total:840712050.200469
+DR total:933989378.639547
+DR total:906894605.791178
+DR total:980054397.374859
+DR total:841365836.490475
+DR total:926744629.861842
+DR total:855479849.602752
+DR total:886939209.864516
+DR total:912667678.481271
+DR total:890548219.826790
+DR total:869456444.882655
+DR total:847099992.824643
+DR total:981985949.362250
+DR total:926003450.769813
+DR total:899416408.261889
+DR total:896438684.480181
+DR total:874370389.485458
+DR total:900166147.980075
+DR total:888152730.636517
+DR total:862022295.648470
+DR total:860925628.501860
+DR total:863014657.165076
+DR total:871182964.488627
+DR total:867652433.607770
+DR total:900872977.640344
+DR total:915240012.132293
+DR total:886968247.491085
+DR total:860233709.262341
+DR total:939401715.066603
+DR total:861410691.249132
+DR total:924470406.979476
+DR total:909154836.484256
+DR total:938321517.657121
+DR total:915836716.232102
+DR total:916535365.412703
+DR total:923237909.862898
+DR total:886790793.862408
+DR total:917252170.538984
+DR total:940184785.894788
+DR total:923407378.777208
+DR total:901279961.839409
+DR total:900692741.998800
+DR total:937655779.083305
+DR total:902672918.124375
+DR total:936374620.210558
+DR total:916626041.473067
+DR total:901967506.246154
+DR total:915423158.838211
+DR total:915125062.169134
+DR total:978724958.673205
+DR total:894540085.799227
+DR total:886679416.912813
+DR total:976634270.492884
+DR total:975493411.842554
+DR total:908563517.169759
+DR total:961321338.400006
+DR total:946041629.199493
+DR total:1006788307.298066
+DR total:977415974.804571
+DR total:888045882.513120
+DR total:888740406.506580
+DR total:1009234411.166689
+DR total:978700574.682988
+DR total:887368950.005772
+DR total:888133740.090750
+DR total:910201457.018368
+DR total:902056741.240063
+DR total:900579619.067460
+DR total:1007965765.820739
+DR total:910960187.007464
+DR total:963144631.354495
+DR total:1008772548.080746
+DR total:908509791.570736
+DR total:931439733.218233
+DR total:963168627.670320
+DR total:907268456.108773
+DR total:948278755.175359
+DR total:925241031.258541
+DR total:993193148.262885
+DR total:990785923.844989
+DR total:992738626.118412
+DR total:921491426.260573
+Master: slave finished is task and says "I completed my task (238)"
+Master: slave finished is task and says "I completed my task (295)"
+Master: slave finished is task and says "I completed my task (82)"
+Master: slave finished is task and says "I completed my task (191)"
+Master: slave finished is task and says "I completed my task (253)"
+Master: slave finished is task and says "I completed my task (332)"
+Master: slave finished is task and says "I completed my task (232)"
+Master: slave finished is task and says "I completed my task (261)"
+Master: slave finished is task and says "I completed my task (294)"
+Master: slave finished is task and says "I completed my task (133)"
+Master: slave finished is task and says "I completed my task (213)"
+Master: slave finished is task and says "I completed my task (88)"
+Master: slave finished is task and says "I completed my task (250)"
+Master: slave finished is task and says "I completed my task (122)"
+Master: slave finished is task and says "I completed my task (240)"
+Master: slave finished is task and says "I completed my task (228)"
+Master: slave finished is task and says "I completed my task (277)"
+Master: slave finished is task and says "I completed my task (333)"
+Master: slave finished is task and says "I completed my task (415)"
+Master: slave finished is task and says "I completed my task (417)"
+Master: slave finished is task and says "I completed my task (259)"
+Master: slave finished is task and says "I completed my task (288)"
+Master: slave finished is task and says "I completed my task (241)"
+Master: slave finished is task and says "I completed my task (85)"
+Master: slave finished is task and says "I completed my task (91)"
+Master: slave finished is task and says "I completed my task (254)"
+Master: slave finished is task and says "I completed my task (231)"
+Master: slave finished is task and says "I completed my task (257)"
+Master: slave finished is task and says "I completed my task (218)"
+Master: slave finished is task and says "I completed my task (258)"
+Master: slave finished is task and says "I completed my task (260)"
+Master: slave finished is task and says "I completed my task (269)"
+Master: slave finished is task and says "I completed my task (278)"
+Master: slave finished is task and says "I completed my task (84)"
+Master: slave finished is task and says "I completed my task (128)"
+Master: slave finished is task and says "I completed my task (273)"
+Master: slave finished is task and says "I completed my task (214)"
+Master: slave finished is task and says "I completed my task (229)"
+Master: slave finished is task and says "I completed my task (126)"
+Master: slave finished is task and says "I completed my task (219)"
+Master: slave finished is task and says "I completed my task (80)"
+Master: slave finished is task and says "I completed my task (81)"
+Master: slave finished is task and says "I completed my task (107)"
+Master: slave finished is task and says "I completed my task (120)"
+Master: slave finished is task and says "I completed my task (252)"
+Master: slave finished is task and says "I completed my task (243)"
+Master: slave finished is task and says "I completed my task (244)"
+Master: slave finished is task and says "I completed my task (216)"
+Master: slave finished is task and says "I completed my task (217)"
+Master: slave finished is task and says "I completed my task (201)"
+Master: slave finished is task and says "I completed my task (264)"
+Master: slave finished is task and says "I completed my task (230)"
+Master: slave finished is task and says "I completed my task (109)"
+Master: slave finished is task and says "I completed my task (251)"
+Master: slave finished is task and says "I completed my task (90)"
+Master: slave finished is task and says "I completed my task (121)"
+Master: slave finished is task and says "I completed my task (203)"
+Master: slave finished is task and says "I completed my task (266)"
+Master: slave finished is task and says "I completed my task (268)"
+Master: slave finished is task and says "I completed my task (89)"
+Master: slave finished is task and says "I completed my task (108)"
+Master: slave finished is task and says "I completed my task (210)"
+Master: slave finished is task and says "I completed my task (211)"
+Master: slave finished is task and says "I completed my task (272)"
+Master: slave finished is task and says "I completed my task (249)"
+Master: slave finished is task and says "I completed my task (247)"
+Master: slave finished is task and says "I completed my task (59)"
+Master: slave finished is task and says "I completed my task (207)"
+Master: slave finished is task and says "I completed my task (208)"
+Master: slave finished is task and says "I completed my task (71)"
+Master: slave finished is task and says "I completed my task (30)"
+Master: slave finished is task and says "I completed my task (79)"
+Master: slave finished is task and says "I completed my task (34)"
+Master: slave finished is task and says "I completed my task (50)"
+Master: slave finished is task and says "I completed my task (51)"
+Master: slave finished is task and says "I completed my task (29)"
+Master: slave finished is task and says "I completed my task (31)"
+Master: slave finished is task and says "I completed my task (74)"
+Master: slave finished is task and says "I completed my task (32)"
+Master: slave finished is task and says "I completed my task (33)"
+Master: slave finished is task and says "I completed my task (36)"
+Master: slave finished is task and says "I completed my task (38)"
+Master: slave finished is task and says "I completed my task (28)"
+Master: slave finished is task and says "I completed my task (54)"
+Master: slave finished is task and says "I completed my task (58)"
+Master: slave finished is task and says "I completed my task (56)"
+Master: slave finished is task and says "I completed my task (53)"
+Master: slave finished is task and says "I completed my task (27)"
+Master: slave finished is task and says "I completed my task (35)"
+Master: slave finished is task and says "I completed my task (37)"
+Master: slave finished is task and says "I completed my task (39)"
+Master: slave finished is task and says "I completed my task (24)"
+Master: slave finished is task and says "I completed my task (72)"
+Master: slave finished is task and says "I completed my task (77)"
+Master: slave finished is task and says "I completed my task (63)"
+Master: slave finished is task and says "I completed my task (52)"
+Master: slave finished is task and says "I completed my task (60)"
+Master: slave finished is task and says "I completed my task (46)"
+Master: slave finished is task and says "I completed my task (26)"
+Master: slave finished is task and says "I completed my task (73)"
+Master: slave finished is task and says "I completed my task (61)"
+Master: slave finished is task and says "I completed my task (20)"
+Master: slave finished is task and says "I completed my task (78)"
+Master: slave finished is task and says "I completed my task (25)"
+Master: slave finished is task and says "I completed my task (22)"
+Master: slave finished is task and says "I completed my task (23)"
+Master: slave finished is task and says "I completed my task (69)"
+Master: slave finished is task and says "I completed my task (70)"
+Master: slave finished is task and says "I completed my task (75)"
+Master: slave finished is task and says "I completed my task (76)"
+Master: slave finished is task and says "I completed my task (45)"
+Master: slave finished is task and says "I completed my task (55)"
+Master: slave finished is task and says "I completed my task (21)"
+Master: slave finished is task and says "I completed my task (57)"
+Master: slave finished is task and says "I completed my task (68)"
+Master: slave finished is task and says "I completed my task (66)"
+Master: slave finished is task and says "I completed my task (44)"
+Master: slave finished is task and says "I completed my task (67)"
+Master: slave finished is task and says "I completed my task (65)"
+Master: slave finished is task and says "I completed my task (49)"
+Master: slave finished is task and says "I completed my task (40)"
+Master: slave finished is task and says "I completed my task (42)"
+DR total:948302381.145888
+DR total:977863481.479290
+DR total:991944667.312456
+slurmstepd: error: *** STEP 21848244.0 ON nid00604 CANCELLED AT 2019-05-29T16:52:32 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

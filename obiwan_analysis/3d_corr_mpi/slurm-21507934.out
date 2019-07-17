@@ -1,0 +1,5 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'python/2.7-anaconda-5.2' is currently not loaded
+Traceback (most recent call last):
+  File "example1.py", line 1, in <module>
+    from mpi4py import MPI
+ImportError: cannot import name MPI
